@@ -112,7 +112,7 @@ spree_preferences:
     - spree/app_configuration/show_raw_product_description
     - boolean
     - 2014-07-01 17:15:33.000000000 Z
-    - 2014-07-01 18:42:09.000000000 Z
+    - 2014-07-01 18:55:14.000000000 Z
   - - 14
     - |
       ---
