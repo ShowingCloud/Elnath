@@ -95,12 +95,19 @@ db/schema.rb
 # test data
 db/datadump/sessions.yml
 db/datadump/spree_addresses.yml
+db/datadump/spree_adjustments.yml
 db/datadump/spree_credit_cards.yml
+db/datadump/spree_inventory_units.yml
+db/datadump/spree_line_items.yml
 db/datadump/spree_orders.yml
 db/datadump/spree_orders_promotions.yml
 db/datadump/spree_payments.yml
 db/datadump/spree_payment_capture_events.yml
 db/datadump/spree_shipments.yml
+db/datadump/spree_shipping_rates.yml
+db/datadump/spree_state_changes.yml
+db/datadump/spree_stock_items.yml
+db/datadump/spree_stock_movements.yml
 db/datadump/spree_tokenized_permissions.yml
 db/datadump/spree_users.yml
 
