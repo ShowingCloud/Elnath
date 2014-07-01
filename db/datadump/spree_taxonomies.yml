@@ -1,0 +1,20 @@
+
+---
+spree_taxonomies:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  - position
+  records: 
+  - - 1
+    - Categories
+    - 2014-07-01 07:12:02.000000000 Z
+    - 2014-07-01 07:13:53.000000000 Z
+    - 0
+  - - 2
+    - Brand
+    - 2014-07-01 07:12:02.000000000 Z
+    - 2014-07-01 07:13:53.000000000 Z
+    - 0

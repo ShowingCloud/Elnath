@@ -1,0 +1,107 @@
+
+---
+spree_preferences:
+  columns:
+  - id
+  - value
+  - key
+  - value_type
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - |
+      --- 49
+      ...
+    - spree/app_configuration/default_country_id
+    - integer
+    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-07-01 07:10:20.000000000 Z
+  - - 2
+    - |
+      --- 5.0
+      ...
+    - spree/calculator/shipping/flat_rate/amount/1
+    - decimal
+    - 2014-07-01 07:11:58.000000000 Z
+    - 2014-07-01 07:11:58.000000000 Z
+  - - 3
+    - |
+      --- USD
+      ...
+    - spree/calculator/shipping/flat_rate/currency/1
+    - string
+    - 2014-07-01 07:11:58.000000000 Z
+    - 2014-07-01 07:11:58.000000000 Z
+  - - 4
+    - |
+      --- 5.0
+      ...
+    - spree/calculator/shipping/flat_rate/amount/4
+    - decimal
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 5
+    - |
+      --- USD
+      ...
+    - spree/calculator/shipping/flat_rate/currency/4
+    - string
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 6
+    - |
+      --- 15.0
+      ...
+    - spree/calculator/shipping/flat_rate/amount/3
+    - decimal
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 7
+    - |
+      --- USD
+      ...
+    - spree/calculator/shipping/flat_rate/currency/3
+    - string
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 8
+    - |
+      --- 10.0
+      ...
+    - spree/calculator/shipping/flat_rate/amount/2
+    - decimal
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 9
+    - |
+      --- USD
+      ...
+    - spree/calculator/shipping/flat_rate/currency/2
+    - string
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 10
+    - |
+      --- 8.0
+      ...
+    - spree/calculator/shipping/flat_rate/amount/5
+    - decimal
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 11
+    - |
+      --- EUR
+      ...
+    - spree/calculator/shipping/flat_rate/currency/5
+    - string
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 12
+    - |
+      --- USD
+      ...
+    - spree/app_configuration/currency
+    - string
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:12:02.000000000 Z

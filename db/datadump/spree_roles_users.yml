@@ -1,0 +1,9 @@
+
+---
+spree_roles_users:
+  columns:
+  - role_id
+  - user_id
+  records: 
+  - - 1
+    - 1

@@ -1,0 +1,17 @@
+
+---
+spree_shipping_categories:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Default
+    - 2014-07-01 07:10:05.000000000 Z
+    - 2014-07-01 07:10:05.000000000 Z
+  - - 2
+    - Default
+    - 2014-07-01 07:11:58.000000000 Z
+    - 2014-07-01 07:11:58.000000000 Z

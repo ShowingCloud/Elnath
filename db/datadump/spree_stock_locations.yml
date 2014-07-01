@@ -1,0 +1,37 @@
+
+---
+spree_stock_locations:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  - address1
+  - address2
+  - city
+  - state_id
+  - state_name
+  - country_id
+  - zipcode
+  - phone
+  - active
+  - backorderable_default
+  - propagate_all_variants
+  - admin_name
+  records: 
+  - - 1
+    - default
+    - 2014-07-01 07:09:59.000000000 Z
+    - 2014-07-01 07:12:05.000000000 Z
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 49
+    - 
+    - 
+    - true
+    - true
+    - true
+    - 

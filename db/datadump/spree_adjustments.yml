@@ -1,0 +1,75 @@
+
+---
+spree_adjustments:
+  columns:
+  - id
+  - source_id
+  - source_type
+  - adjustable_id
+  - adjustable_type
+  - amount
+  - label
+  - mandatory
+  - eligible
+  - created_at
+  - updated_at
+  - state
+  - order_id
+  - included
+  records: 
+  - - 1
+    - 1
+    - Spree::TaxRate
+    - 1
+    - Spree::LineItem
+    - 0.8
+    - North America 5.0%
+    - false
+    - true
+    - 2014-07-01 07:13:54.000000000 Z
+    - 2014-07-01 07:13:54.000000000 Z
+    - open
+    - 1
+    - false
+  - - 2
+    - 1
+    - Spree::TaxRate
+    - 2
+    - Spree::LineItem
+    - 1.15
+    - North America 5.0%
+    - false
+    - true
+    - 2014-07-01 07:13:54.000000000 Z
+    - 2014-07-01 07:13:54.000000000 Z
+    - open
+    - 2
+    - false
+  - - 3
+    - 1
+    - Spree::TaxRate
+    - 1
+    - Spree::Order
+    - 0.84
+    - Tax
+    - true
+    - true
+    - 2014-07-01 07:13:54.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
+    - open
+    - 
+    - false
+  - - 4
+    - 1
+    - Spree::TaxRate
+    - 2
+    - Spree::Order
+    - 1.21
+    - Tax
+    - true
+    - true
+    - 2014-07-01 07:13:54.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
+    - open
+    - 
+    - false

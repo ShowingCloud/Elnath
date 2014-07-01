@@ -1,0 +1,11 @@
+
+---
+spree_roles:
+  columns:
+  - id
+  - name
+  records: 
+  - - 1
+    - admin
+  - - 2
+    - user

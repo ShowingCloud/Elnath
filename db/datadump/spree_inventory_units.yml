@@ -1,0 +1,35 @@
+
+---
+spree_inventory_units:
+  columns:
+  - id
+  - state
+  - variant_id
+  - order_id
+  - shipment_id
+  - return_authorization_id
+  - created_at
+  - updated_at
+  - pending
+  - line_item_id
+  records: 
+  - - 1
+    - on_hand
+    - 1
+    - 1
+    - 1
+    - 
+    - 2014-07-01 07:13:54.000000000 Z
+    - 2014-07-01 07:13:54.000000000 Z
+    - true
+    - 1
+  - - 2
+    - on_hand
+    - 2
+    - 2
+    - 2
+    - 
+    - 2014-07-01 07:13:54.000000000 Z
+    - 2014-07-01 07:13:54.000000000 Z
+    - true
+    - 2

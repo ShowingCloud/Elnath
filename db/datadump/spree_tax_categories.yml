@@ -1,0 +1,26 @@
+
+---
+spree_tax_categories:
+  columns:
+  - id
+  - name
+  - description
+  - is_default
+  - deleted_at
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Clothing
+    - 
+    - false
+    - 
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z
+  - - 2
+    - Food
+    - 
+    - false
+    - 
+    - 2014-07-01 07:11:59.000000000 Z
+    - 2014-07-01 07:11:59.000000000 Z

@@ -1,0 +1,68 @@
+
+---
+spree_state_changes:
+  columns:
+  - id
+  - name
+  - previous_state
+  - stateful_id
+  - user_id
+  - stateful_type
+  - next_state
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - payment
+    - 
+    - 1
+    - 
+    - Spree::Order
+    - balance_due
+    - 2014-07-01 07:13:55.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
+  - - 2
+    - shipment
+    - 
+    - 1
+    - 
+    - Spree::Order
+    - pending
+    - 2014-07-01 07:13:55.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
+  - - 3
+    - payment
+    - balance_due
+    - 1
+    - 
+    - Spree::Order
+    - pending
+    - 2014-07-01 07:13:55.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
+  - - 4
+    - payment
+    - 
+    - 2
+    - 
+    - Spree::Order
+    - balance_due
+    - 2014-07-01 07:13:55.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
+  - - 5
+    - shipment
+    - 
+    - 2
+    - 
+    - Spree::Order
+    - pending
+    - 2014-07-01 07:13:55.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
+  - - 6
+    - payment
+    - balance_due
+    - 2
+    - 
+    - Spree::Order
+    - pending
+    - 2014-07-01 07:13:55.000000000 Z
+    - 2014-07-01 07:13:55.000000000 Z
