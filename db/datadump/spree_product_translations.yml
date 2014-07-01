@@ -1,225 +1,191 @@
 
 ---
-spree_products:
+spree_product_translations:
   columns:
   - id
-  - name
-  - description
-  - available_on
-  - deleted_at
-  - slug
-  - meta_description
-  - meta_keywords
-  - tax_category_id
-  - shipping_category_id
+  - spree_product_id
+  - locale
   - created_at
   - updated_at
+  - name
+  - description
+  - meta_description
+  - meta_keywords
+  - slug
   records: 
   - - 1
+    - 1
+    - en
+    - 2014-07-01 17:08:56.000000000 Z
+    - 2014-07-01 17:09:01.000000000 Z
     - Ruby on Rails Tote
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-on-rails-tote
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:11:59.000000000 Z
-    - 2014-07-01 17:09:01.000000000 Z
   - - 2
+    - 2
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:01.000000000 Z
     - Ruby on Rails Bag
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-on-rails-bag
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:11:59.000000000 Z
-    - 2014-07-01 17:09:01.000000000 Z
   - - 3
+    - 3
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:01.000000000 Z
     - Ruby on Rails Baseball Jersey
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-on-rails-baseball-jersey
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:00.000000000 Z
-    - 2014-07-01 17:09:03.000000000 Z
   - - 4
+    - 4
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:01.000000000 Z
     - Ruby on Rails Jr. Spaghetti
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-on-rails-jr-spaghetti
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:00.000000000 Z
-    - 2014-07-01 17:09:01.000000000 Z
   - - 5
+    - 5
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:01.000000000 Z
     - Ruby on Rails Ringer T-Shirt
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-on-rails-ringer-t-shirt
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:00.000000000 Z
-    - 2014-07-01 17:09:01.000000000 Z
   - - 6
+    - 6
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Ruby Baseball Jersey
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-baseball-jersey
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:00.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 7
+    - 7
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Apache Baseball Jersey
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - apache-baseball-jersey
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:00.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 8
+    - 8
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Spree Baseball Jersey
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - spree-baseball-jersey
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:00.000000000 Z
-    - 2014-07-01 17:09:03.000000000 Z
   - - 9
+    - 9
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Spree Jr. Spaghetti
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - spree-jr-spaghetti
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:00.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 10
+    - 10
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Spree Ringer T-Shirt
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - spree-ringer-t-shirt
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:01.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 11
+    - 11
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Spree Tote
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - spree-tote
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:01.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 12
+    - 12
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Spree Bag
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - spree-bag
-    - 
-    - 
-    - 1
-    - 1
-    - 2014-07-01 07:12:01.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 13
+    - 13
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Ruby on Rails Mug
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-on-rails-mug
-    - 
-    - 
-    - 
-    - 1
-    - 2014-07-01 07:12:01.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 14
+    - 14
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Ruby on Rails Stein
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - ruby-on-rails-stein
-    - 
-    - 
-    - 
-    - 1
-    - 2014-07-01 07:12:01.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 15
+    - 15
+    - en
+    - 2014-07-01 17:08:57.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Spree Stein
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - spree-stein
-    - 
-    - 
-    - 
-    - 1
-    - 2014-07-01 07:12:01.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z
   - - 16
+    - 16
+    - en
+    - 2014-07-01 17:08:58.000000000 Z
+    - 2014-07-01 17:09:02.000000000 Z
     - Spree Mug
     - Fugit expedita fugiat et sit corporis est. Debitis explicabo at porro qui error
       amet et. Voluptatem molestiae fugit similique ducimus minus.
-    - 2014-07-01 07:11:59.000000000 Z
+    - 
     - 
     - spree-mug
-    - 
-    - 
-    - 
-    - 1
-    - 2014-07-01 07:12:01.000000000 Z
-    - 2014-07-01 17:09:02.000000000 Z

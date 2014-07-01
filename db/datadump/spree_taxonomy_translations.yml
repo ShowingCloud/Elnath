@@ -1,0 +1,23 @@
+
+---
+spree_taxonomy_translations:
+  columns:
+  - id
+  - spree_taxonomy_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  records: 
+  - - 1
+    - 1
+    - en
+    - 2014-07-01 17:09:00.000000000 Z
+    - 2014-07-01 17:09:00.000000000 Z
+    - Categories
+  - - 2
+    - 2
+    - en
+    - 2014-07-01 17:09:00.000000000 Z
+    - 2014-07-01 17:09:00.000000000 Z
+    - Brand
