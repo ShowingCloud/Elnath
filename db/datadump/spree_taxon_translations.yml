@@ -16,7 +16,7 @@ spree_taxon_translations:
   records: 
   - - 1
     - 1
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Categories
@@ -27,7 +27,7 @@ spree_taxon_translations:
     - categories
   - - 2
     - 2
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Brand
@@ -38,7 +38,7 @@ spree_taxon_translations:
     - brand
   - - 3
     - 3
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Bags
@@ -49,7 +49,7 @@ spree_taxon_translations:
     - categories/bags
   - - 4
     - 4
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Mugs
@@ -60,7 +60,7 @@ spree_taxon_translations:
     - categories/mugs
   - - 5
     - 5
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Clothing
@@ -71,7 +71,7 @@ spree_taxon_translations:
     - categories/clothing
   - - 6
     - 6
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Shirts
@@ -82,7 +82,7 @@ spree_taxon_translations:
     - categories/clothing/shirts
   - - 7
     - 7
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - T-Shirts
@@ -93,7 +93,7 @@ spree_taxon_translations:
     - categories/clothing/t-shirts
   - - 8
     - 8
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Ruby
@@ -104,7 +104,7 @@ spree_taxon_translations:
     - brand/ruby
   - - 9
     - 9
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Apache
@@ -115,7 +115,7 @@ spree_taxon_translations:
     - brand/apache
   - - 10
     - 10
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Spree
@@ -126,7 +126,7 @@ spree_taxon_translations:
     - brand/spree
   - - 11
     - 11
-    - en
+    - zh-CN
     - 2014-07-01 17:09:00.000000000 Z
     - 2014-07-01 17:09:00.000000000 Z
     - Rails

@@ -12,14 +12,14 @@ spree_option_type_translations:
   records: 
   - - 1
     - 1
-    - en
+    - zh-CN
     - 2014-07-01 17:08:58.000000000 Z
     - 2014-07-01 17:08:58.000000000 Z
     - tshirt-size
     - Size
   - - 2
     - 2
-    - en
+    - zh-CN
     - 2014-07-01 17:08:58.000000000 Z
     - 2014-07-01 17:08:58.000000000 Z
     - tshirt-color
