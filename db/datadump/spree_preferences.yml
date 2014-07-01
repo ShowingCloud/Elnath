@@ -104,4 +104,162 @@ spree_preferences:
     - spree/app_configuration/currency
     - string
     - 2014-07-01 07:11:59.000000000 Z
-    - 2014-07-01 07:12:02.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 13
+    - |
+      --- true
+      ...
+    - spree/app_configuration/show_raw_product_description
+    - boolean
+    - 2014-07-01 17:15:33.000000000 Z
+    - 2014-07-01 18:42:09.000000000 Z
+  - - 14
+    - |
+      ---
+      - :zh-CN
+    - spree_i18n/configuration/supported_locales
+    - array
+    - 2014-07-01 18:30:40.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 15
+    - |
+      ---
+      - :zh-CN
+      - :en
+    - spree_i18n/configuration/available_locales
+    - array
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 16
+    - |
+      --- Spree Demo Site
+      ...
+    - spree/app_configuration/site_name
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 17
+    - |
+      --- ''
+    - spree/app_configuration/default_seo_title
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 18
+    - |
+      --- spree, demo
+      ...
+    - spree/app_configuration/default_meta_keywords
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 19
+    - |
+      --- Spree demo site
+      ...
+    - spree/app_configuration/default_meta_description
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 20
+    - |
+      --- demo.spreecommerce.com
+      ...
+    - spree/app_configuration/site_url
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 21
+    - |
+      --- true
+      ...
+    - spree/app_configuration/allow_ssl_in_production
+    - boolean
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 22
+    - |
+      --- true
+      ...
+    - spree/app_configuration/allow_ssl_in_staging
+    - boolean
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 23
+    - |
+      --- false
+      ...
+    - spree/app_configuration/allow_ssl_in_development_and_test
+    - boolean
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 24
+    - |
+      --- true
+      ...
+    - spree/app_configuration/check_for_spree_alerts
+    - boolean
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 25
+    - |
+      --- false
+      ...
+    - spree/app_configuration/display_currency
+    - boolean
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 26
+    - |
+      --- false
+      ...
+    - spree/app_configuration/hide_cents
+    - boolean
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 27
+    - |
+      --- before
+      ...
+    - spree/app_configuration/currency_symbol_position
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 28
+    - |
+      --- "."
+    - spree/app_configuration/currency_decimal_mark
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 29
+    - |
+      --- ","
+    - spree/app_configuration/currency_thousands_separator
+    - string
+    - 2014-07-01 18:30:41.000000000 Z
+    - 2014-07-01 18:31:06.000000000 Z
+  - - 30
+    - |
+      --- CKEditor
+      ...
+    - spree/editor_setting/current_editor
+    - string
+    - 2014-07-01 18:32:27.000000000 Z
+    - 2014-07-01 18:32:27.000000000 Z
+  - - 31
+    - |
+      --- true
+      ...
+    - spree/editor_setting/enabled
+    - boolean
+    - 2014-07-01 18:32:27.000000000 Z
+    - 2014-07-01 18:32:27.000000000 Z
+  - - 32
+    - |
+      --- product_description page_body
+      ...
+    - spree/editor_setting/ids
+    - string
+    - 2014-07-01 18:32:27.000000000 Z
+    - 2014-07-01 18:32:27.000000000 Z
