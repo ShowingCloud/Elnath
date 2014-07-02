@@ -1,0 +1,2 @@
+<!-- insert_after '#content' -->
+<%= content_for(:advertisement) %>
