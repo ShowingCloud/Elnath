@@ -3,19 +3,19 @@
 <div id='addvertisementDiv'>
 		<div id='addDiv1'>
 			<div id='addDiv1_1'>
-				<a href='#'><img src='/assets/add_1.png'></a>
+				<a href='#'><img src='/assets/spree/frontend/add_1.png'></a>
 			</div>
 			<div id='addDiv1_2'>
-				<a href='#'><img src='/assets/add_2.png'></a>
+				<a href='#'><img src='/assets/spree/frontend/add_2.png'></a>
 			</div>
 			<div id='addDiv1_3'>
-				<a href='#'><img src='/assets/add_3.png'></a>
+				<a href='#'><img src='/assets/spree/frontend/add_3.png'></a>
 			</div>
 			<div id='addDiv1_4'>
-				<a href='#'><img src='/assets/add_4.png'></a>
+				<a href='#'><img src='/assets/spree/frontend/add_4.png'></a>
 			</div>
 		</div>
 		<div id='addDiv2'>
-			<a href='#'><img src='/assets/productDiv2.png'></a>
+			<a href='#'><img src='/assets/spree/frontend/productDiv2.png'></a>
 		</div>
 	</div>
