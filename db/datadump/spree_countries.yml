@@ -18,7 +18,7 @@ spree_countries:
     - Chad
     - 148
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 2
     - FAROE ISLANDS
     - FO
@@ -26,7 +26,7 @@ spree_countries:
     - Faroe Islands
     - 234
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 3
     - INDIA
     - IN
@@ -34,7 +34,7 @@ spree_countries:
     - India
     - 356
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 4
     - NICARAGUA
     - NI
@@ -42,7 +42,7 @@ spree_countries:
     - Nicaragua
     - 558
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 5
     - SAINT LUCIA
     - LC
@@ -50,7 +50,7 @@ spree_countries:
     - Saint Lucia
     - 662
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 6
     - FIJI
     - FJ
@@ -58,7 +58,7 @@ spree_countries:
     - Fiji
     - 242
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 7
     - INDONESIA
     - ID
@@ -66,7 +66,7 @@ spree_countries:
     - Indonesia
     - 360
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 8
     - NIGER
     - NE
@@ -74,7 +74,7 @@ spree_countries:
     - Niger
     - 562
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 9
     - SAINT PIERRE AND MIQUELON
     - PM
@@ -82,7 +82,7 @@ spree_countries:
     - Saint Pierre and Miquelon
     - 666
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 10
     - FINLAND
     - FI
@@ -90,7 +90,7 @@ spree_countries:
     - Finland
     - 246
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 11
     - NIGERIA
     - NG
@@ -98,7 +98,7 @@ spree_countries:
     - Nigeria
     - 566
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 12
     - SAINT VINCENT AND THE GRENADINES
     - VC
@@ -106,7 +106,7 @@ spree_countries:
     - Saint Vincent and the Grenadines
     - 670
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 13
     - FRANCE
     - FR
@@ -114,7 +114,7 @@ spree_countries:
     - France
     - 250
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 14
     - IRAN, ISLAMIC REPUBLIC OF
     - IR
@@ -122,7 +122,7 @@ spree_countries:
     - Iran, Islamic Republic of
     - 364
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 15
     - NIUE
     - NU
@@ -130,7 +130,7 @@ spree_countries:
     - Niue
     - 570
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 16
     - SAMOA
     - WS
@@ -138,7 +138,7 @@ spree_countries:
     - Samoa
     - 882
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 17
     - FRENCH GUIANA
     - GF
@@ -146,7 +146,7 @@ spree_countries:
     - French Guiana
     - 254
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 18
     - IRAQ
     - IQ
@@ -154,7 +154,7 @@ spree_countries:
     - Iraq
     - 368
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 19
     - SAN MARINO
     - SM
@@ -162,7 +162,7 @@ spree_countries:
     - San Marino
     - 674
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 20
     - IRELAND
     - IE
@@ -170,7 +170,7 @@ spree_countries:
     - Ireland
     - 372
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 21
     - SAO TOME AND PRINCIPE
     - ST
@@ -178,7 +178,7 @@ spree_countries:
     - Sao Tome and Principe
     - 678
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 22
     - ISRAEL
     - IL
@@ -186,7 +186,7 @@ spree_countries:
     - Israel
     - 376
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 23
     - SAUDI ARABIA
     - SA
@@ -194,7 +194,7 @@ spree_countries:
     - Saudi Arabia
     - 682
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 24
     - ITALY
     - IT
@@ -202,7 +202,7 @@ spree_countries:
     - Italy
     - 380
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 25
     - SENEGAL
     - SN
@@ -210,7 +210,7 @@ spree_countries:
     - Senegal
     - 686
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 26
     - JAMAICA
     - JM
@@ -218,7 +218,7 @@ spree_countries:
     - Jamaica
     - 388
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 27
     - JAPAN
     - JP
@@ -226,7 +226,7 @@ spree_countries:
     - Japan
     - 392
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 28
     - JORDAN
     - JO
@@ -234,7 +234,7 @@ spree_countries:
     - Jordan
     - 400
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 29
     - BELGIUM
     - BE
@@ -242,7 +242,7 @@ spree_countries:
     - Belgium
     - 56
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 30
     - BELIZE
     - BZ
@@ -250,7 +250,7 @@ spree_countries:
     - Belize
     - 84
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 31
     - KAZAKHSTAN
     - KZ
@@ -258,7 +258,7 @@ spree_countries:
     - Kazakhstan
     - 398
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 32
     - UGANDA
     - UG
@@ -266,7 +266,7 @@ spree_countries:
     - Uganda
     - 800
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 33
     - BENIN
     - BJ
@@ -274,7 +274,7 @@ spree_countries:
     - Benin
     - 204
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 34
     - KENYA
     - KE
@@ -282,7 +282,7 @@ spree_countries:
     - Kenya
     - 404
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 35
     - UKRAINE
     - UA
@@ -290,7 +290,7 @@ spree_countries:
     - Ukraine
     - 804
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 36
     - BERMUDA
     - BM
@@ -298,7 +298,7 @@ spree_countries:
     - Bermuda
     - 60
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 37
     - KIRIBATI
     - KI
@@ -306,7 +306,7 @@ spree_countries:
     - Kiribati
     - 296
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 38
     - MEXICO
     - MX
@@ -314,7 +314,7 @@ spree_countries:
     - Mexico
     - 484
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 39
     - UNITED ARAB EMIRATES
     - AE
@@ -322,7 +322,7 @@ spree_countries:
     - United Arab Emirates
     - 784
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 40
     - BHUTAN
     - BT
@@ -330,7 +330,7 @@ spree_countries:
     - Bhutan
     - 64
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 41
     - CUBA
     - CU
@@ -338,7 +338,7 @@ spree_countries:
     - Cuba
     - 192
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 42
     - KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF
     - KP
@@ -346,7 +346,7 @@ spree_countries:
     - North Korea
     - 408
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 43
     - MICRONESIA, FEDERATED STATES OF
     - FM
@@ -354,7 +354,7 @@ spree_countries:
     - Micronesia, Federated States of
     - 583
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 44
     - UNITED KINGDOM
     - GB
@@ -362,7 +362,7 @@ spree_countries:
     - United Kingdom
     - 826
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 45
     - BOLIVIA
     - BO
@@ -370,7 +370,7 @@ spree_countries:
     - Bolivia
     - 68
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 46
     - CYPRUS
     - CY
@@ -378,7 +378,7 @@ spree_countries:
     - Cyprus
     - 196
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 47
     - KOREA, REPUBLIC OF
     - KR
@@ -386,7 +386,7 @@ spree_countries:
     - South Korea
     - 410
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 48
     - MOLDOVA, REPUBLIC OF
     - MD
@@ -394,7 +394,7 @@ spree_countries:
     - Moldova, Republic of
     - 498
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 49
     - UNITED STATES
     - US
@@ -402,7 +402,7 @@ spree_countries:
     - United States
     - 840
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 50
     - BOSNIA AND HERZEGOVINA
     - BA
@@ -410,7 +410,7 @@ spree_countries:
     - Bosnia and Herzegovina
     - 70
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 51
     - CZECH REPUBLIC
     - CZ
@@ -418,7 +418,7 @@ spree_countries:
     - Czech Republic
     - 203
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 52
     - KUWAIT
     - KW
@@ -426,7 +426,7 @@ spree_countries:
     - Kuwait
     - 414
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 53
     - MONACO
     - MC
@@ -434,7 +434,7 @@ spree_countries:
     - Monaco
     - 492
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 54
     - URUGUAY
     - UY
@@ -442,7 +442,7 @@ spree_countries:
     - Uruguay
     - 858
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 55
     - BOTSWANA
     - BW
@@ -450,7 +450,7 @@ spree_countries:
     - Botswana
     - 72
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 56
     - DENMARK
     - DK
@@ -458,7 +458,7 @@ spree_countries:
     - Denmark
     - 208
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 57
     - GUADELOUPE
     - GP
@@ -466,7 +466,7 @@ spree_countries:
     - Guadeloupe
     - 312
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 58
     - KYRGYZSTAN
     - KG
@@ -474,7 +474,7 @@ spree_countries:
     - Kyrgyzstan
     - 417
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 59
     - MONGOLIA
     - MN
@@ -482,7 +482,7 @@ spree_countries:
     - Mongolia
     - 496
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 60
     - PHILIPPINES
     - PH
@@ -490,7 +490,7 @@ spree_countries:
     - Philippines
     - 608
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 61
     - BRAZIL
     - BR
@@ -498,7 +498,7 @@ spree_countries:
     - Brazil
     - 76
     - true
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 62
     - DJIBOUTI
     - DJ
@@ -506,7 +506,7 @@ spree_countries:
     - Djibouti
     - 262
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 63
     - GUAM
     - GU
@@ -514,7 +514,7 @@ spree_countries:
     - Guam
     - 316
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 64
     - LAO PEOPLE'S DEMOCRATIC REPUBLIC
     - LA
@@ -522,7 +522,7 @@ spree_countries:
     - Lao People's Democratic Republic
     - 418
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 65
     - MONTSERRAT
     - MS
@@ -530,7 +530,7 @@ spree_countries:
     - Montserrat
     - 500
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 66
     - PITCAIRN
     - PN
@@ -538,7 +538,7 @@ spree_countries:
     - Pitcairn
     - 612
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 67
     - UZBEKISTAN
     - UZ
@@ -546,7 +546,7 @@ spree_countries:
     - Uzbekistan
     - 860
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 68
     - BRUNEI DARUSSALAM
     - BN
@@ -554,7 +554,7 @@ spree_countries:
     - Brunei Darussalam
     - 96
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 69
     - DOMINICA
     - DM
@@ -562,7 +562,7 @@ spree_countries:
     - Dominica
     - 212
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 70
     - GUATEMALA
     - GT
@@ -570,7 +570,7 @@ spree_countries:
     - Guatemala
     - 320
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 71
     - MOROCCO
     - MA
@@ -578,7 +578,7 @@ spree_countries:
     - Morocco
     - 504
     - false
-    - 2014-07-01 07:10:19.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 72
     - POLAND
     - PL
@@ -586,7 +586,7 @@ spree_countries:
     - Poland
     - 616
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 73
     - VANUATU
     - VU
@@ -594,7 +594,7 @@ spree_countries:
     - Vanuatu
     - 548
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 74
     - DOMINICAN REPUBLIC
     - DO
@@ -602,7 +602,7 @@ spree_countries:
     - Dominican Republic
     - 214
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 75
     - MOZAMBIQUE
     - MZ
@@ -610,7 +610,7 @@ spree_countries:
     - Mozambique
     - 508
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 76
     - PORTUGAL
     - PT
@@ -618,7 +618,7 @@ spree_countries:
     - Portugal
     - 620
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 77
     - SUDAN
     - SD
@@ -626,7 +626,7 @@ spree_countries:
     - Sudan
     - 736
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 78
     - VENEZUELA
     - VE
@@ -634,7 +634,7 @@ spree_countries:
     - Venezuela
     - 862
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 79
     - ECUADOR
     - EC
@@ -642,7 +642,7 @@ spree_countries:
     - Ecuador
     - 218
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 80
     - GUINEA
     - GN
@@ -650,7 +650,7 @@ spree_countries:
     - Guinea
     - 324
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 81
     - MYANMAR
     - MM
@@ -658,7 +658,7 @@ spree_countries:
     - Myanmar
     - 104
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 82
     - PUERTO RICO
     - PR
@@ -666,7 +666,7 @@ spree_countries:
     - Puerto Rico
     - 630
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 83
     - SURINAME
     - SR
@@ -674,7 +674,7 @@ spree_countries:
     - Suriname
     - 740
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 84
     - VIET NAM
     - VN
@@ -682,7 +682,7 @@ spree_countries:
     - Viet Nam
     - 704
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 85
     - EGYPT
     - EG
@@ -690,7 +690,7 @@ spree_countries:
     - Egypt
     - 818
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 86
     - GUINEA-BISSAU
     - GW
@@ -698,7 +698,7 @@ spree_countries:
     - Guinea-Bissau
     - 624
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 87
     - NAMIBIA
     - NA
@@ -706,7 +706,7 @@ spree_countries:
     - Namibia
     - 516
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 88
     - QATAR
     - QA
@@ -714,7 +714,7 @@ spree_countries:
     - Qatar
     - 634
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 89
     - SVALBARD AND JAN MAYEN
     - SJ
@@ -722,7 +722,7 @@ spree_countries:
     - Svalbard and Jan Mayen
     - 744
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 90
     - EL SALVADOR
     - SV
@@ -730,7 +730,7 @@ spree_countries:
     - El Salvador
     - 222
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 91
     - GUYANA
     - GY
@@ -738,7 +738,7 @@ spree_countries:
     - Guyana
     - 328
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 92
     - REUNION
     - RE
@@ -746,7 +746,7 @@ spree_countries:
     - Reunion
     - 638
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 93
     - HAITI
     - HT
@@ -754,7 +754,7 @@ spree_countries:
     - Haiti
     - 332
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 94
     - ROMANIA
     - RO
@@ -762,7 +762,7 @@ spree_countries:
     - Romania
     - 642
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 95
     - SWAZILAND
     - SZ
@@ -770,7 +770,7 @@ spree_countries:
     - Swaziland
     - 748
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 96
     - HOLY SEE (VATICAN CITY STATE)
     - VA
@@ -778,7 +778,7 @@ spree_countries:
     - Holy See (Vatican City State)
     - 336
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 97
     - RUSSIAN FEDERATION
     - RU
@@ -786,7 +786,7 @@ spree_countries:
     - Russian Federation
     - 643
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 98
     - SWEDEN
     - SE
@@ -794,7 +794,7 @@ spree_countries:
     - Sweden
     - 752
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 99
     - HONDURAS
     - HN
@@ -802,7 +802,7 @@ spree_countries:
     - Honduras
     - 340
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 100
     - RWANDA
     - RW
@@ -810,7 +810,7 @@ spree_countries:
     - Rwanda
     - 646
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 101
     - SWITZERLAND
     - CH
@@ -818,7 +818,7 @@ spree_countries:
     - Switzerland
     - 756
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 102
     - HONG KONG
     - HK
@@ -826,7 +826,7 @@ spree_countries:
     - Hong Kong
     - 344
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 103
     - SYRIAN ARAB REPUBLIC
     - SY
@@ -834,7 +834,7 @@ spree_countries:
     - Syrian Arab Republic
     - 760
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 104
     - TAIWAN, PROVINCE OF CHINA
     - TW
@@ -842,7 +842,7 @@ spree_countries:
     - Taiwan
     - 158
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 105
     - TAJIKISTAN
     - TJ
@@ -850,7 +850,7 @@ spree_countries:
     - Tajikistan
     - 762
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 106
     - TANZANIA, UNITED REPUBLIC OF
     - TZ
@@ -858,7 +858,7 @@ spree_countries:
     - Tanzania, United Republic of
     - 834
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 107
     - ARMENIA
     - AM
@@ -866,7 +866,7 @@ spree_countries:
     - Armenia
     - 51
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 108
     - ARUBA
     - AW
@@ -874,7 +874,7 @@ spree_countries:
     - Aruba
     - 533
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 109
     - AUSTRALIA
     - AU
@@ -882,7 +882,7 @@ spree_countries:
     - Australia
     - 36
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 110
     - THAILAND
     - TH
@@ -890,7 +890,7 @@ spree_countries:
     - Thailand
     - 764
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 111
     - AUSTRIA
     - AT
@@ -898,7 +898,7 @@ spree_countries:
     - Austria
     - 40
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 112
     - MADAGASCAR
     - MG
@@ -906,7 +906,7 @@ spree_countries:
     - Madagascar
     - 450
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 113
     - TOGO
     - TG
@@ -914,7 +914,7 @@ spree_countries:
     - Togo
     - 768
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 114
     - AZERBAIJAN
     - AZ
@@ -922,7 +922,7 @@ spree_countries:
     - Azerbaijan
     - 31
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 115
     - CHILE
     - CL
@@ -930,7 +930,7 @@ spree_countries:
     - Chile
     - 152
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 116
     - MALAWI
     - MW
@@ -938,7 +938,7 @@ spree_countries:
     - Malawi
     - 454
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 117
     - TOKELAU
     - TK
@@ -946,7 +946,7 @@ spree_countries:
     - Tokelau
     - 772
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 118
     - BAHAMAS
     - BS
@@ -954,7 +954,7 @@ spree_countries:
     - Bahamas
     - 44
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 119
     - CHINA
     - CN
@@ -962,7 +962,7 @@ spree_countries:
     - China
     - 156
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 120
     - MALAYSIA
     - MY
@@ -970,7 +970,7 @@ spree_countries:
     - Malaysia
     - 458
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 121
     - TONGA
     - TO
@@ -978,7 +978,7 @@ spree_countries:
     - Tonga
     - 776
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 122
     - BAHRAIN
     - BH
@@ -986,7 +986,7 @@ spree_countries:
     - Bahrain
     - 48
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 123
     - COLOMBIA
     - CO
@@ -994,7 +994,7 @@ spree_countries:
     - Colombia
     - 170
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 124
     - MALDIVES
     - MV
@@ -1002,7 +1002,7 @@ spree_countries:
     - Maldives
     - 462
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 125
     - TRINIDAD AND TOBAGO
     - TT
@@ -1010,7 +1010,7 @@ spree_countries:
     - Trinidad and Tobago
     - 780
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 126
     - BANGLADESH
     - BD
@@ -1018,7 +1018,7 @@ spree_countries:
     - Bangladesh
     - 50
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 127
     - COMOROS
     - KM
@@ -1026,7 +1026,7 @@ spree_countries:
     - Comoros
     - 174
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 128
     - FRENCH POLYNESIA
     - PF
@@ -1034,7 +1034,7 @@ spree_countries:
     - French Polynesia
     - 258
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 129
     - MALI
     - ML
@@ -1042,7 +1042,7 @@ spree_countries:
     - Mali
     - 466
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 130
     - NORFOLK ISLAND
     - NF
@@ -1050,7 +1050,7 @@ spree_countries:
     - Norfolk Island
     - 574
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 131
     - TUNISIA
     - TN
@@ -1058,7 +1058,7 @@ spree_countries:
     - Tunisia
     - 788
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 132
     - BARBADOS
     - BB
@@ -1066,7 +1066,7 @@ spree_countries:
     - Barbados
     - 52
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 133
     - CONGO
     - CG
@@ -1074,7 +1074,7 @@ spree_countries:
     - Congo
     - 178
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 134
     - GABON
     - GA
@@ -1082,7 +1082,7 @@ spree_countries:
     - Gabon
     - 266
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 135
     - MALTA
     - MT
@@ -1090,7 +1090,7 @@ spree_countries:
     - Malta
     - 470
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 136
     - NORTHERN MARIANA ISLANDS
     - MP
@@ -1098,7 +1098,7 @@ spree_countries:
     - Northern Mariana Islands
     - 580
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 137
     - TURKEY
     - TR
@@ -1106,7 +1106,7 @@ spree_countries:
     - Turkey
     - 792
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 138
     - CONGO, THE DEMOCRATIC REPUBLIC OF THE
     - CD
@@ -1114,7 +1114,7 @@ spree_countries:
     - Congo, the Democratic Republic of the
     - 180
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 139
     - MARSHALL ISLANDS
     - MH
@@ -1122,7 +1122,7 @@ spree_countries:
     - Marshall Islands
     - 584
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 140
     - NORWAY
     - 'NO'
@@ -1130,7 +1130,7 @@ spree_countries:
     - Norway
     - 578
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 141
     - TURKMENISTAN
     - TM
@@ -1138,7 +1138,7 @@ spree_countries:
     - Turkmenistan
     - 795
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 142
     - BELARUS
     - BY
@@ -1146,7 +1146,7 @@ spree_countries:
     - Belarus
     - 112
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 143
     - COOK ISLANDS
     - CK
@@ -1154,7 +1154,7 @@ spree_countries:
     - Cook Islands
     - 184
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 144
     - GAMBIA
     - GM
@@ -1162,7 +1162,7 @@ spree_countries:
     - Gambia
     - 270
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 145
     - MARTINIQUE
     - MQ
@@ -1170,7 +1170,7 @@ spree_countries:
     - Martinique
     - 474
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 146
     - OMAN
     - OM
@@ -1178,7 +1178,7 @@ spree_countries:
     - Oman
     - 512
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 147
     - SEYCHELLES
     - SC
@@ -1186,7 +1186,7 @@ spree_countries:
     - Seychelles
     - 690
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 148
     - TURKS AND CAICOS ISLANDS
     - TC
@@ -1194,7 +1194,7 @@ spree_countries:
     - Turks and Caicos Islands
     - 796
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 149
     - GEORGIA
     - GE
@@ -1202,7 +1202,7 @@ spree_countries:
     - Georgia
     - 268
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 150
     - MAURITANIA
     - MR
@@ -1210,7 +1210,7 @@ spree_countries:
     - Mauritania
     - 478
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 151
     - PAKISTAN
     - PK
@@ -1218,7 +1218,7 @@ spree_countries:
     - Pakistan
     - 586
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 152
     - SIERRA LEONE
     - SL
@@ -1226,7 +1226,7 @@ spree_countries:
     - Sierra Leone
     - 694
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 153
     - TUVALU
     - TV
@@ -1234,7 +1234,7 @@ spree_countries:
     - Tuvalu
     - 798
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 154
     - COSTA RICA
     - CR
@@ -1242,7 +1242,7 @@ spree_countries:
     - Costa Rica
     - 188
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 155
     - GERMANY
     - DE
@@ -1250,7 +1250,7 @@ spree_countries:
     - Germany
     - 276
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 156
     - MAURITIUS
     - MU
@@ -1258,7 +1258,7 @@ spree_countries:
     - Mauritius
     - 480
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 157
     - PALAU
     - PW
@@ -1266,7 +1266,7 @@ spree_countries:
     - Palau
     - 585
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 158
     - COTE D'IVOIRE
     - CI
@@ -1274,7 +1274,7 @@ spree_countries:
     - Cote D'Ivoire
     - 384
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 159
     - PANAMA
     - PA
@@ -1282,7 +1282,7 @@ spree_countries:
     - Panama
     - 591
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 160
     - SINGAPORE
     - SG
@@ -1290,7 +1290,7 @@ spree_countries:
     - Singapore
     - 702
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 161
     - CROATIA
     - HR
@@ -1298,7 +1298,7 @@ spree_countries:
     - Croatia
     - 191
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 162
     - GHANA
     - GH
@@ -1306,7 +1306,7 @@ spree_countries:
     - Ghana
     - 288
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 163
     - PAPUA NEW GUINEA
     - PG
@@ -1314,7 +1314,7 @@ spree_countries:
     - Papua New Guinea
     - 598
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 164
     - SLOVAKIA
     - SK
@@ -1322,7 +1322,7 @@ spree_countries:
     - Slovakia
     - 703
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 165
     - GIBRALTAR
     - GI
@@ -1330,7 +1330,7 @@ spree_countries:
     - Gibraltar
     - 292
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:37.000000000 Z
   - - 166
     - PARAGUAY
     - PY
@@ -1338,7 +1338,7 @@ spree_countries:
     - Paraguay
     - 600
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 167
     - SLOVENIA
     - SI
@@ -1346,7 +1346,7 @@ spree_countries:
     - Slovenia
     - 705
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 168
     - GREECE
     - GR
@@ -1354,7 +1354,7 @@ spree_countries:
     - Greece
     - 300
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 169
     - PERU
     - PE
@@ -1362,7 +1362,7 @@ spree_countries:
     - Peru
     - 604
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 170
     - SOLOMON ISLANDS
     - SB
@@ -1370,7 +1370,7 @@ spree_countries:
     - Solomon Islands
     - 90
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 171
     - GREENLAND
     - GL
@@ -1378,7 +1378,7 @@ spree_countries:
     - Greenland
     - 304
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 172
     - SOMALIA
     - SO
@@ -1386,7 +1386,7 @@ spree_countries:
     - Somalia
     - 706
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 173
     - GRENADA
     - GD
@@ -1394,7 +1394,7 @@ spree_countries:
     - Grenada
     - 308
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 174
     - SOUTH AFRICA
     - ZA
@@ -1402,7 +1402,7 @@ spree_countries:
     - South Africa
     - 710
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 175
     - SPAIN
     - ES
@@ -1410,7 +1410,7 @@ spree_countries:
     - Spain
     - 724
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 176
     - SRI LANKA
     - LK
@@ -1418,7 +1418,7 @@ spree_countries:
     - Sri Lanka
     - 144
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 177
     - AFGHANISTAN
     - AF
@@ -1426,7 +1426,7 @@ spree_countries:
     - Afghanistan
     - 4
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 178
     - ALBANIA
     - AL
@@ -1434,7 +1434,7 @@ spree_countries:
     - Albania
     - 8
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 179
     - ALGERIA
     - DZ
@@ -1442,7 +1442,7 @@ spree_countries:
     - Algeria
     - 12
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 180
     - LATVIA
     - LV
@@ -1450,7 +1450,7 @@ spree_countries:
     - Latvia
     - 428
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 181
     - AMERICAN SAMOA
     - AS
@@ -1458,7 +1458,7 @@ spree_countries:
     - American Samoa
     - 16
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 182
     - BULGARIA
     - BG
@@ -1466,7 +1466,7 @@ spree_countries:
     - Bulgaria
     - 100
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 183
     - LEBANON
     - LB
@@ -1474,7 +1474,7 @@ spree_countries:
     - Lebanon
     - 422
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 184
     - ANDORRA
     - AD
@@ -1482,7 +1482,7 @@ spree_countries:
     - Andorra
     - 20
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 185
     - BURKINA FASO
     - BF
@@ -1490,7 +1490,7 @@ spree_countries:
     - Burkina Faso
     - 854
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 186
     - LESOTHO
     - LS
@@ -1498,7 +1498,7 @@ spree_countries:
     - Lesotho
     - 426
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 187
     - ANGOLA
     - AO
@@ -1506,7 +1506,7 @@ spree_countries:
     - Angola
     - 24
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 188
     - BURUNDI
     - BI
@@ -1514,7 +1514,7 @@ spree_countries:
     - Burundi
     - 108
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 189
     - LIBERIA
     - LR
@@ -1522,7 +1522,7 @@ spree_countries:
     - Liberia
     - 430
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 190
     - VIRGIN ISLANDS, BRITISH
     - VG
@@ -1530,7 +1530,7 @@ spree_countries:
     - Virgin Islands, British
     - 92
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 191
     - ANGUILLA
     - AI
@@ -1538,7 +1538,7 @@ spree_countries:
     - Anguilla
     - 660
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 192
     - CAMBODIA
     - KH
@@ -1546,7 +1546,7 @@ spree_countries:
     - Cambodia
     - 116
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 193
     - EQUATORIAL GUINEA
     - GQ
@@ -1554,7 +1554,7 @@ spree_countries:
     - Equatorial Guinea
     - 226
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 194
     - LIBYAN ARAB JAMAHIRIYA
     - LY
@@ -1562,7 +1562,7 @@ spree_countries:
     - Libyan Arab Jamahiriya
     - 434
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 195
     - NAURU
     - NR
@@ -1570,7 +1570,7 @@ spree_countries:
     - Nauru
     - 520
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 196
     - VIRGIN ISLANDS, U.S.
     - VI
@@ -1578,7 +1578,7 @@ spree_countries:
     - Virgin Islands, U.S.
     - 850
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 197
     - ANTIGUA AND BARBUDA
     - AG
@@ -1586,7 +1586,7 @@ spree_countries:
     - Antigua and Barbuda
     - 28
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 198
     - CAMEROON
     - CM
@@ -1594,7 +1594,7 @@ spree_countries:
     - Cameroon
     - 120
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 199
     - LIECHTENSTEIN
     - LI
@@ -1602,7 +1602,7 @@ spree_countries:
     - Liechtenstein
     - 438
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 200
     - NEPAL
     - NP
@@ -1610,7 +1610,7 @@ spree_countries:
     - Nepal
     - 524
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 201
     - WALLIS AND FUTUNA
     - WF
@@ -1618,7 +1618,7 @@ spree_countries:
     - Wallis and Futuna
     - 876
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 202
     - WESTERN SAHARA
     - EH
@@ -1626,7 +1626,7 @@ spree_countries:
     - Western Sahara
     - 732
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 203
     - ARGENTINA
     - AR
@@ -1634,7 +1634,7 @@ spree_countries:
     - Argentina
     - 32
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 204
     - CANADA
     - CA
@@ -1642,7 +1642,7 @@ spree_countries:
     - Canada
     - 124
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 205
     - ERITREA
     - ER
@@ -1650,7 +1650,7 @@ spree_countries:
     - Eritrea
     - 232
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 206
     - LITHUANIA
     - LT
@@ -1658,7 +1658,7 @@ spree_countries:
     - Lithuania
     - 440
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 207
     - NETHERLANDS
     - NL
@@ -1666,7 +1666,7 @@ spree_countries:
     - Netherlands
     - 528
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 208
     - YEMEN
     - YE
@@ -1674,7 +1674,7 @@ spree_countries:
     - Yemen
     - 887
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 209
     - CAPE VERDE
     - CV
@@ -1682,7 +1682,7 @@ spree_countries:
     - Cape Verde
     - 132
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 210
     - ESTONIA
     - EE
@@ -1690,7 +1690,7 @@ spree_countries:
     - Estonia
     - 233
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 211
     - LUXEMBOURG
     - LU
@@ -1698,7 +1698,7 @@ spree_countries:
     - Luxembourg
     - 442
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 212
     - NETHERLANDS ANTILLES
     - AN
@@ -1706,7 +1706,7 @@ spree_countries:
     - Netherlands Antilles
     - 530
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 213
     - SAINT HELENA
     - SH
@@ -1714,7 +1714,7 @@ spree_countries:
     - Saint Helena
     - 654
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 214
     - ZAMBIA
     - ZM
@@ -1722,7 +1722,7 @@ spree_countries:
     - Zambia
     - 894
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 215
     - CAYMAN ISLANDS
     - KY
@@ -1730,7 +1730,7 @@ spree_countries:
     - Cayman Islands
     - 136
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 216
     - ETHIOPIA
     - ET
@@ -1738,7 +1738,7 @@ spree_countries:
     - Ethiopia
     - 231
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 217
     - HUNGARY
     - HU
@@ -1746,7 +1746,7 @@ spree_countries:
     - Hungary
     - 348
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 218
     - MACAO
     - MO
@@ -1754,7 +1754,7 @@ spree_countries:
     - Macao
     - 446
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 219
     - NEW CALEDONIA
     - NC
@@ -1762,7 +1762,7 @@ spree_countries:
     - New Caledonia
     - 540
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 220
     - ZIMBABWE
     - ZW
@@ -1770,7 +1770,7 @@ spree_countries:
     - Zimbabwe
     - 716
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 221
     - CENTRAL AFRICAN REPUBLIC
     - CF
@@ -1778,7 +1778,7 @@ spree_countries:
     - Central African Republic
     - 140
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 222
     - FALKLAND ISLANDS (MALVINAS)
     - FK
@@ -1786,7 +1786,7 @@ spree_countries:
     - Falkland Islands (Malvinas)
     - 238
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 223
     - ICELAND
     - IS
@@ -1794,7 +1794,7 @@ spree_countries:
     - Iceland
     - 352
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 224
     - MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF
     - MK
@@ -1802,7 +1802,7 @@ spree_countries:
     - Macedonia
     - 807
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 225
     - NEW ZEALAND
     - NZ
@@ -1810,7 +1810,7 @@ spree_countries:
     - New Zealand
     - 554
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 226
     - SAINT KITTS AND NEVIS
     - KN
@@ -1818,7 +1818,7 @@ spree_countries:
     - Saint Kitts and Nevis
     - 659
     - true
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 227
     - SERBIA
     - RS
@@ -1826,7 +1826,7 @@ spree_countries:
     - Serbia
     - 999
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z
   - - 228
     - MONTENEGRO
     - ME
@@ -1834,4 +1834,4 @@ spree_countries:
     - Montenegro
     - 499
     - false
-    - 2014-07-01 07:10:20.000000000 Z
+    - 2014-06-26 08:28:38.000000000 Z

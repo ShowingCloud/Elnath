@@ -1,0 +1,11 @@
+
+---
+spree_option_types_prototypes:
+  columns:
+  - prototype_id
+  - option_type_id
+  records: 
+  - - 4
+    - 3
+  - - 4
+    - 4
