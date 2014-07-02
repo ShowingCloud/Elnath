@@ -1,0 +1,2 @@
+cut '[data-hook="description"]'
+insert_after '[data-hook="product_right_part"]'

@@ -1,0 +1,4 @@
+<!-- surround '[data-hook="description"]' sequence :after => 'move_description_into_bottom' -->
+<div class="columns" data-hook="product_bottom_part">
+	<%= render_original %>
+</div>

@@ -1,0 +1,286 @@
+body, div, li, input, button, p, a{font-family:'Microsoft YaHei'; }
+p{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:inherit;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+#topDiv{
+	width:950px;
+	height:180px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.topDivCLass{
+	margin-top:20px;
+	float:left;
+}
+.topDivCLass p{
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom:8px;
+}
+#locationDiv{
+	width:120px;
+	height:100px;
+}
+#loginOrRegDiv{
+	width:120px;
+	height:100px;
+	text-align:right;
+}
+#logoDiv{
+	height:100px;
+	text-align:center;
+	width:710px;
+}
+#logoDiv img{
+	height:100px;
+	width:130px;
+}
+#searchInputP{
+	border:1px solid #B7B7B7;
+	width:120px;
+	height:22px;
+}
+#searchInputText{
+	border: none;
+	width: 100px;
+	padding-left: 5px;
+	outline: none;
+	display: block;
+	float: left;
+	height: 20px;
+}
+#searchBtnImg{
+	cursor: pointer;
+	padding-top: 4px;
+	display: block;
+	float: left;
+	height: 16px;
+}
+#navigateDiv{
+	width:950px;
+	height:40px;
+	margin-top:10px;
+	border-top:3px solid #000;
+	text-align:center;
+}
+#navigateList{
+	margin-bottom:0px;
+	margin-top:10px;
+	padding-left: 33px;
+}
+#navigateList li{
+	float:left;
+	width:110px;
+	list-style: none;
+	font-weight:bold;
+}
+#productDisplayDiv{
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#productDiv1{
+	height:700px;
+	width:950px;
+}
+#leftProductDiv1{
+	float:left;
+	margin-right:10px;
+}
+#rightProductDiv1{
+	float:left;
+}
+#productDiv2{
+	width:950px;
+	height:120px;
+	padding-top:15px;
+	border-top:2px dashed #666;
+	border-bottom:2px dashed #666;
+}
+#productDiv3{
+	padding-top:16px;
+	height:165px;
+	width:950px;
+	border-bottom:2px dashed #666;
+}
+#productDiv3 div{
+	float:left;
+	margin-left:11px;
+}
+#productDiv3 div:first-child{
+	margin-left:0;
+}
+#productDiv4{
+	height:710px;
+	width:950px;
+	border-bottom:2px dashed #666;
+}
+#imageProductDiv4 p{
+	font-size:14px;
+	font-weight:bold;
+}
+#imageProductDiv4{
+	height:660px;
+	width:950px;
+}
+#imageProductDiv4 p{
+	text-align:center;
+}
+#imageProductDiv4 >div{
+	float:left;
+}
+#centerProductDiv4{
+	width:400px;
+	height:660px;
+	text-align:center;
+}
+#bottomCenterProductDiv4{
+	margin-top:40px;
+}
+#bottomCenterProductDiv4>div{
+	float:left;
+}
+#lBottomCenterProductDiv4{
+	margin-left:60px;
+	margin-right:20px;
+}
+#rightProductDiv4 > div{
+	margin-bottom:20px;
+}
+#productDiv5{
+	width:950px;
+	height:770px;
+	font-weight:bold;
+}
+#topProductDiv5{
+	height:350px;
+	width:950px;
+	margin-bottom:10px;
+}
+.goToBuyBtn{
+	margin-left:85px;
+	border:none;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+#productDiv6{
+	height:420px;
+	width:950px;
+	font-weight:bold;
+}
+.titleParagraph{
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	margin:12px 0 20px 0;
+}
+#productDiv7{
+	height:150px;
+	width:950px;
+}
+#productDiv7 img{
+	width:950px;
+}
+#productDiv8{
+	height:410px;
+	width:950px;
+	font-weight:bold;
+}
+#productDiv9{
+	height:490px;
+	width:950px;
+	border-bottom:2px dashed #666;
+}
+.productList>div{
+	float:left;
+	margin-left:9px;
+}
+.productList div:first-child{
+	margin-left:0px;
+}
+#rightFixedDiv{
+	position:fixed;
+	height:270px;
+	width:66px;
+	top:50%;
+	margin-top:-135px;
+	left:50%;
+	margin-left:475px;
+}
+#rightFixedDiv>div{
+	margin-bottom:2px;
+	height:65px;
+	width:65px;
+}
+#footDiv{
+	width:950px;
+	height:380px;
+	margin:0 auto;
+}
+#footLogoDiv{
+	height:100px;
+	text-align:center;
+	width:950px;
+	margin-top:20px;
+}
+#footLogoDiv img{
+	height:100px;
+	width:130px;
+}
+#bottomNavigateDiv{
+	width:946px;
+	height:30px;
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-left: 4px;
+	margin-top:10px;
+}
+#bottomNavigateList{
+	width:950px;
+	margin:0;
+	padding:0;
+}
+#bottomNavigateList >li{
+	list-style:none;
+	float:left;
+	width:118px;
+	text-align:center;
+}
+#bottomNavigateList a{
+	color:white;
+}
+#serviceContentDiv>div{
+	float:left;
+	width:128px;
+	height:130px;
+	padding-left:29px;
+	border-left:1px solid #B8B8B8;
+}
+#serviceContentDiv{
+	height:160px;
+	width:950px;
+	margin-top:30px;
+	border-bottom:2px solid #3F3F3F;
+}
+#serviceContentDiv p{
+	margin-bottom:4px;
+	font-size:13px;
+	font-weight:bold;
+}
+#serviceContentDiv a{
+	color:#666;
+}
+#copyRightDiv{
+	text-align:center;
+	margin-top:20px;
+}

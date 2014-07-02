@@ -1,0 +1,25 @@
+#addvertisementDiv{
+	height:400px;
+	width:950px;
+	border-bottom:2px dashed #666;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+#addDiv1{
+	width:950px;
+	height:230px;
+}
+#addDiv1>div{
+	float:left;
+	margin-left:20px;
+}
+#addDiv1 div:first-child{
+	margin-left:0px;
+}
+#addDiv2{
+	width:950px;
+	margin-top:20px;
+}
+#addDiv2 img{
+	width:950px;
+}
