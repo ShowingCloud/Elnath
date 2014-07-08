@@ -399,150 +399,6 @@ spree_assets:
     - Spree::Image
     - 2014-06-27 14:41:21.000000000 Z
     - ''
-  - - 80
-    - 86
-    - Spree::Variant
-    - 800
-    - 800
-    - 201523
-    - 1
-    - image/jpeg
-    - 1.jpg
-    - Spree::Image
-    - 2014-06-27 15:22:28.000000000 Z
-    - ''
-  - - 81
-    - 86
-    - Spree::Variant
-    - 800
-    - 800
-    - 150361
-    - 2
-    - image/jpeg
-    - 2.jpg
-    - Spree::Image
-    - 2014-06-27 15:27:36.000000000 Z
-    - ''
-  - - 82
-    - 86
-    - Spree::Variant
-    - 800
-    - 800
-    - 163893
-    - 3
-    - image/jpeg
-    - 3.jpg
-    - Spree::Image
-    - 2014-06-27 15:30:23.000000000 Z
-    - ''
-  - - 83
-    - 86
-    - Spree::Variant
-    - 800
-    - 800
-    - 405004
-    - 4
-    - image/jpeg
-    - 4.jpg
-    - Spree::Image
-    - 2014-06-27 15:30:45.000000000 Z
-    - ''
-  - - 84
-    - 86
-    - Spree::Variant
-    - 800
-    - 800
-    - 339590
-    - 5
-    - image/jpeg
-    - 5.jpg
-    - Spree::Image
-    - 2014-06-27 15:31:02.000000000 Z
-    - ''
-  - - 85
-    - 86
-    - Spree::Variant
-    - 800
-    - 800
-    - 437845
-    - 6
-    - image/jpeg
-    - 6.jpg
-    - Spree::Image
-    - 2014-06-27 15:31:21.000000000 Z
-    - ''
-  - - 86
-    - 91
-    - Spree::Variant
-    - 800
-    - 800
-    - 246164
-    - 1
-    - image/jpeg
-    - 1.jpg
-    - Spree::Image
-    - 2014-06-27 15:41:57.000000000 Z
-    - ''
-  - - 87
-    - 91
-    - Spree::Variant
-    - 800
-    - 800
-    - 158289
-    - 2
-    - image/jpeg
-    - 2.jpg
-    - Spree::Image
-    - 2014-06-27 15:42:11.000000000 Z
-    - ''
-  - - 88
-    - 91
-    - Spree::Variant
-    - 800
-    - 800
-    - 220722
-    - 3
-    - image/jpeg
-    - 3.jpg
-    - Spree::Image
-    - 2014-06-27 15:45:31.000000000 Z
-    - ''
-  - - 89
-    - 91
-    - Spree::Variant
-    - 800
-    - 800
-    - 251462
-    - 4
-    - image/jpeg
-    - 4.jpg
-    - Spree::Image
-    - 2014-06-27 15:45:55.000000000 Z
-    - ''
-  - - 90
-    - 91
-    - Spree::Variant
-    - 800
-    - 800
-    - 472077
-    - 5
-    - image/jpeg
-    - 5.jpg
-    - Spree::Image
-    - 2014-06-27 15:46:16.000000000 Z
-    - ''
-  - - 91
-    - 91
-    - Spree::Variant
-    - 800
-    - 800
-    - 480425
-    - 6
-    - image/jpeg
-    - 6.jpg
-    - Spree::Image
-    - 2014-06-27 15:46:38.000000000 Z
-    - ''
   - - 92
     - 97
     - Spree::Variant
@@ -1814,4 +1670,1876 @@ spree_assets:
     - 7.jpg
     - Spree::Image
     - 2014-07-02 07:23:46.000000000 Z
+    - ''
+  - - 199
+    - 232
+    - Spree::Variant
+    - 800
+    - 800
+    - 199963
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-02 13:58:10.000000000 Z
+    - ''
+  - - 200
+    - 232
+    - Spree::Variant
+    - 800
+    - 800
+    - 510325
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-02 13:59:10.000000000 Z
+    - ''
+  - - 201
+    - 232
+    - Spree::Variant
+    - 800
+    - 800
+    - 147036
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-02 13:59:50.000000000 Z
+    - ''
+  - - 202
+    - 232
+    - Spree::Variant
+    - 800
+    - 800
+    - 275420
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-02 14:01:33.000000000 Z
+    - ''
+  - - 203
+    - 232
+    - Spree::Variant
+    - 800
+    - 800
+    - 251934
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-02 14:02:30.000000000 Z
+    - ''
+  - - 204
+    - 232
+    - Spree::Variant
+    - 800
+    - 800
+    - 223389
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-02 14:05:09.000000000 Z
+    - ''
+  - - 205
+    - 232
+    - Spree::Variant
+    - 800
+    - 800
+    - 315270
+    - 7
+    - image/jpeg
+    - 7.jpg
+    - Spree::Image
+    - 2014-07-02 14:05:56.000000000 Z
+    - ''
+  - - 206
+    - 237
+    - Spree::Variant
+    - 800
+    - 800
+    - 103850
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-02 14:50:49.000000000 Z
+    - ''
+  - - 207
+    - 237
+    - Spree::Variant
+    - 800
+    - 800
+    - 114825
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-02 14:51:44.000000000 Z
+    - ''
+  - - 208
+    - 237
+    - Spree::Variant
+    - 800
+    - 800
+    - 167640
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-02 14:52:50.000000000 Z
+    - ''
+  - - 209
+    - 237
+    - Spree::Variant
+    - 800
+    - 800
+    - 165030
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-02 14:54:34.000000000 Z
+    - ''
+  - - 210
+    - 237
+    - Spree::Variant
+    - 800
+    - 800
+    - 233080
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-02 14:59:19.000000000 Z
+    - ''
+  - - 211
+    - 237
+    - Spree::Variant
+    - 800
+    - 800
+    - 263631
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-02 15:00:05.000000000 Z
+    - ''
+  - - 212
+    - 242
+    - Spree::Variant
+    - 800
+    - 800
+    - 93749
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-02 15:18:45.000000000 Z
+    - ''
+  - - 213
+    - 242
+    - Spree::Variant
+    - 800
+    - 800
+    - 259198
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-02 15:19:24.000000000 Z
+    - ''
+  - - 214
+    - 242
+    - Spree::Variant
+    - 800
+    - 800
+    - 154905
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-02 15:19:46.000000000 Z
+    - ''
+  - - 215
+    - 242
+    - Spree::Variant
+    - 800
+    - 800
+    - 255392
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-02 15:20:19.000000000 Z
+    - ''
+  - - 216
+    - 242
+    - Spree::Variant
+    - 800
+    - 800
+    - 145883
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-02 15:21:06.000000000 Z
+    - ''
+  - - 217
+    - 247
+    - Spree::Variant
+    - 800
+    - 800
+    - 51955
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 02:07:37.000000000 Z
+    - ''
+  - - 218
+    - 247
+    - Spree::Variant
+    - 800
+    - 800
+    - 184817
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 02:09:24.000000000 Z
+    - ''
+  - - 219
+    - 247
+    - Spree::Variant
+    - 800
+    - 800
+    - 239633
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 02:10:17.000000000 Z
+    - ''
+  - - 220
+    - 247
+    - Spree::Variant
+    - 800
+    - 800
+    - 94948
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 02:11:46.000000000 Z
+    - ''
+  - - 221
+    - 247
+    - Spree::Variant
+    - 800
+    - 800
+    - 242143
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 02:12:32.000000000 Z
+    - ''
+  - - 222
+    - 252
+    - Spree::Variant
+    - 800
+    - 800
+    - 98772
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 02:27:40.000000000 Z
+    - ''
+  - - 223
+    - 252
+    - Spree::Variant
+    - 800
+    - 800
+    - 378904
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 02:28:03.000000000 Z
+    - ''
+  - - 224
+    - 252
+    - Spree::Variant
+    - 800
+    - 800
+    - 383995
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 02:28:22.000000000 Z
+    - ''
+  - - 225
+    - 252
+    - Spree::Variant
+    - 800
+    - 800
+    - 382960
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 02:28:52.000000000 Z
+    - ''
+  - - 226
+    - 252
+    - Spree::Variant
+    - 800
+    - 800
+    - 393614
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 02:29:09.000000000 Z
+    - ''
+  - - 227
+    - 257
+    - Spree::Variant
+    - 800
+    - 800
+    - 60217
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 02:47:13.000000000 Z
+    - ''
+  - - 228
+    - 257
+    - Spree::Variant
+    - 800
+    - 800
+    - 293801
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 02:47:38.000000000 Z
+    - ''
+  - - 229
+    - 257
+    - Spree::Variant
+    - 800
+    - 800
+    - 370568
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 02:48:04.000000000 Z
+    - ''
+  - - 230
+    - 257
+    - Spree::Variant
+    - 800
+    - 800
+    - 378306
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 02:48:21.000000000 Z
+    - ''
+  - - 231
+    - 257
+    - Spree::Variant
+    - 800
+    - 800
+    - 333225
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 02:48:43.000000000 Z
+    - ''
+  - - 232
+    - 262
+    - Spree::Variant
+    - 800
+    - 800
+    - 299818
+    - 1
+    - image/jpeg
+    - 01.jpg
+    - Spree::Image
+    - 2014-07-03 02:58:31.000000000 Z
+    - ''
+  - - 233
+    - 262
+    - Spree::Variant
+    - 800
+    - 800
+    - 304005
+    - 2
+    - image/jpeg
+    - 02.jpg
+    - Spree::Image
+    - 2014-07-03 02:59:00.000000000 Z
+    - ''
+  - - 234
+    - 262
+    - Spree::Variant
+    - 800
+    - 800
+    - 435922
+    - 3
+    - image/jpeg
+    - 03.jpg
+    - Spree::Image
+    - 2014-07-03 02:59:22.000000000 Z
+    - ''
+  - - 235
+    - 262
+    - Spree::Variant
+    - 800
+    - 800
+    - 416142
+    - 4
+    - image/jpeg
+    - 04.jpg
+    - Spree::Image
+    - 2014-07-03 03:04:01.000000000 Z
+    - ''
+  - - 236
+    - 262
+    - Spree::Variant
+    - 800
+    - 800
+    - 429187
+    - 5
+    - image/jpeg
+    - 05.jpg
+    - Spree::Image
+    - 2014-07-03 03:04:54.000000000 Z
+    - ''
+  - - 237
+    - 267
+    - Spree::Variant
+    - 800
+    - 800
+    - 498810
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 03:21:39.000000000 Z
+    - ''
+  - - 238
+    - 267
+    - Spree::Variant
+    - 800
+    - 800
+    - 500579
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 03:21:56.000000000 Z
+    - ''
+  - - 239
+    - 267
+    - Spree::Variant
+    - 800
+    - 800
+    - 516322
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 03:22:12.000000000 Z
+    - ''
+  - - 240
+    - 267
+    - Spree::Variant
+    - 800
+    - 800
+    - 384431
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 03:22:25.000000000 Z
+    - ''
+  - - 241
+    - 267
+    - Spree::Variant
+    - 800
+    - 800
+    - 584299
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 04:11:55.000000000 Z
+    - ''
+  - - 242
+    - 267
+    - Spree::Variant
+    - 800
+    - 800
+    - 545296
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-03 04:13:28.000000000 Z
+    - ''
+  - - 243
+    - 267
+    - Spree::Variant
+    - 800
+    - 800
+    - 754725
+    - 7
+    - image/jpeg
+    - 7.jpg
+    - Spree::Image
+    - 2014-07-03 04:13:46.000000000 Z
+    - ''
+  - - 245
+    - 272
+    - Spree::Variant
+    - 800
+    - 800
+    - 589117
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 04:42:31.000000000 Z
+    - ''
+  - - 246
+    - 272
+    - Spree::Variant
+    - 800
+    - 800
+    - 587093
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 04:44:03.000000000 Z
+    - ''
+  - - 247
+    - 272
+    - Spree::Variant
+    - 800
+    - 800
+    - 589903
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 04:44:26.000000000 Z
+    - ''
+  - - 248
+    - 272
+    - Spree::Variant
+    - 800
+    - 800
+    - 719587
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 04:44:52.000000000 Z
+    - ''
+  - - 249
+    - 272
+    - Spree::Variant
+    - 800
+    - 800
+    - 668195
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 04:45:29.000000000 Z
+    - ''
+  - - 250
+    - 272
+    - Spree::Variant
+    - 800
+    - 800
+    - 645212
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-03 04:46:07.000000000 Z
+    - ''
+  - - 251
+    - 272
+    - Spree::Variant
+    - 800
+    - 800
+    - 743900
+    - 7
+    - image/jpeg
+    - 7.jpg
+    - Spree::Image
+    - 2014-07-03 04:47:09.000000000 Z
+    - ''
+  - - 252
+    - 277
+    - Spree::Variant
+    - 800
+    - 800
+    - 51179
+    - 0
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 08:17:26.000000000 Z
+    - ''
+  - - 254
+    - 277
+    - Spree::Variant
+    - 800
+    - 800
+    - 120621
+    - 2
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 08:20:26.000000000 Z
+    - ''
+  - - 255
+    - 277
+    - Spree::Variant
+    - 800
+    - 800
+    - 141215
+    - 3
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 08:23:06.000000000 Z
+    - ''
+  - - 256
+    - 277
+    - Spree::Variant
+    - 800
+    - 800
+    - 37501
+    - 1
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 08:24:01.000000000 Z
+    - ''
+  - - 257
+    - 277
+    - Spree::Variant
+    - 800
+    - 800
+    - 86469
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 08:28:18.000000000 Z
+    - ''
+  - - 258
+    - 277
+    - Spree::Variant
+    - 800
+    - 800
+    - 134132
+    - 5
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-03 08:28:40.000000000 Z
+    - ''
+  - - 259
+    - 282
+    - Spree::Variant
+    - 800
+    - 800
+    - 115717
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 08:37:58.000000000 Z
+    - ''
+  - - 260
+    - 282
+    - Spree::Variant
+    - 800
+    - 800
+    - 116778
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 08:38:39.000000000 Z
+    - ''
+  - - 261
+    - 282
+    - Spree::Variant
+    - 800
+    - 800
+    - 209423
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 08:39:27.000000000 Z
+    - ''
+  - - 262
+    - 282
+    - Spree::Variant
+    - 800
+    - 800
+    - 237639
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 08:39:45.000000000 Z
+    - ''
+  - - 263
+    - 282
+    - Spree::Variant
+    - 800
+    - 800
+    - 154417
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 08:40:11.000000000 Z
+    - ''
+  - - 264
+    - 282
+    - Spree::Variant
+    - 800
+    - 800
+    - 207496
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-03 08:40:45.000000000 Z
+    - ''
+  - - 265
+    - 287
+    - Spree::Variant
+    - 800
+    - 800
+    - 311826
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-03 08:51:47.000000000 Z
+    - ''
+  - - 266
+    - 287
+    - Spree::Variant
+    - 800
+    - 800
+    - 318608
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-03 08:52:26.000000000 Z
+    - ''
+  - - 267
+    - 287
+    - Spree::Variant
+    - 800
+    - 800
+    - 197845
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-03 08:52:51.000000000 Z
+    - ''
+  - - 268
+    - 287
+    - Spree::Variant
+    - 800
+    - 800
+    - 224860
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-03 08:54:27.000000000 Z
+    - ''
+  - - 269
+    - 287
+    - Spree::Variant
+    - 800
+    - 800
+    - 133926
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-03 08:54:48.000000000 Z
+    - ''
+  - - 270
+    - 287
+    - Spree::Variant
+    - 800
+    - 800
+    - 275319
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-03 08:55:46.000000000 Z
+    - ''
+  - - 271
+    - 287
+    - Spree::Variant
+    - 800
+    - 800
+    - 317771
+    - 7
+    - image/jpeg
+    - 7.jpg
+    - Spree::Image
+    - 2014-07-03 08:56:30.000000000 Z
+    - ''
+  - - 272
+    - 296
+    - Spree::Variant
+    - 800
+    - 800
+    - 112949
+    - 1
+    - image/jpeg
+    - 01.jpg
+    - Spree::Image
+    - 2014-07-07 00:38:35.000000000 Z
+    - ''
+  - - 273
+    - 296
+    - Spree::Variant
+    - 800
+    - 800
+    - 118455
+    - 2
+    - image/jpeg
+    - 02.jpg
+    - Spree::Image
+    - 2014-07-07 00:39:09.000000000 Z
+    - ''
+  - - 274
+    - 296
+    - Spree::Variant
+    - 800
+    - 800
+    - 429314
+    - 3
+    - image/jpeg
+    - 03.jpg
+    - Spree::Image
+    - 2014-07-07 00:40:45.000000000 Z
+    - ''
+  - - 275
+    - 296
+    - Spree::Variant
+    - 800
+    - 800
+    - 386811
+    - 4
+    - image/jpeg
+    - 04.jpg
+    - Spree::Image
+    - 2014-07-07 00:41:02.000000000 Z
+    - ''
+  - - 276
+    - 296
+    - Spree::Variant
+    - 800
+    - 800
+    - 401536
+    - 5
+    - image/jpeg
+    - 05.jpg
+    - Spree::Image
+    - 2014-07-07 00:41:39.000000000 Z
+    - ''
+  - - 277
+    - 301
+    - Spree::Variant
+    - 800
+    - 800
+    - 189256
+    - 1
+    - image/jpeg
+    - "主图1.jpg"
+    - Spree::Image
+    - 2014-07-07 00:51:56.000000000 Z
+    - ''
+  - - 278
+    - 301
+    - Spree::Variant
+    - 800
+    - 800
+    - 182921
+    - 2
+    - image/jpeg
+    - "主图2.jpg"
+    - Spree::Image
+    - 2014-07-07 00:52:42.000000000 Z
+    - ''
+  - - 279
+    - 301
+    - Spree::Variant
+    - 800
+    - 800
+    - 190594
+    - 3
+    - image/jpeg
+    - "主图3.jpg"
+    - Spree::Image
+    - 2014-07-07 00:53:32.000000000 Z
+    - ''
+  - - 280
+    - 301
+    - Spree::Variant
+    - 800
+    - 800
+    - 200936
+    - 4
+    - image/jpeg
+    - "主图4.jpg"
+    - Spree::Image
+    - 2014-07-07 00:56:34.000000000 Z
+    - ''
+  - - 281
+    - 301
+    - Spree::Variant
+    - 800
+    - 800
+    - 198529
+    - 5
+    - image/jpeg
+    - "主图5.jpg"
+    - Spree::Image
+    - 2014-07-07 00:58:49.000000000 Z
+    - ''
+  - - 282
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 174410
+    - 1
+    - image/jpeg
+    - 01.jpg
+    - Spree::Image
+    - 2014-07-07 01:07:08.000000000 Z
+    - ''
+  - - 283
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 167027
+    - 2
+    - image/jpeg
+    - 02.jpg
+    - Spree::Image
+    - 2014-07-07 01:07:57.000000000 Z
+    - ''
+  - - 284
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 465143
+    - 3
+    - image/jpeg
+    - 03.jpg
+    - Spree::Image
+    - 2014-07-07 01:08:40.000000000 Z
+    - ''
+  - - 285
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 559536
+    - 4
+    - image/jpeg
+    - 04.jpg
+    - Spree::Image
+    - 2014-07-07 01:09:07.000000000 Z
+    - ''
+  - - 286
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 371011
+    - 5
+    - image/jpeg
+    - 05.jpg
+    - Spree::Image
+    - 2014-07-07 01:09:52.000000000 Z
+    - ''
+  - - 287
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 165270
+    - 6
+    - image/jpeg
+    - 06.jpg
+    - Spree::Image
+    - 2014-07-07 01:10:25.000000000 Z
+    - ''
+  - - 288
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 171404
+    - 7
+    - image/jpeg
+    - 07.jpg
+    - Spree::Image
+    - 2014-07-07 01:10:43.000000000 Z
+    - ''
+  - - 289
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 390188
+    - 8
+    - image/jpeg
+    - 08.jpg
+    - Spree::Image
+    - 2014-07-07 01:11:09.000000000 Z
+    - ''
+  - - 290
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 530925
+    - 9
+    - image/jpeg
+    - 09.jpg
+    - Spree::Image
+    - 2014-07-07 01:12:23.000000000 Z
+    - ''
+  - - 291
+    - 307
+    - Spree::Variant
+    - 800
+    - 800
+    - 338293
+    - 10
+    - image/jpeg
+    - 10.jpg
+    - Spree::Image
+    - 2014-07-07 01:12:44.000000000 Z
+    - ''
+  - - 292
+    - 318
+    - Spree::Variant
+    - 800
+    - 800
+    - 129680
+    - 1
+    - image/jpeg
+    - 01.jpg
+    - Spree::Image
+    - 2014-07-07 01:18:48.000000000 Z
+    - ''
+  - - 293
+    - 318
+    - Spree::Variant
+    - 800
+    - 800
+    - 132193
+    - 2
+    - image/jpeg
+    - 02.jpg
+    - Spree::Image
+    - 2014-07-07 01:19:32.000000000 Z
+    - ''
+  - - 294
+    - 318
+    - Spree::Variant
+    - 800
+    - 800
+    - 384514
+    - 3
+    - image/jpeg
+    - 03.jpg
+    - Spree::Image
+    - 2014-07-07 01:20:25.000000000 Z
+    - ''
+  - - 295
+    - 318
+    - Spree::Variant
+    - 800
+    - 800
+    - 360687
+    - 4
+    - image/jpeg
+    - 04.jpg
+    - Spree::Image
+    - 2014-07-07 01:21:44.000000000 Z
+    - ''
+  - - 296
+    - 318
+    - Spree::Variant
+    - 800
+    - 800
+    - 374087
+    - 5
+    - image/jpeg
+    - 05.jpg
+    - Spree::Image
+    - 2014-07-07 01:23:44.000000000 Z
+    - ''
+  - - 297
+    - 324
+    - Spree::Variant
+    - 800
+    - 800
+    - 201523
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 01:31:42.000000000 Z
+    - ''
+  - - 298
+    - 324
+    - Spree::Variant
+    - 800
+    - 800
+    - 150361
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 01:32:16.000000000 Z
+    - ''
+  - - 299
+    - 324
+    - Spree::Variant
+    - 800
+    - 800
+    - 163893
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 01:32:32.000000000 Z
+    - ''
+  - - 300
+    - 324
+    - Spree::Variant
+    - 800
+    - 800
+    - 405004
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 01:32:48.000000000 Z
+    - ''
+  - - 301
+    - 324
+    - Spree::Variant
+    - 800
+    - 800
+    - 339590
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 01:33:10.000000000 Z
+    - ''
+  - - 302
+    - 324
+    - Spree::Variant
+    - 800
+    - 800
+    - 437845
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 01:35:54.000000000 Z
+    - ''
+  - - 303
+    - 334
+    - Spree::Variant
+    - 800
+    - 800
+    - 209249
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 02:53:27.000000000 Z
+    - ''
+  - - 304
+    - 334
+    - Spree::Variant
+    - 800
+    - 800
+    - 174399
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 02:53:52.000000000 Z
+    - ''
+  - - 305
+    - 334
+    - Spree::Variant
+    - 800
+    - 800
+    - 158330
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 02:54:14.000000000 Z
+    - ''
+  - - 306
+    - 334
+    - Spree::Variant
+    - 800
+    - 800
+    - 395985
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 02:54:57.000000000 Z
+    - ''
+  - - 307
+    - 334
+    - Spree::Variant
+    - 800
+    - 800
+    - 337311
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 02:55:29.000000000 Z
+    - ''
+  - - 308
+    - 334
+    - Spree::Variant
+    - 800
+    - 800
+    - 311098
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 02:55:49.000000000 Z
+    - ''
+  - - 309
+    - 329
+    - Spree::Variant
+    - 800
+    - 800
+    - 246164
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 02:57:03.000000000 Z
+    - ''
+  - - 310
+    - 329
+    - Spree::Variant
+    - 800
+    - 800
+    - 158289
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 02:57:49.000000000 Z
+    - ''
+  - - 311
+    - 329
+    - Spree::Variant
+    - 800
+    - 800
+    - 220722
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 03:01:39.000000000 Z
+    - ''
+  - - 312
+    - 329
+    - Spree::Variant
+    - 800
+    - 800
+    - 251462
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 03:04:41.000000000 Z
+    - ''
+  - - 313
+    - 329
+    - Spree::Variant
+    - 800
+    - 800
+    - 480425
+    - 5
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 03:06:53.000000000 Z
+    - ''
+  - - 314
+    - 339
+    - Spree::Variant
+    - 800
+    - 800
+    - 259255
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 03:16:41.000000000 Z
+    - ''
+  - - 315
+    - 339
+    - Spree::Variant
+    - 800
+    - 800
+    - 192227
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 03:17:32.000000000 Z
+    - ''
+  - - 316
+    - 339
+    - Spree::Variant
+    - 800
+    - 800
+    - 199061
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 03:19:06.000000000 Z
+    - ''
+  - - 317
+    - 339
+    - Spree::Variant
+    - 800
+    - 800
+    - 225131
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 03:21:06.000000000 Z
+    - ''
+  - - 318
+    - 339
+    - Spree::Variant
+    - 800
+    - 800
+    - 396008
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 03:41:12.000000000 Z
+    - ''
+  - - 319
+    - 339
+    - Spree::Variant
+    - 800
+    - 800
+    - 465825
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 04:14:50.000000000 Z
+    - ''
+  - - 320
+    - 363
+    - Spree::Variant
+    - 800
+    - 800
+    - 234869
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 07:59:34.000000000 Z
+    - ''
+  - - 321
+    - 363
+    - Spree::Variant
+    - 800
+    - 800
+    - 204018
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 07:59:57.000000000 Z
+    - ''
+  - - 322
+    - 363
+    - Spree::Variant
+    - 800
+    - 800
+    - 157756
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 08:01:49.000000000 Z
+    - ''
+  - - 323
+    - 363
+    - Spree::Variant
+    - 800
+    - 800
+    - 176047
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 08:02:20.000000000 Z
+    - ''
+  - - 324
+    - 363
+    - Spree::Variant
+    - 800
+    - 800
+    - 487718
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 08:02:42.000000000 Z
+    - ''
+  - - 325
+    - 363
+    - Spree::Variant
+    - 800
+    - 800
+    - 451142
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 08:03:02.000000000 Z
+    - ''
+  - - 326
+    - 372
+    - Spree::Variant
+    - 800
+    - 800
+    - 276578
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 08:34:50.000000000 Z
+    - ''
+  - - 327
+    - 372
+    - Spree::Variant
+    - 800
+    - 800
+    - 275521
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 08:35:07.000000000 Z
+    - ''
+  - - 329
+    - 372
+    - Spree::Variant
+    - 800
+    - 800
+    - 273948
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 08:40:37.000000000 Z
+    - ''
+  - - 330
+    - 372
+    - Spree::Variant
+    - 800
+    - 800
+    - 398165
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 08:49:20.000000000 Z
+    - ''
+  - - 331
+    - 372
+    - Spree::Variant
+    - 800
+    - 800
+    - 266455
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 09:20:17.000000000 Z
+    - ''
+  - - 332
+    - 372
+    - Spree::Variant
+    - 800
+    - 800
+    - 324165
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 09:21:19.000000000 Z
+    - ''
+  - - 333
+    - 372
+    - Spree::Variant
+    - 800
+    - 800
+    - 339933
+    - 7
+    - image/jpeg
+    - 7.jpg
+    - Spree::Image
+    - 2014-07-07 09:21:36.000000000 Z
+    - ''
+  - - 334
+    - 376
+    - Spree::Variant
+    - 800
+    - 800
+    - 294936
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 15:03:12.000000000 Z
+    - ''
+  - - 335
+    - 376
+    - Spree::Variant
+    - 800
+    - 800
+    - 213427
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 15:03:39.000000000 Z
+    - ''
+  - - 336
+    - 376
+    - Spree::Variant
+    - 800
+    - 800
+    - 171372
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 15:03:58.000000000 Z
+    - ''
+  - - 339
+    - 376
+    - Spree::Variant
+    - 800
+    - 800
+    - 219591
+    - 4
+    - image/jpeg
+    - 4_(1).jpg
+    - Spree::Image
+    - 2014-07-07 15:05:21.000000000 Z
+    - ''
+  - - 340
+    - 376
+    - Spree::Variant
+    - 800
+    - 800
+    - 433720
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 15:05:51.000000000 Z
+    - ''
+  - - 341
+    - 376
+    - Spree::Variant
+    - 800
+    - 800
+    - 445541
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 15:07:03.000000000 Z
+    - ''
+  - - 342
+    - 385
+    - Spree::Variant
+    - 800
+    - 800
+    - 168703
+    - 1
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 15:59:40.000000000 Z
+    - ''
+  - - 343
+    - 385
+    - Spree::Variant
+    - 800
+    - 800
+    - 261340
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 16:00:43.000000000 Z
+    - ''
+  - - 344
+    - 385
+    - Spree::Variant
+    - 800
+    - 800
+    - 152502
+    - 3
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 16:01:49.000000000 Z
+    - ''
+  - - 345
+    - 385
+    - Spree::Variant
+    - 800
+    - 800
+    - 170614
+    - 4
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 16:02:11.000000000 Z
+    - ''
+  - - 346
+    - 385
+    - Spree::Variant
+    - 800
+    - 800
+    - 377791
+    - 5
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 16:02:31.000000000 Z
+    - ''
+  - - 347
+    - 385
+    - Spree::Variant
+    - 800
+    - 800
+    - 309745
+    - 6
+    - image/jpeg
+    - 7.jpg
+    - Spree::Image
+    - 2014-07-07 16:03:00.000000000 Z
+    - ''
+  - - 348
+    - 385
+    - Spree::Variant
+    - 800
+    - 800
+    - 433010
+    - 7
+    - image/jpeg
+    - "未标题-1.jpg"
+    - Spree::Image
+    - 2014-07-07 16:03:25.000000000 Z
+    - ''
+  - - 349
+    - 390
+    - Spree::Variant
+    - 800
+    - 800
+    - 188535
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 16:17:39.000000000 Z
+    - ''
+  - - 350
+    - 390
+    - Spree::Variant
+    - 800
+    - 800
+    - 136647
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 16:18:01.000000000 Z
+    - ''
+  - - 351
+    - 390
+    - Spree::Variant
+    - 800
+    - 800
+    - 163423
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 16:18:21.000000000 Z
+    - ''
+  - - 352
+    - 390
+    - Spree::Variant
+    - 800
+    - 800
+    - 102506
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 16:18:54.000000000 Z
+    - ''
+  - - 353
+    - 390
+    - Spree::Variant
+    - 800
+    - 800
+    - 417552
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 16:20:08.000000000 Z
+    - ''
+  - - 354
+    - 390
+    - Spree::Variant
+    - 800
+    - 800
+    - 258105
+    - 6
+    - image/jpeg
+    - 6.jpg
+    - Spree::Image
+    - 2014-07-07 16:20:29.000000000 Z
+    - ''
+  - - 355
+    - 395
+    - Spree::Variant
+    - 800
+    - 800
+    - 174785
+    - 1
+    - image/jpeg
+    - 1.jpg
+    - Spree::Image
+    - 2014-07-07 23:40:32.000000000 Z
+    - ''
+  - - 356
+    - 395
+    - Spree::Variant
+    - 800
+    - 800
+    - 151648
+    - 2
+    - image/jpeg
+    - 2.jpg
+    - Spree::Image
+    - 2014-07-07 23:40:49.000000000 Z
+    - ''
+  - - 357
+    - 395
+    - Spree::Variant
+    - 800
+    - 800
+    - 170093
+    - 3
+    - image/jpeg
+    - 3.jpg
+    - Spree::Image
+    - 2014-07-07 23:41:08.000000000 Z
+    - ''
+  - - 358
+    - 395
+    - Spree::Variant
+    - 800
+    - 800
+    - 132949
+    - 4
+    - image/jpeg
+    - 4.jpg
+    - Spree::Image
+    - 2014-07-07 23:41:22.000000000 Z
+    - ''
+  - - 359
+    - 395
+    - Spree::Variant
+    - 800
+    - 800
+    - 205465
+    - 5
+    - image/jpeg
+    - 5.jpg
+    - Spree::Image
+    - 2014-07-07 23:41:51.000000000 Z
     - ''
