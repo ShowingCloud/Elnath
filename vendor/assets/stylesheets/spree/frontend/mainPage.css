@@ -25,6 +25,17 @@ a{
 	font-weight: bold;
 	margin-bottom:8px;
 }
+.clubSpan{
+	font-size: 10px;
+	background-color: #0FA6BC;
+	border-radius: 5px;
+	color: white;
+	width: 36px;
+	display: inline-block;
+	margin-top: -6px;
+	float: right;
+	font-weight: initial;
+}
 #locationDiv{
 	width:120px;
 	height:100px;
@@ -78,9 +89,14 @@ a{
 }
 #navigateList li{
 	float:left;
-	width:110px;
+	width:100px;
 	list-style: none;
+	margin-left:30px;
 	font-weight:bold;
+	font-size:15px;
+}
+#navigateList li:first-child{
+	margin-left:5px;
 }
 #productDisplayDiv{
 	width:950px;
@@ -250,11 +266,12 @@ a{
 	margin:0;
 	padding:0;
 }
-#bottomNavigateList >li{
-	list-style:none;
-	float:left;
-	width:118px;
-	text-align:center;
+#bottomNavigateList >li{    
+	list-style: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
 }
 #bottomNavigateList a{
 	color:white;
@@ -283,4 +300,23 @@ a{
 #copyRightDiv{
 	text-align:center;
 	margin-top:20px;
+}
+#brandStoryDiv{
+	width:950px;
+	margin:0 auto;
+	padding:0;	
+}
+#brandTitleDiv{
+	height: 42px;
+	width: 950px;
+	text-align: center;
+	background-color: #000;
+	color: white;
+	padding-top: 10px;
+	font-size: 30px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+#content{
+	margin-left:5px;
 }

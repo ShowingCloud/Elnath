@@ -1,0 +1,22 @@
+#brandStoryDiv{
+	width:950px;
+	margin:0 auto;
+	padding:0;
+}
+#brandTitleDiv{
+	height: 40px;
+	width: 950px;
+	text-align: center;
+	background-color: #000;
+	color: white;
+	padding-top: 18px;
+	font-size: 25px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+#sidebar{
+	display:none;
+}
+h1{
+	display:none;
+}
