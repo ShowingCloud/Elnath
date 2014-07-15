@@ -1,4 +1,4 @@
-body, div, li, input, button, p, a{font-family:'Microsoft YaHei'; }
+body, div, li, input, button, p, a,input[type="button"]{font-family:'Microsoft YaHei'; }
 p{
 	margin:0;
 	padding:0;
@@ -66,7 +66,8 @@ a{
 	outline: none;
 	display: block;
 	float: left;
-	height: 20px;
+	height: 22px;
+	padding-top:2px;
 }
 #searchBtnImg{
 	cursor: pointer;
@@ -85,7 +86,7 @@ a{
 #navigateList{
 	margin-bottom:0px;
 	margin-top:10px;
-	padding-left: 33px;
+	padding-left: 30px;
 }
 #navigateList li{
 	float:left;
@@ -113,6 +114,10 @@ a{
 }
 #rightProductDiv1{
 	float:left;
+	width:408px;
+}
+#rightProductDiv1 img{
+	width:408px;
 }
 #productDiv2{
 	width:950px;
@@ -147,6 +152,9 @@ a{
 	height:660px;
 	width:950px;
 }
+#topCenterProductDiv4{
+	padding-left: 30px;
+}
 #imageProductDiv4 p{
 	text-align:center;
 }
@@ -162,11 +170,11 @@ a{
 	float:left;
 }
 #lBottomCenterProductDiv4{
-	margin-left:80px;
+	margin-left:88px;
 	margin-right:20px;
 }
 #rightProductDiv4 > div{
-	margin-bottom:20px;
+	margin-bottom:28px;
 }
 #productDiv5{
 	width:950px;
@@ -186,7 +194,7 @@ a{
 	cursor:pointer;
 }
 #productDiv6{
-	height:420px;
+	height:750px;
 	width:950px;
 	font-weight:bold;
 }
@@ -219,6 +227,16 @@ a{
 }
 .productList div:first-child{
 	margin-left:0px;
+}
+.productList input{
+	background-color:black;
+	border:none;
+}
+#imageProductDiv6{
+	height:360px;
+}
+#imageProductBottomDiv6{
+	height:360px;
 }
 #rightFixedDiv{
 	position:fixed;
@@ -291,6 +309,33 @@ a{
 	font-size:13px;
 	font-weight:bold;
 }
+#serviceContentDiv img{
+	width:15px;
+}
+#memberDiv p{
+	padding-left:15px;
+}
+#memberDiv p:first-child{
+	padding-left:0px;
+}
+#transportDiv p{
+	padding-left:15px;
+}
+#transportDiv p:first-child{
+	padding-left:0px;
+}
+#aboutUsDiv p{
+	padding-left:15px;
+}
+#aboutUsDiv p:first-child{
+	padding-left:0px;
+}
+#helpDiv p{
+	padding-left:15px;
+}
+#helpDiv p:first-child{
+	padding-left:0px;
+}
 #serviceContentDiv a{
 	color:#666;
 }
@@ -298,22 +343,7 @@ a{
 	text-align:center;
 	margin-top:20px;
 }
-#brandStoryDiv{
-	width:950px;
-	margin:0 auto;
-	padding:0;	
-}
-#brandTitleDiv{
-	height: 42px;
-	width: 950px;
-	text-align: center;
-	background-color: #000;
-	color: white;
-	padding-top: 10px;
-	font-size: 30px;
-	margin-bottom: 12px;
-	font-weight: bold;
-}
+
 #content{
 	margin-left:5px;
 }
@@ -364,6 +394,8 @@ height:406px;
 position:relative; 
 float:left;
 margin-right:12px;
+font-weight:bold;
+font-size:14px;
 }
 #xiao4{
 	margin-right:0;

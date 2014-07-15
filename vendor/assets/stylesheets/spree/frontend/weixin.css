@@ -1,0 +1,19 @@
+#weixinDiv{
+	width:950px;
+	margin:0 auto;
+	padding:0;
+}
+#weixinTitleDiv{
+	height: 40px;
+	width: 950px;
+	text-align: center;
+	background-color: #000;
+	color: white;
+	padding-top: 18px;
+	font-size: 25px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+#weixinDiv2{
+	text-align:center;
+}

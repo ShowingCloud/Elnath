@@ -1,0 +1,13 @@
+#product-variants ul li {
+	list-style:none;
+	font-size:12px;
+}
+div [itemprop='description']{
+	text-align:center;
+}
+#add-to-cart-button{
+	background-color:black;
+}
+div [data-hook="product_price"] span [itemprop='price']{
+	color:black;
+}

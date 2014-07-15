@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<div id='addDiv2'>
-			<a href='#'><img src='/assets/spree/frontend/productDiv2.png'></a>
+			<a href='#'><img src='/assets/spree/frontend/productDiv2.jpg'></a>
 		</div>
 	</div>
 <% end %>
