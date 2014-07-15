@@ -22,17 +22,10 @@ spree_pages:
   records: 
   - - 1
     - "品牌故事"
-    - "<div id=\"brandStoryDiv\">\r\n<div id=\"brandDiv1\">\r\n<p><a href=\"/\">首页</a>/<a
-      href=\"#\">品牌介绍</a></p>\r\n\r\n<div id=\"brandTitleDiv\">BIG ROOSTER</div>\r\n</div>\r\n\r\n<div
-      id=\"brandDiv1\">\r\n<div><img src=\"/assets/spree/frontend/brand1.png\" /></div>\r\n\r\n<div><img
-      src=\"/assets/spree/frontend/brand2.png\" /></div>\r\n</div>\r\n\r\n<div id=\"brandDiv2\">\r\n<div><img
-      src=\"/assets/spree/frontend/brand3.png\" /></div>\r\n\r\n<div><img src=\"/assets/spree/frontend/brand4.png\"
-      /></div>\r\n\r\n<div style=\"margin-top:16px;\"><img src=\"/assets/spree/frontend/brand5.png\"
-      /></div>\r\n\r\n<div style=\"margin-top:16px;\"><img src=\"/assets/spree/frontend/brand6.png\"
-      /></div>\r\n\r\n<div><img src=\"/assets/spree/frontend/brand7.png\" /></div>\r\n</div>\r\n</div>\r\n"
+    - "<p>&nbsp; &nbsp;</p>\r\n"
     - "/brandIntroduce"
     - 2014-07-08 00:04:20.000000000 Z
-    - 2014-07-08 05:54:45.000000000 Z
+    - 2014-07-13 23:44:15.000000000 Z
     - false
     - false
     - ''
@@ -40,7 +33,24 @@ spree_pages:
     - true
     - ''
     - ''
+    - brandStory
+    - false
+    - "品牌故事"
+    - true
+  - - 3
+    - "微信"
+    - "<p> </p>"
+    - "/weixin"
+    - 2014-07-13 14:02:16.000000000 Z
+    - 2014-07-15 06:32:25.000000000 Z
+    - false
+    - false
     - ''
+    - 1
+    - true
+    - ''
+    - ''
+    - weixin
     - false
-    - brandIntroduce
-    - false
+    - "微信"
+    - true
