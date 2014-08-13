@@ -1,0 +1,2 @@
+cut :start=>'[data-hook="product_properties"]', :end=>'[data-hook="promotions"]'
+insert_after '[data-hook="product_description"]'
