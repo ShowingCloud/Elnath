@@ -1,8 +1,17 @@
+#product-variants h6{
+    display: none;
+}
+#product-variants li input{
+    display: none;
+}
 #product-images #product-thumbnails li{
     border:none;
 }
 #product-thumbnails li img{
     padding: 0px;
+}
+#taxon-crumbs{
+    display: none;
 }
 #content .columns[data-hook="product_left_part"]{
     width: 470px;
@@ -19,6 +28,10 @@
 #main-image{
     width:350px;
     float: left;
+}
+#main-image img{
+    width:350px;
+    height: 500px;
 }
 #thumbnails{
     width:105px;
@@ -41,6 +54,8 @@
 .jcarousel-skin-tango .jcarousel-clip-vertical {
     width:  105px;
     height: 466px;
+    margin-top: -20px;
+    margin-bottom: 3px;
 }
 
 .jcarousel-skin-tango .jcarousel-item {
@@ -85,7 +100,6 @@
  */
 .jcarousel-skin-tango .jcarousel-next-vertical {
     position: absolute;
-    bottom: 5px;
     width: 105px;
     height: 16px;
     cursor: pointer;
@@ -112,7 +126,7 @@
 
 .jcarousel-skin-tango .jcarousel-prev-vertical {
     position: absolute;
-    top: 5px;
+    top: 0px;
     width: 105px;
     height: 16px;
     cursor: pointer;

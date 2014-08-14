@@ -1,0 +1,4 @@
+<!--insert_top 'div#cart-form form'-->
+<div id='selector_input' data-hook='selector_input'>
+<span>尺码/颜色</span><span><img></span>
+</div>
