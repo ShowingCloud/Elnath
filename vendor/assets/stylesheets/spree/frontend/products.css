@@ -1,3 +1,32 @@
+#select_size_color span img{
+    height: 25px;
+    width: 25px;
+}
+#selectImgSpan{
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+#sizeAndColorInput{
+    float: left;
+    margin:3px 0 0 3px;
+}
+
+#product-variants{
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+#select_size_color{
+    border: 1px solid black;
+    height:25px;
+    width: 150px;
+}
+#product-variants ul li{
+    padding:0px;
+    width:125px;
+    background-color: white;
+}
 #product-variants h6{
     display: none;
 }
