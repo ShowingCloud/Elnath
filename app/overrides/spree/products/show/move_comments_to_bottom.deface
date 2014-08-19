@@ -1,0 +1,3 @@
+sequence 110
+cut "#reviews" 
+insert_top '[data-hook="product_bottom_part"]'

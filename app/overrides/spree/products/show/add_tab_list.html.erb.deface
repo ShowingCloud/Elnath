@@ -1,0 +1,9 @@
+<!-- insert_before '[data-hook="product_bottom_part"]' sequence :after => 'move_description_into_bottom'-->
+<div style='clear:both;'></div>
+<div id='productTabList'>
+	<ul>
+	<li id='productDetailsItem'>商品信息</li>
+	<li id='newCommentsItem'>最新评论</li>
+	<li id='afterSalesItem'>售后服务</li>
+	</ul>
+</div>

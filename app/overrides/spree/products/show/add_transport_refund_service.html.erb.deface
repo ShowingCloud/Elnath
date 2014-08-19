@@ -1,0 +1,7 @@
+<!--insert_after '[data-hook="product_properties"]'-->
+<div id='transportAndRefundService'>
+	<ul>
+	<li><a href='#'><span>退换货政策</span><span>&gt;</span></a></li>
+	<li><a href='#'><span>配送说明</span><span>&gt;</span></a></li>
+	</ul>
+</div>

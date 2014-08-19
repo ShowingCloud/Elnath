@@ -1,0 +1,2 @@
+cut 'div#product-price'
+insert_before '[data-hook="cart-form"]'

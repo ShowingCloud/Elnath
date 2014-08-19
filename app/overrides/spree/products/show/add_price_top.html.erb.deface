@@ -1,0 +1,8 @@
+<!-- insert_before '[data-hook="cart_form"]'-->
+<div id='productID'>
+	<p>产品编号：<span id='productSku'></span></p>
+	<div>
+		<span id='discount_price'></span>
+		<span id='original_price'></span>
+	</div>
+</div>
