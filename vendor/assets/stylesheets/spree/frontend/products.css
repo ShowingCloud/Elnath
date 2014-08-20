@@ -1,4 +1,4 @@
-/*#transportAndRefundService ul li span{
+#transportAndRefundService ul li span{
     display: inline-block;
 }
 #transportAndRefundService ul li span:first-child{
@@ -6,10 +6,14 @@
 }
 #transportAndRefundService ul li span:last-child{
     float: right;
-}*/
+}
 #transportAndRefundService ul li{
     list-style: none;
     border-bottom: 1px solid black;
+    height: 28px;
+    width: 360px;
+    margin-top: 10px;
+}
 }
 #afterSalesDiv{
     display:none;
@@ -59,6 +63,9 @@
 #select_size_color span img{
     height: 25px;
     width: 25px;
+}
+table#product-properties{
+    width:90%;
 }
 #selectImgSpan{
     display: inline-block;
@@ -111,10 +118,10 @@
 }
 #content .columns[data-hook="product_left_part"]{
     width: 470px;
-    
+    margin-right: 50px;
 }
 #content .columns[data-hook="product_right_part"]{
-    width: 450px;
+    width: 400px;
 }
 .jcarousel-container-vertical
 {
