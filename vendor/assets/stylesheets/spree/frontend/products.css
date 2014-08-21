@@ -1,3 +1,10 @@
+#product-properties td strong{
+    font-weight: normal;
+    font-size: 14px;
+}
+#transportAndRefundService{
+    margin-top:30px;
+}
 #transportAndRefundService ul li span{
     display: inline-block;
 }
@@ -13,7 +20,7 @@
     height: 28px;
     width: 360px;
     margin-top: 10px;
-}
+    font-size: 14px;
 }
 #afterSalesDiv{
     display:none;
@@ -66,6 +73,7 @@
 }
 table#product-properties{
     width:90%;
+    border:none;
 }
 #selectImgSpan{
     display: inline-block;
@@ -75,6 +83,7 @@ table#product-properties{
 #sizeAndColorInput{
     float: left;
     margin:3px 0 0 3px;
+    font-size: 14px;
 }
 
 #product-variants{
