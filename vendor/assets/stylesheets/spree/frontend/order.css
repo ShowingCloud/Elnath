@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th{ margin:0; padding:0;}
+body{ font-size:13px;font-family:Arial,'宋体';}
+a{ outline:none; color:#000; text-decoration:none;}
+table{border-spacing:0; border-collapse:collapse;}
+select, input, button, textarea {font: 100% Tahoma,Helvetica,Arial,sans-serif;border:1px #CACACA solid;background:#FFF;}
+.clear{ clear:both;}
+fieldset,img{ border:0; }
+address,caption,cite,code,dfn,em,th,var{ font-style:normal; font-weight:normal;}
+ol,ul{ list-style:none;}
+caption,th{ text-align:left;}
+h1,h2,h3,h4,h5,h6{ font-size:13px; font-weight:normal;}
+q:before,q:after{ content:"";}
+abbr,acronym{border:0;}
+a:active {outline:none;blr:expression(this.onFocus=this.blur());}
+img,a .img{border:0}
+select{ /*padding:2px 0 3px; vertical-align:middle;*/height:22px; line-height:18px; padding:2px 0; z-index:-1;}
+input,label{ vertical-align:middle;}
+/*文字排版*/
+.f12{ font-size:12px;}
+.f13{ font-size:13px;}
+.f14{ font-size:14px;}
+.f16{ font-size:16px;}
+.f20{ font-size:20px;}
+.f24{ font-size:24px;}
+.f30{ font-size:30px;}
+.fb{ font-weight:bold;}
+.fn{ font-weight:normal;}
+.t2{ text-indent:2em;}
+.lh150{ line-height:150%;}
+.lh180{ line-height:180%;}
+.lh200{ line-height:200%;}
+.unl{ text-decoration:underline;}
+.no_unl{ text-decoration:none; }
+/*定位*/
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.bc{ margin-left:auto; margin-right:auto;}
+.fl{ float:left; display:inline;}/*解决IE6双外边距Bug*/
+.fr{ float:right; display:inline;}
+.cb{ clear:both;}
+.cl{ clear:left;}
+.cr{ clear:right;}
+.clearfix:after,.logon li:after,.productDetailM .popPageSel:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}.clearfix{ display:inline-block}*html
+.clearfix,.logon li,.footerLists{ height:1%}.clearfix,.logon li{ display:block}
+.vm{ vertical-align:middle;}
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.abs-right{ position:absolute; right:0;}
+.zoom{ zoom:1;}/*IE专用*/
+.hidden{ visibility:hidden;}
+.none{ display:none;}
+/*边距*/
+.mt8{ margin-top:8px;}
+.mt3{ margin-top:3px;}
+.mt5{ margin-top:5px;}
+.mt10{ margin-top:10px;}
+.mr5{ margin-right:5px;}
+.mr10{ margin-right:10px;}
+.mr40{ margin-right:40px;}
+.ml13{ margin-left:13px;}
+.mr15{ margin-right:15px;}
+.mt13{ margin-top:13px;}
+.mt15{ margin-top:15px;}
+.mt20{ margin-top:20px;}
+.mt25{ margin-top:25px;}
+.mt30{ margin-top:30px;}
+.mt40{ margin-top:40px;}
+.ml10{ margin-left:10px;}
+.ml20{ margin-left:20px;}
+.mb5{ margin-bottom:5px;}
+.mb10{ margin-bottom:10px;}
+.mb25{ margin-bottom:25px;}
+.mb8 { margin-bottom:8px; }
+.mb20 { margin-bottom:20px; }
+.mb30 { margin-bottom:30px; }
+.mb40 { margin-bottom:40px; }
+.mb40{ margin-bottom:40px;}
+.ml1{ margin-left:1px;}
+.ml5{ margin-left:5px;}
+.mb15{ margin-bottom:15px;}
+.ml35{ margin-left:35px;}
+.mr30{ margin-right:30px;}
+.mb90{ margin-bottom:90px;}
+.mt50 { margin-top:50px; }
+
+.ml30 { margin-left:30px; }
+.ml35{ margin-left:35px;}
+.ml40{ margin-left:40px;}
+.mr20{ margin-right:20px;}
+.m10{ margin:10px;}
+.pl10 { padding-left:10px; }
+.pl15 { padding-left:15px; }
+.pt5 { padding-top:5px; }
+.pr5 { padding-right:5px; }
+.pt10 { padding-top:10px; }
+.pb10 { padding-bottom:10px; }
+.pt15 { padding-top:15px; }
+.pt20 { padding-top:20px; }
+.pl20 { padding-left:20px; }
+.pl30 { padding-left:30px; }
+.pr20{ padding-right:20px;}
+.pr30 { padding-right:30px; }
+.pd30 { padding-bottom:30px; }
+.pd20{ padding-bottom:20px;}
+.pd40 { padding-bottom:40px; }
+.p5{ padding:5px;}
+
+
+/*颜色*/
+.c-red{ color:#d91e25!important;}
+.b-red{ border:1px solid #d91e25!important;}
+.c-gray9{ color:#999;}
+.c-gray6{ color:#666;}
+/*宽度*/
+.w107px{width:107px;}
+.w102px{ width:102px;}
+.w117px{ width:117px;}
+.w127px{ width:127px;}
+.w200px{ width:200px;}
+.w150px{ width:150px;}
+.w575px{ width:575px; overflow:hidden;}
+.w585px{ width:585px;}
+.w780px{ width:780px;}
+.w95px{ width:95px;}
+.w120px{ width:120px;}
+.w130px{ width:130px;}
+.w140px{ width:140px;}
+.w150px{ width:150px;}
+.w180px{ width:180px;}
+.w76px{ width:76px;}
+.w50px{ width:50px;}
+.w778px{ width:778px;}
+.w598px{ width:598px;}
+.w748px{width:748px;}
+.h60px{ height:60px;}
+.w364px{ width:364px;}
+.w555px{ width:555px;}
+.h82px{ height:82px;}
+.w336px{ width:336px;}
+.w950px{ width:950px;}
+
+a{ outline:none; color:#000; text-decoration:none;}
+/*购物车table*/
+.cart{border:1px solid #C3C3C3;border-collapse:collapse;width:100%}
+.inmss {font:15px 'simsun';color:#CACACA;padding:5px 20px;#D7D7D7; border:1px #CACACA solid;}
+/*下单导航*/
+.Nav{ width:951px; overflow:hidden; }
+.Nav li { float:left; width:316px; text-align:center; font:15px/22px 'simsun'; color:#7f7f7f; border-bottom: 12px solid #e5e5e5; margin-right:1px; *display:inline-block;}
+.Nav li.NavSelectAfter{border-bottom: 12px solid #7F7F7F; font-weight:normal;}
+.Nav li.NavSelect { border-bottom: 12px solid #7F7F7F; font-weight:bold; }
+.helpB { border-bottom:1px solid #d1d1d1; overflow:hidden; *width:950px;}
+.helpList { overflow:hidden; margin-top:20px; _ height:1%;}
+.helpList li { float:left; margin-right:15px; }
+/*字体*/
+.font16 { font:bold 16px/18px 'simsun';}
+.font16 span { border-bottom:2px solid #000; padding-right:10px; padding-bottom:3px; }
+h1.font16h36 { font:bold 16px/36px 'simsun'; margin-left:5px;}
+.addressInfo h6,label{font: 16px/18px ;}
+/*按钮*/
+.BBtn { background:#000; padding:5px 20px; font:bold 15px 'simsun'; display:inline-block; text-align:center; color:#fff; cursor:pointer; }
+.GBtn { padding:5px 20px; font: 15px 'simsun'; display:inline-block; text-align:center; color:#CACACA; cursor:pointer; border:1px #CACACA solid;}
+
+/*结帐*/
+.settleAccountsList { width:300px;font-family:tahoma,arial,sans-serif;}
+
+
+
+
+.forgPasB { border-bottom:1px solid #d1d1d1; overflow:hidden; *width:950px;}
+.listAddress td { margin-top:10px;overflow: visible; margin-left:5px;}
+.listAddress td input, .listAddress li label { vertical-align:middle; margin-right:5px; font-family:Arial, '宋体'; }
+.peiSong { width:945px; margin-left:5px; }
+.registerText, .registerTextWarn { width:250px; line-height:24px; height:24px; overflow:hidden; border:1px solid #b2b2b2; padding:0 5px; display:block; }
+.clearfix:after,.logon li:after,.productDetailM .popPageSel:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}.clearfix{ display:inline-block}*html
+.mp0{margin:0; padding:0;}
+select{height: 25px;}

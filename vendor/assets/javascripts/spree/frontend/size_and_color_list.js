@@ -2,13 +2,13 @@ jQuery(document).ready(function() {
  /*   $('#selector_input').click(function(){
     	$('#product-variants').css('display','block');
     });*/
-	$([data-hook="product_properties"]>h6).html('产品信息');
+	$('[data-hook="product_properties"]>h6').html('产品信息');
 	
-
-	var priceDisplay = $('span[itemprop="price"]').html().replace('CNY','');
-	$('#discount_price').html(priceDisplay);
-	$('#original_price').html(priceDisplay);
-
+	if(typeof($('span[itemprop="price"]').html()) != "undefined"){
+		var priceDisplay = $('span[itemprop="price"]').html().replace('CNY','');
+		$('#discount_price').html(priceDisplay);
+		$('#original_price').html(priceDisplay);
+	}
 	//商品详情和评论之间的div切换
 	var selectItemPre = 'productDetailsItem';
 	$('#productDetailsItem').click(function(){
