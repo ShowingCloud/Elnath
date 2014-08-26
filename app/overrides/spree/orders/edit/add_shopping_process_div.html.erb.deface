@@ -1,7 +1,7 @@
 <!-- insert_before '[data-hook="cart_container"]'-->
 <div>
 	<div><a href='/'>首页</a>/<a href='#'>购物车</a></div>
-	<img src='/assets/spree/frontend/line_right.png'>
+	<img src=<%= image_path('spree/frontend/line_right.png') %>>
 	<ul class="Nav mt10">
 		<li class="NavSelect">1 查看购物车</li>
 		<li>2 填写并核对订单信息</li>
