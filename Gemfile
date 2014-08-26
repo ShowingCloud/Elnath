@@ -48,7 +48,7 @@ gem 'thin'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'spree', '~> 2.2.2'
+gem 'spree', github: 'ShowingCloud/spree', branch: '2-2-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-2-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-2-stable'
 
