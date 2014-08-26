@@ -215,7 +215,7 @@ table#product-properties{
     width: 105px;
     height: 16px;
     cursor: pointer;
-    background: transparent url(next-vertical.png) no-repeat center;
+    background: transparent url(image_path('spree/frontend/next-vertical.png')) no-repeat center;
 	background-color:#DDDDDD;
 }
 /*
@@ -242,7 +242,7 @@ table#product-properties{
     width: 105px;
     height: 16px;
     cursor: pointer;
-    background: transparent url(prev-vertical.png) no-repeat center;
+    background: transparent url(image_path('spree/frontend/prev-vertical.png')) no-repeat center;
 	background-color:#DDDDDD;
 }
 /*
