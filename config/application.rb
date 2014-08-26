@@ -31,8 +31,11 @@ module Elnath
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-	config.i18n.enforce_available_locales = false
-	config.i18n.available_locales = ["zh-CN"]
+    config.i18n.enforce_available_locales = false
+    config.i18n.available_locales = ["zh-CN"]
     config.i18n.default_locale = :'zh-CN'
+
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif *.ico *.ttf)
+
   end
 end
