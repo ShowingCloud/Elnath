@@ -1,19 +1,19 @@
 <!-- insert_before '[data-hook="cart_container"]'-->
 <div>
-<div><a href='/'>首页</a>/<a href='#'>购物车</a></div>
-<img src='/assets/spree/frontend/line_right.png'>
+	<div><a href='/'>首页</a>/<a href='#'>购物车</a></div>
+	<img src='/assets/spree/frontend/line_right.png'>
 	<ul class="Nav mt10">
-<li class="NavSelect">1 查看购物车</li>
-<li>2 填写并核对订单信息</li>
-<li>3 成功提交订单</li>
-</ul>
-<div class="helpB mt20 mb20 pd20">
-<h1 class="font16"><span>希望得到帮助</span></h1>
-<ul class="helpList">
-<li><a target="_blank" href="FAQ.html">常见问题</a></li>
-<li><a target="_blank" href="contactUs.html">联系我们</a></li>
-<li><a target="_blank" href="distribution.html">配送说明</a></li>
-<li><a target="_blank" href="returns.html">退换货政策</a></li>
-</ul>
-</div>
+		<li class="NavSelect">1 查看购物车</li>
+		<li>2 填写并核对订单信息</li>
+		<li>3 成功提交订单</li>
+	</ul>
+	<div class="helpB mt20 mb10 pb10">
+		<h1 class="font16"><span>希望得到帮助</span></h1>
+		<ul class="helpList">
+			<li><a target="_blank" href="FAQ.html">常见问题</a></li>
+			<li><a target="_blank" href="contactUs.html">联系我们</a></li>
+			<li><a target="_blank" href="distribution.html">配送说明</a></li>
+			<li><a target="_blank" href="returns.html">退换货政策</a></li>
+		</ul>
+	</div>
 </div>
