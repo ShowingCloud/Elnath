@@ -1,0 +1,2 @@
+cut '[data-hook="cart_item_price"]'
+insert_before '[data-hook="cart_item_total"]'

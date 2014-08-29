@@ -1,0 +1,4 @@
+<!--insert_bottom '[data-hook="cart_item_price"]'-->
+<div>
+	<input type='button' class='addToFavouriteBtn' value='移至收藏夹' />
+</div>

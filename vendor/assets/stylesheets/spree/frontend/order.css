@@ -1,3 +1,12 @@
+.cart-item-price>div,.cart-item-total>div{
+	margin-top: 40px;
+}
+.cart-item-price,.cart-item-total{
+	padding-top: 75px;
+}
+.cart-item-delete{
+	display: none;
+}
 #orderHeadDiv span:first-child{
 	font-weight: bold;
 	float: left;
