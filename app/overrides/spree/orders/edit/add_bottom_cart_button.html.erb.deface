@@ -1,0 +1,8 @@
+<!--insert_before '[data-hook="cart_buttons"]'-->
+<div id='selectOptionDiv'>
+	<ul>
+		<li><input type='checkbox' id='allChecekbox' class='selectAllCheckbox'><label for='allChecekbox'>全选</label></li>
+		<li><label id='moveSelectToFavour'>将所选商品移至收藏夹</label></li>
+		<li><label id='deleteSelectItem'>删除所选商品</label></li>
+	</ul>
+</div>

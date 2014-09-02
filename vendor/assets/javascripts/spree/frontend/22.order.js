@@ -2,16 +2,69 @@ jQuery(document).ready(function() {
 	$('.deleteProductBtn').click(function(){
 		var btnName = $(this).parent().parent().parent().find('.cart-item-delete').find('.delete').click();
 	});
-
+	if('undefined'!=typeof($('.cart-item-price').html()))
+	{
+		$('.cart-item-price').html($('.cart-item-price').html().replace('元','￥'));
+		$('.cart-item-total').html($('.cart-item-total').html().replace('元','￥'));
+	}
 	$('.selectAllCheckbox').click(function(){
-		$('.itemCheckbox').click();
+		if($(this).is(':checked'))
+		{
+			$('input[type="checkbox"]').prop('checked',true);
+		}
+		else
+		{
+			$('input[type="checkbox"]').prop('checked',false);
+		}
 	});
 
-	$('#topCheckoutBtn').click(function(){
-		var order={};
-		order['line_items_attributes'] = [];
+	$('.itemCheckbox').click(function(){
+		 //当没有选中某个子复选框时，selectAllCheckbox取消选中
+		$('.itemCheckbox').each(function(){
+   			if (!$(this).checked)
+   			{
+   				$('.selectAllCheckbox').prop('checked',false);
+   			};
+  		});
+		 //当所有子复选框选中的时候,selectAllCheckbox也被选中
+	    var chsub = $(".itemCheckbox").length; 
+	    var checkedsub = $(".itemCheckbox:checked").length;
+	    if (checkedsub == chsub) {
+	        $(".selectAllCheckbox").prop("checked", true); 
+	    }
+	});
+
+	$('.checkoutBtn').click(function(){
+		//var order={};
+		//order['line_items_attributes'] = [];
 		var rowLength = $("#line_items").children("tr").length;
+		var hasChecked = false;
+		var idCount=0;
+		$('.itemCheckbox').each(function(){
+			$(this).attr('id','itemcheckbox'+idCount);
+			idCount++;
+			if($(this).is(':checked'))
+			{
+				hasChecked=true;
+			}
+		});
+
+		if(!hasChecked)
+		{
+			alert('请选择商品！');
+			return;
+		}
 		for(var i=0;i<rowLength;i++)
+		{
+			if(!$('#itemcheckbox'+i).is(':checked'))
+			{	
+				//ToDo待后续修改，暂时未勾选的商品数量改为0
+				$('#order_line_items_attributes_'+i+'_quantity').attr('value','0');
+				//$('#order_line_items_attributes_'+i+'_id').remove();
+			}
+		}
+		$('#checkout-link').click();
+		/*for(var i=0;i<rowLength;i++)
 		{
 			order['line_items_attributes'][i] = {};
 			order['line_items_attributes'][i]['quantity'] = $('#order_line_items_attributes_'+i+'_quantity').attr('value');
@@ -24,7 +77,7 @@ jQuery(document).ready(function() {
 			data:	{
 				_method:'patch',
 				order:order
-				}
+				}*/
 				/*,
 			statusCode: {
 			    302: function(jqXHR) {
@@ -33,9 +86,8 @@ jQuery(document).ready(function() {
 			    },
 			    200:function(jqXHR) {
 			    	alert('456');
-			    },*/
-			}
-		).done(function(data, textStatus){
+			    },*/ 
+			/*}).done(function(data, textStatus){
 			alert('textStatus:'+textStatus);
 			console.log(data);
 			if (data.redirect) {
@@ -43,7 +95,7 @@ jQuery(document).ready(function() {
     		}
 		}).fail(function(resp){
 			alert('failed');
-		});
+		});*/
 	});
 
 });

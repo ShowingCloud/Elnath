@@ -1,3 +1,76 @@
+.currency{
+	display: none;
+}
+#line_items .line-item td input[type='button']{
+	background-color: white;
+	border: 1px solid #A6A6A6;
+	color: #A6A6A6;
+}
+#continueShopping{
+	border: 1px solid #A6A6A6;
+	height: 22px;
+	padding-top: 5px;
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+	color: #A6A6A6;
+}
+#bottomTotalPriceDiv{
+	margin-top: 20px;
+}
+#bottomTotalPriceDiv>p>span>input[type='button']{
+	width: 60px;
+	text-align: center;
+	background-color: black;
+	font-weight: normal;
+}
+#bottomTotalPriceDiv>p{
+	font-size: 14px;
+	height: 30px;
+	text-align: right;
+	margin-top: 5px;
+}
+#bottomTotalPriceDiv>p>a{
+	float: left;
+}
+#bottomTotalPriceDiv>p>span:first-child{
+	width:250px;
+	display: inline-block;
+}
+#bottomTotalPriceDiv>p>span:last-child{
+	width:110px;
+	padding-left: 20px;
+	display: inline-block;
+}
+#leaveWordsInput{
+	float: left;
+	width: 400px;
+}
+
+#update-cart>div[data-hook="inside_cart_form"]>div[data-hook="cart_buttons"]{
+	display: none;
+}
+#selectOptionDiv{
+	height: 30px;
+	background-color: #EFEFEF;
+}
+#allChecekbox{
+	margin-right:10px; 
+}
+#selectOptionDiv>ul>li{
+	float: left;
+	margin: 5px 20px 0 8px;
+	font-size: 14px;
+}
+#empty-cart{
+	display: none;
+}
+#cart_adjustments{
+	display: none;
+}
+#cart-detail tbody:last-child{
+	display: none;
+}
 .cart-item-price>div,.cart-item-total>div{
 	margin-top: 40px;
 }
@@ -16,8 +89,8 @@
 	margin-bottom: 6px;
 }
 #orderHeadDiv span input{
-background-color: black;
-width: 60px;
+	background-color: black;
+	width: 60px;
 }
 body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,textarea,p,th{ 
 	margin:0; 
