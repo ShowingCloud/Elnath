@@ -1,6 +1,30 @@
+
 	<div id='productDisplayDiv'>
 		<div id='productDiv1'>
-			<div id='leftProductDiv1'><a href='#'><img alt='Re_newproduct' src=<%= image_path('spree/frontend/leftProductDiv1.png') %> /></a></div>
+			<!--<div id='leftProductDiv1'><a href='#'><img alt='Re_newproduct' src=<%= image_path('spree/frontend/leftProductDiv1.png') %> /></a></div>-->
+			
+			<div id='leftProductDiv1' class="m-carousel m-fluid m-carousel-photos">
+				<div class="m-carousel-inner" style="min-height:8em;">
+					<div class="m-item m_0"  ontouchstart="zy_touch('btn-act')">
+					  <img src=<%= image_path('spree/frontend/leftProductDiv1.png') %> id="p0">
+					</div>
+					<div class="m-item m_1" ontouchstart="zy_touch('btn-act')">
+					  <img src=<%= image_path('spree/frontend/leftProductDiv1.png') %> id="p1">
+					</div>
+					<div class="m-item m_2"  ontouchstart="zy_touch('btn-act')">
+					  <img src=<%= image_path('spree/frontend/leftProductDiv1.png') %> id="p2">
+					</div>
+					<div class="m-item m_3"  ontouchstart="zy_touch('btn-act')">
+					  <img src=<%= image_path('spree/frontend/leftProductDiv1.png') %> id="p3">
+					</div>
+			    </div>
+				<div id='bottomIndexDiv' class="m-carousel-controls m-carousel-bulleted">
+					<a href="#" data-slide="1">1</a>
+					<a href="#" data-slide="2">2</a>
+					<a href="#" data-slide="3">3</a>
+					<a href="#" data-slide="4">4</a>
+				</div>
+			</div> 
 			<div id='rightProductDiv1'>
 				<div id='rightTopProductDiv1'><a href='#'><img alt='newproduct1' src=<%= image_path('spree/frontend/rightTopProductDiv1.jpg') %>></a></div>
 				<div id='rightBottomProductDiv1'><a href='#'><img alt='newproduct2' src=<%= image_path('spree/frontend/rightBottomProductDiv1.jpg') %>></a></div>

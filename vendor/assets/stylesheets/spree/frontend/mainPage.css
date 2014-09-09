@@ -147,9 +147,17 @@ a{
 	height:700px;
 	width:950px;
 }
+#bottomIndexDiv{
+	position:absolute;
+	bottom:20px;
+	right:200px;
+}
 #leftProductDiv1{
 	float:left;
 	margin-right:10px;
+	width:523px;
+	padding:0px;
+	margin:0px;
 }
 #rightProductDiv1{
 	float:left;
@@ -157,6 +165,7 @@ a{
 }
 #rightProductDiv1 img{
 	width:408px;
+	margin-left:15px;
 }
 #productDiv2{
 	width:950px;
