@@ -1,0 +1,52 @@
+<!-- insert_after '[data-hook="checkout_content"]' -->
+<input type='hidden' value=<%= @order.line_items.to_json %> >
+<div style="border: 1px solid #C3C3C3;background:#EFEFEF;margin-bottom:10px;margin-top:10px;margin-right:1px;text-align:center;padding: 5px 0px;">
+<table border="0" width="100%">
+<tr>
+<td width="20%">商品</td>
+<td width="20%">品名</td>
+<td width="9%">货号</td>
+<td width="10%">颜色&amp;尺码</td>
+<td width="9%">数量</td>
+<td width="9%">吊牌价</td>
+<td width="9%">官网价</td>
+<td width="9%">总价</td>
+</tr>
+</table>
+</div>
+<div style="text-align:center;margin-left:1px;margin-right:0px;">
+<table class="cart">
+<tr style="border-top:1px solid #C3C3C3;">
+<td width="20%" id='productImageTd'><img alt="" src="img/T-shirt.jpg"></td>
+<td width="20%" id='productNameTd'><a href="">简约基础男式短T袖</a></td>
+<td width="9%" id='productNumberTd'>23423425</td>
+<td width="10%" id='productSizeAndColorTd'><label>黑色L</label></td>
+<td width="9" id='productQuantityTd'><label>1</label></td>
+<td width="9%" id='brandPriceTd'>¥ 499.00</td>
+<td width="9%" id='officialPriceTd'>¥ 399.00</td>
+<td width="9%" id='itemTotalPriceTd'>¥ 399.00</td>
+</table>
+</div>
+<div class=" mt20 mr20 mb20 fr clearfix">
+	<table class="settleAccountsList">
+		<tr>
+			<td width="50%" align="right"><label>商品总金额 :</label></td>
+			<td><label>&nbsp;RMB&nbsp;¥&nbsp;</label></td>
+			<td style="text-align:right"><label>1197.00</label></td>
+		</tr>
+		<tr>
+			<td width="50%" align="right"><label>优惠 :</label></td>
+			<td><label>&nbsp;RMB&nbsp;¥&nbsp;</label></td>
+			<td style="text-align:right"><label>0.00</label></td>
+		</tr>
+		<tr>
+			<td width="50%" align="right"><label>总计金额（不含运费）:</label></td>
+			<td><label>&nbsp;RMB&nbsp;¥&nbsp;</label></td>
+			<td style="text-align:right"><label>1197.00</label></td>
+		</tr>
+		<tr>
+			<td colspan="3" align="left"><label>&nbsp;&nbsp;&nbsp;&nbsp;订单留言
+			:</label><label>XXXXXXXXXXXXXXXXXXXXXXX</label></td>
+		</tr>
+	</table>
+</div>
