@@ -54,3 +54,122 @@ spree_pages:
     - false
     - "微信"
     - true
+  - - 4
+    - "如何使用积分"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/howToUseScore"
+    - 2014-09-10 07:43:00.000000000 Z
+    - 2014-09-10 07:46:51.000000000 Z
+    - false
+    - false
+    - ''
+    - 2
+    - true
+    - ''
+    - ''
+    - howToUseScore
+    - false
+    - ''
+    - true
+  - - 5
+    - "配送说明"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/deliveryStatement"
+    - 2014-09-10 09:19:21.000000000 Z
+    - 2014-09-10 09:19:21.000000000 Z
+    - false
+    - false
+    - ''
+    - 3
+    - true
+    - ''
+    - ''
+    - deliveryStatement
+    - false
+    - ''
+    - true
+  - - 6
+    - "联系我们"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/connectUs"
+    - 2014-09-10 13:21:15.000000000 Z
+    - 2014-09-10 13:21:15.000000000 Z
+    - false
+    - false
+    - ''
+    - 4
+    - true
+    - ''
+    - ''
+    - connectUs
+    - false
+    - ''
+    - true
+  - - 7
+    - "常见问题"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/commonProblems"
+    - 2014-09-10 14:28:08.000000000 Z
+    - 2014-09-10 14:28:08.000000000 Z
+    - false
+    - false
+    - ''
+    - 5
+    - true
+    - ''
+    - ''
+    - commonProblems
+    - false
+    - ''
+    - true
+  - - 8
+    - "网站声明"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/announcement"
+    - 2014-09-11 02:32:52.000000000 Z
+    - 2014-09-11 02:32:52.000000000 Z
+    - false
+    - false
+    - ''
+    - 6
+    - true
+    - ''
+    - ''
+    - announcement
+    - false
+    - ''
+    - true
+  - - 9
+    - "收货地址薄"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/addressEdit"
+    - 2014-09-14 14:08:50.000000000 Z
+    - 2014-09-14 14:23:09.000000000 Z
+    - false
+    - false
+    - ''
+    - 7
+    - true
+    - ''
+    - ''
+    - address_edit
+    - false
+    - ''
+    - true
+  - - 10
+    - " 我的订单"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/orderHistory"
+    - 2014-09-16 12:30:35.000000000 Z
+    - 2014-09-16 12:30:35.000000000 Z
+    - false
+    - false
+    - ''
+    - 8
+    - true
+    - ''
+    - ''
+    - orderHistory
+    - false
+    - ''
+    - true

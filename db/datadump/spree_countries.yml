@@ -961,8 +961,8 @@ spree_countries:
     - CHN
     - China
     - 156
-    - false
-    - 2014-06-26 08:28:37.000000000 Z
+    - true
+    - 2014-07-21 01:28:23.000000000 Z
   - - 120
     - MALAYSIA
     - MY

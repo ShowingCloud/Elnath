@@ -19,20 +19,20 @@ spree_preferences:
     - 2014-06-26 08:28:38.000000000 Z
   - - 2
     - |
-      --- 5.0
+      --- 0.0
       ...
     - spree/calculator/shipping/flat_rate/amount/1
     - decimal
     - 2014-06-26 08:29:13.000000000 Z
-    - 2014-06-26 08:29:13.000000000 Z
+    - 2014-07-21 22:41:21.000000000 Z
   - - 3
     - |
-      --- USD
+      --- rmb
       ...
     - spree/calculator/shipping/flat_rate/currency/1
     - string
     - 2014-06-26 08:29:13.000000000 Z
-    - 2014-06-26 08:29:13.000000000 Z
+    - 2014-07-21 22:41:21.000000000 Z
   - - 4
     - |
       --- 5.0
@@ -104,7 +104,7 @@ spree_preferences:
     - spree/app_configuration/currency
     - string
     - 2014-06-26 08:29:16.000000000 Z
-    - 2014-07-09 09:18:08.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 13
     - |
       ---
@@ -113,7 +113,7 @@ spree_preferences:
     - spree_i18n/configuration/supported_locales
     - array
     - 2014-06-28 14:47:15.000000000 Z
-    - 2014-07-09 09:18:06.000000000 Z
+    - 2014-08-18 13:12:31.000000000 Z
   - - 14
     - |
       ---
@@ -122,7 +122,7 @@ spree_preferences:
     - spree_i18n/configuration/available_locales
     - array
     - 2014-06-28 14:47:15.000000000 Z
-    - 2014-07-09 09:18:06.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 15
     - |
       --- BIG ROOSTER -- BRITISH HERITAGE CASUAL
@@ -130,7 +130,7 @@ spree_preferences:
     - spree/app_configuration/site_name
     - string
     - 2014-06-28 14:47:15.000000000 Z
-    - 2014-07-15 09:24:51.000000000 Z
+    - 2014-09-16 16:49:31.000000000 Z
   - - 16
     - |
       --- BIG ROOSTER -- BRITISH HERITAGE CASUAL
@@ -138,7 +138,7 @@ spree_preferences:
     - spree/app_configuration/default_seo_title
     - string
     - 2014-06-28 14:47:16.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 17
     - |
       --- big,rooster,clothes,jeans
@@ -146,7 +146,7 @@ spree_preferences:
     - spree/app_configuration/default_meta_keywords
     - string
     - 2014-06-28 14:47:16.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 18
     - |
       --- BIG ROOSTER -- BRITISH HERITAGE CASUAL
@@ -154,7 +154,7 @@ spree_preferences:
     - spree/app_configuration/default_meta_description
     - string
     - 2014-06-28 14:47:16.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 19
     - |
       --- www.bigrooster.com.cn
@@ -162,7 +162,7 @@ spree_preferences:
     - spree/app_configuration/site_url
     - string
     - 2014-06-28 14:47:16.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 20
     - |
       --- true
@@ -170,7 +170,7 @@ spree_preferences:
     - spree/app_configuration/allow_ssl_in_production
     - boolean
     - 2014-06-28 14:47:16.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 21
     - |
       --- true
@@ -178,7 +178,7 @@ spree_preferences:
     - spree/app_configuration/allow_ssl_in_staging
     - boolean
     - 2014-06-28 14:47:16.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 22
     - |
       --- false
@@ -186,7 +186,7 @@ spree_preferences:
     - spree/app_configuration/allow_ssl_in_development_and_test
     - boolean
     - 2014-06-28 14:47:17.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 23
     - |
       --- true
@@ -194,15 +194,15 @@ spree_preferences:
     - spree/app_configuration/check_for_spree_alerts
     - boolean
     - 2014-06-28 14:47:17.000000000 Z
-    - 2014-07-09 09:18:07.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 24
     - |
-      --- false
+      --- true
       ...
     - spree/app_configuration/display_currency
     - boolean
     - 2014-06-28 14:47:17.000000000 Z
-    - 2014-07-09 09:18:08.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 25
     - |
       --- false
@@ -210,29 +210,29 @@ spree_preferences:
     - spree/app_configuration/hide_cents
     - boolean
     - 2014-06-28 14:47:17.000000000 Z
-    - 2014-07-09 09:18:08.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 26
     - |
-      --- after
+      --- before
       ...
     - spree/app_configuration/currency_symbol_position
     - string
     - 2014-06-28 14:47:18.000000000 Z
-    - 2014-07-09 09:18:08.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 27
     - |
       --- "."
     - spree/app_configuration/currency_decimal_mark
     - string
     - 2014-06-28 14:47:18.000000000 Z
-    - 2014-07-09 09:18:08.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 28
     - |
       --- ","
     - spree/app_configuration/currency_thousands_separator
     - string
     - 2014-06-28 14:47:18.000000000 Z
-    - 2014-07-09 09:18:08.000000000 Z
+    - 2014-08-18 13:12:32.000000000 Z
   - - 29
     - |
       --- true
@@ -240,7 +240,7 @@ spree_preferences:
     - spree/app_configuration/show_raw_product_description
     - boolean
     - 2014-06-29 15:39:12.000000000 Z
-    - 2014-07-15 09:24:51.000000000 Z
+    - 2014-09-16 16:49:31.000000000 Z
   - - 30
     - |
       --- CKEditor

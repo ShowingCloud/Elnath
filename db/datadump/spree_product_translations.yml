@@ -717,8 +717,8 @@ spree_product_translations:
     - 59
     - zh-CN
     - 2014-07-03 08:33:01.000000000 Z
-    - 2014-07-03 08:37:24.000000000 Z
-    - "时尚圆领POLO衫"
+    - 2014-09-16 05:11:17.000000000 Z
+    - "时尚女士休闲短裤"
     - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/190/content_-1_01.jpg\" /><img
       alt=\"\" src=\"/ckeditor_assets/pictures/191/content_-1_02.jpg\" style=\"height:1181px;
       width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/192/content_-1_03.jpg\"
@@ -728,8 +728,8 @@ spree_product_translations:
       /><img alt=\"\" src=\"/ckeditor_assets/pictures/197/content_-2_05.jpg\" /><img
       alt=\"\" src=\"/ckeditor_assets/pictures/198/content_-2_06.jpg\" style=\"height:781px;
       width:750px\" /></p>\r\n"
-    - "时尚 圆领 POLO衫"
-    - "时尚 圆领 POLO衫"
+    - "时尚 短裤"
+    - "时尚 短裤"
     - polo-1bca3107-d0f8-4b96-bfb3-bed7278436f2
   - - 73
     - 60
@@ -944,16 +944,6 @@ spree_product_translations:
     - "男士 时尚 短袖 POLO衫"
     - "男士 时尚 短袖 POLO衫"
     - yesa430231bt
-  - - 82
-    - 69
-    - zh-CN
-    - 2014-07-07 03:12:33.000000000 Z
-    - 2014-07-07 03:12:33.000000000 Z
-    - "时尚修身通勤T恤衫zz"
-    - 
-    - 
-    - 
-    - t-zz
   - - 83
     - 70
     - zh-CN
@@ -1330,8 +1320,8 @@ spree_product_translations:
     - 95
     - zh-CN
     - 2014-07-14 05:38:39.000000000 Z
-    - 2014-07-14 11:28:11.000000000 Z
-    - "春夏男纯色休闲短裤"
+    - 2014-09-16 05:45:21.000000000 Z
+    - "春夏男纯色休闲裤"
     - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/936/content_1.jpg\" /><img
       alt=\"\" src=\"/ckeditor_assets/pictures/937/content_2.jpg\" /><img alt=\"\"
       src=\"/ckeditor_assets/pictures/938/content_2-.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/939/content_2-.jpg\"
@@ -1587,8 +1577,8 @@ spree_product_translations:
     - 107
     - zh-CN
     - 2014-07-14 08:31:15.000000000 Z
-    - 2014-07-14 08:49:40.000000000 Z
-    - "春夏女修身时尚短裤"
+    - 2014-09-16 05:41:40.000000000 Z
+    - "春夏女修身时尚裤"
     - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/893/content_01.jpg\" style=\"height:1030px;
       width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/894/content_02.jpg\"
       style=\"height:715px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/895/content_03.jpg\"
@@ -1597,13 +1587,13 @@ spree_product_translations:
       line-height:1.6; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/897/content_05.jpg\"
       style=\"line-height:1.6\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/898/content_06.jpg\"
       style=\"line-height:1.6\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/900/content_07.jpg\"
-      style=\"line-height:1.6\" /><span style=\"line-height:1.6\">​<img alt=\"\" src=\"/ckeditor_assets/pictures/902/content_09.jpg\"
+      style=\"line-height:1.6\" />​<img alt=\"\" src=\"/ckeditor_assets/pictures/902/content_09.jpg\"
       /><img alt=\"\" src=\"/ckeditor_assets/pictures/903/content_10.jpg\" /><img
       alt=\"\" src=\"/ckeditor_assets/pictures/904/content_11.jpg\" /><img alt=\"\"
       src=\"/ckeditor_assets/pictures/905/content_12.jpg\" style=\"height:1128px;
       width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/906/content_13.jpg\"
       style=\"height:889px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/907/content_14.jpg\"
-      style=\"height:1467px; width:790px\" /></span></p>\r\n"
+      style=\"height:1467px; width:790px\" /></p>\r\n"
     - "春夏 女 修身 时尚 短裤"
     - "春夏 女 修身 时尚 短裤"
     - ytda430362gs
@@ -1634,7 +1624,7 @@ spree_product_translations:
     - 109
     - zh-CN
     - 2014-07-14 12:38:36.000000000 Z
-    - 2014-07-14 16:23:08.000000000 Z
+    - 2014-07-22 06:30:54.000000000 Z
     - "时尚条纹POLO短袖"
     - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/946/content_fd20220141_01.jpg\"
       /><img alt=\"\" src=\"/ckeditor_assets/pictures/947/content_fd20220141_02.jpg\"
@@ -1652,8 +1642,8 @@ spree_product_translations:
       style=\"height:1380px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/960/content_fd20220141b_08.jpg\"
       /><img alt=\"\" src=\"/ckeditor_assets/pictures/961/content_fd20220141b_09.jpg\"
       style=\"height:802px; width:750px\" /></p>\r\n"
-    - ''
-    - ''
+    - "时尚 条纹 POLO 短袖"
+    - "时尚 条纹 POLO 短袖"
     - fd20220141
   - - 120
     - 111
@@ -1674,3 +1664,38 @@ spree_product_translations:
     - "夏 女 通勤 休闲裤"
     - "夏 女 通勤 休闲裤"
     - ytda430162gp
+  - - 121
+    - 113
+    - zh-CN
+    - 2014-07-16 02:02:55.000000000 Z
+    - 2014-07-16 02:05:35.000000000 Z
+    - "皮包"
+    - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/971/content_01.jpg\" style=\"height:1456px;
+      width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/972/content_02.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/973/content_03.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/974/content_04.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/975/content_05.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/976/content_06.jpg\"
+      style=\"height:500px; width:750px\" /></p>\r\n"
+    - "皮包"
+    - "皮包"
+    - ylkb410371rs
+  - - 123
+    - 61
+    - en
+    - 2014-07-21 05:20:29.000000000 Z
+    - 2014-07-21 05:20:29.000000000 Z
+    - peisilihuawen
+    - ''
+    - ''
+    - ''
+    - ''
+  - - 124
+    - 109
+    - en
+    - 2014-07-21 05:28:49.000000000 Z
+    - 2014-07-21 05:28:49.000000000 Z
+    - shishangtiaowen
+    - ''
+    - ''
+    - ''
+    - ''

@@ -45,3 +45,15 @@ spree_calculators:
     - Spree::TaxRate
     - 2014-06-26 08:29:16.000000000 Z
     - 2014-06-26 08:29:16.000000000 Z
+  - - 7
+    - Spree::Calculator::DefaultTax
+    - 2
+    - Spree::TaxRate
+    - 2014-07-21 21:47:16.000000000 Z
+    - 2014-07-21 21:47:16.000000000 Z
+  - - 8
+    - Spree::Calculator::Shipping::FlatPercentItemTotal
+    - 6
+    - Spree::ShippingMethod
+    - 2014-07-22 06:27:41.000000000 Z
+    - 2014-07-22 06:27:41.000000000 Z

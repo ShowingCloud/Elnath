@@ -1,0 +1,44 @@
+
+---
+spree_reviews:
+  columns:
+  - id
+  - product_id
+  - name
+  - location
+  - rating
+  - title
+  - review
+  - approved
+  - created_at
+  - updated_at
+  - user_id
+  - ip_address
+  - locale
+  records: 
+  - - 2
+    - 109
+    - chen
+    - 
+    - 5
+    - asadfasdf
+    - ewewqewqeqw
+    - false
+    - 2014-08-19 07:07:48.000000000 Z
+    - 2014-08-19 07:07:48.000000000 Z
+    - 1
+    - 180.165.200.100
+    - en
+  - - 3
+    - 109
+    - '132'
+    - 
+    - 5
+    - '132'
+    - '321'
+    - false
+    - 2014-08-19 07:09:31.000000000 Z
+    - 2014-08-19 07:09:31.000000000 Z
+    - 1
+    - 180.165.200.100
+    - en
