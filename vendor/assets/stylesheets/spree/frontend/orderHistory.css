@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+a{ outline:none; color:#000; text-decoration:none;}
+a.disable{color:#CFCFCF}
+.wd20{width: 20%;}
+.wd70{width: 70%;}
+.wd20px{width: 20px;}
+.ml50{margin-left: 50px;}
+.mt20{ margin-top:20px;}
+.mr20{ margin-right:20px;}
+.mr30{ margin-right:30px;}
+.mb20{ margin-bottom:20px; }
+.mt50{margin-top: 50px;}
+.clearfix:after,.logon li:after,.productDetailM .popPageSel:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}.clearfix{ display:inline-block}*html
+.clearfix,.logon li,.footerLists{ height:1%}.clearfix,.logon li{ display:block}
+.settleAccountsList { width:400px;font-family:tahoma,arial,sans-serif;}
+.fl{float: left;}
+.fr{float: right;}
+.left{text-align:center;border:1px solid #D3D3D3;border-collapse:collapse;float: left;width: 160px;margin-right: 10px;font-size:12px;}
+.left h4{background:#4B4A48;color:#FFFFFF;padding:5px;border-top:1px solid #D3D3D3;border-bottom:1px solid #D3D3D3;margin-top:0;}
+.left p{color: #5D5D5D;}
+.right{width: 730px;float: left; margin-left:25px; font-family: tahoma,arial,sans-serif;}
+
+.process{margin-left:60px;margin-bottom:30px;text-align: center;font-size: 12px;} 
+.node{font-size: 26px;color: #0FA6BB;text-decoration: none;margin: 0;}
+.shortline{width:145px;height:3px;background-color:#0FA6BB;border-radius: 5px;}
+.listtb{width:95%;margin:0 auto;border-collapse:collapse;}
+.listtd1{border:solid 1px #D3D3D3;background:#DDDDDD;padding: 5px;}.listtd2{border:solid 1px #D3D3D3;padding: 5px;}
+.Btn { background:#0FA6BB; padding:5px 20px; font:bold 15px 'simsun'; display:inline-block; text-align:center; color:#fff; cursor:pointer; }
+.myorder{margin: 10px 10px;;border:1px solid #D3D3D3;} .myorder table{width: 98%;margin-left: auto;margin-right: auto;margin-bottom:10px;border-collapse:collapse;} .myorder td{border-bottom:1px solid #D3D3D3;}
+
+/*翻页*/
+div.digg { margin: 30px; text-align: center ;color: #A6A6A6;
+} 
+div.digg a { 
+border: #A8A8A8 1px solid; padding: 0px 5px;margin: 2px; 
+color: #878787; text-decoration: none 
+} 
+div.digg span.current { 
+border: #A8A8A8 1px solid; padding: 0px 5px; font-weight: bold;
+margin: 2px;color: #fff; background-color: #878787 
+} 
+div.digg span.disabled { 
+border: #A8A8A8 1px solid; padding:0px 1px; 
+ margin: 2px; color: #C9C9C9; 
+} 
+
+div.digg a.next { 
+border: #A8A8A8 1px solid; padding:0px 1px; 
+ margin: 2px; color: #898989; 
+} 
+
+tr.favorite{text-align:center;} tr.favorite td{border-bottom: 2px dashed #D3D3D3;}
+input.addto{margin-top:20px;padding:4px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;}
