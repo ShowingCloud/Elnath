@@ -1,0 +1,4 @@
+<!-- surround '#product-properties'-->
+<div id='properties_slider_div'>
+	<%= render_original %>
+</div>
