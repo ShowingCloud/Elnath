@@ -1,23 +1,29 @@
+<div style='margin-bottom:20px;'>
+	<p style='margin:10px 0;'>
+		<a href='/'>首页</a>/<a href='#'>收货地址薄</a>
+	</p>
+	<img src=<%= image_path('spree/frontend/line_right.png') %>>
+</div>
 <div id='addrLeftPartDiv'>
 	<ul>
-		<li>会员中心</li>
-		<li>会员中心</li>
-		<li>积分商城</li>
-		<li>交易管理</li>
-		<li>我的订单</li>
-		<li>我的收藏</li>
-		<li>我的评价</li>
-		<li>账户管理</li>
-		<li>修改个人资料</li>
-		<li>修改密码</li>
-		<li>收货地址簿</li>
-		<li>服务中心</li>
-		<li>退换货政策</li>
+		<li class='headLi'>会员中心</li>
+		<li class='childLi firstChildLi'><a href='#'>会员中心</a></li>
+		<li class='childLi lastChildLi'><a href='#'>积分商城</a></li>
+		<li class='headLi'>交易管理</li>
+		<li class='childLi firstChildLi'><a href='#'>我的订单</a></li>
+		<li class='childLi'><a href='#'>我的收藏</a></li>
+		<li class='childLi lastChildLi'><a href='#'>我的评价</a></li>
+		<li class='headLi'>账户管理</li>
+		<li class='childLi firstChildLi'><a href='#'>修改个人资料</a></li>
+		<li class='childLi'><a href='#'>修改密码</a></li>
+		<li class='childLi lastChildLi'><a href='#'>收货地址簿</a></li>
+		<li class='headLi'>服务中心</li>
+		<li class='childLi firstChildLi lastChildLi'><a href='#'>退换货政策</a></li>
 	</ul>
 </div>
 <div id='addrRightPartDiv'>
 	<div id='addrRightTopDiv'>
-		<span>现有收货地址</span>
+		<img class='headImage' src=<%= image_path('spree/frontend/existedAddr.png') %>>
 	</div>
 	<div id='existedAddrDiv'>
 		<div id='addrDetailsDiv'>
@@ -30,15 +36,19 @@
 		</div>
 	</div>
 	<div id='addrRightBottomDiv'>
-		<div id='addAddrHeadDiv'><span>新增收货地址</span></div>
+		<div id='addAddrHeadDiv'><img class='headImage' src=<%= image_path('spree/frontend/addReceiveAddr.png') %>></div>
 		<div id='addAddrInputDiv'>
-			<p><label>收货人姓名：</label><input type="text" id='consigneeInput'></p>
-			<p><label>地区：</label><select><option>请选择</option></select>省/直辖市<select><option>请选择</option></select>市/地区<select><option>请选择</option></select>市区/县</p>
-			<p><label></label><input type="text" id="streetAddrInput" placeholder='请直接填写街道地址，省市区不需填写'></p>
-			<p><label>邮编地址：</label><input type="text" id='postcodeInput'></p>
-			<p><label>手机号码：</label><input type="text" id='mobilePhoneInput'></p>
-			<p><label>固定电话：</label><input type="text" id='telephoneInput1'>-<input type="text" id='telephoneInput2'>-<input type="text" id='telephoneInput3'></p>
-			<p><input type="checkbox" id='setDefaultAddrChk'><label>设为默认地址</label></p>
+			<p>
+				<label class='leftLabel' style='float:left'>收货人姓名：</label>
+				<input type="text" id='consigneeInput' style='display:inline-block;float:left;'>
+			</p>
+			<p><label class='leftLabel'>地区：</label><select><option value=''>请选择</option></select>省/直辖市<select><option>请选择</option></select>市/地区<select><option>请选择</option></select>市区/县</p>
+			<p><label class='leftLabel'></label><input type="text" id="streetAddrInput" placeholder='请直接填写街道地址，省市区不需填写'></p>
+			<p><label class='leftLabel'>邮编地址：</label><input type="text" id='postcodeInput'></p>
+			<p><label class='leftLabel'>手机号码：</label><input type="text" id='mobilePhoneInput'><label>手机和电话号码至少必填一项</label></p>
+			<p><label class='leftLabel'>固定电话：</label><input type="text" id='telephoneInput1' style='width:50px' placeholder='区号'>-<input type="text" id='telephoneInput2' style='width:110px' placeholder='电话号码'>-<input type="text" id='telephoneInput3' style='width:110px' placeholder='分机号'>
+			</p>
+			<p><label class='leftLabel'></label><input type="checkbox" id='setDefaultAddrChk'><label for='setDefaultAddrChk'>设为默认地址</label></p>
 			<p><input type="button" value="保存" id='saveAddrBtn'></p>
 		</div>
 	</div>

@@ -1,0 +1,72 @@
+.headLi{
+	text-align: center;
+	height: 25px;
+	background-color: #4B4A48;
+	color: white;
+	padding-top: 5px;
+	border-left: 1px solid #EFEFEF;
+	border-right: 1px solid #EFEFEF;
+}
+.childLi{
+	text-align: center;
+	height: 22px;
+	border-left: 1px solid #EFEFEF;
+	border-right: 1px solid #EFEFEF;
+}
+#addrLeftPartDiv{
+	float: left;
+	width: 160px;
+}
+#addrRightPartDiv{
+	float: left;
+	margin-left: 30px;
+	border: 1px solid #EFEFEF;
+	padding: 20px;
+	width: 700px;
+}
+#addrRightTopDiv{
+	border-bottom: 1px dashed #EFEFEF;
+}
+#existedAddrDiv{
+	padding: 10px 0;
+	border-bottom: 1px solid #EFEFEF;
+}
+#addrRightBottomDiv{
+	padding: 20px 0;
+}
+#addAddrHeadDiv{
+	border-bottom: 1px dashed #EFEFEF;
+}
+#addrLeftPartDiv ul li:last-child{
+	border-bottom: 1px solid #EFEFEF;
+}
+.firstChildLi{
+	padding-top:12px;
+}
+.lastChildLi{
+	padding-bottom:12px;
+}
+.headImage{
+	width:125px
+}
+.leftLabel{
+	width:100px;
+	display: inline-block;
+	margin-left:40px;
+}
+#addAddrInputDiv p{
+	margin:20px 0;
+	height:27px;
+}
+#streetAddrInput{
+	width:397px;
+}
+#saveAddrBtn{
+	margin-left:140px;
+	height:25px;
+	width:80px;
+	background-color:#10A5BB;
+}
+#addAddrInputDiv>p>select{
+	width:100px;
+}
