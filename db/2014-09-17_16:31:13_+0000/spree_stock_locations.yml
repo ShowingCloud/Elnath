@@ -1,0 +1,53 @@
+
+---
+spree_stock_locations:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  - address1
+  - address2
+  - city
+  - state_id
+  - state_name
+  - country_id
+  - zipcode
+  - phone
+  - active
+  - backorderable_default
+  - propagate_all_variants
+  - admin_name
+  records: 
+  - - 1
+    - default
+    - 2014-06-26 08:28:11.000000000 Z
+    - 2014-06-26 08:29:25.000000000 Z
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 49
+    - 
+    - 
+    - true
+    - true
+    - true
+    - 
+  - - 2
+    - "中国仓库"
+    - 2014-07-21 21:40:10.000000000 Z
+    - 2014-07-21 21:40:10.000000000 Z
+    - ''
+    - ''
+    - ''
+    - 56
+    - 
+    - 119
+    - ''
+    - ''
+    - true
+    - false
+    - true
+    - china

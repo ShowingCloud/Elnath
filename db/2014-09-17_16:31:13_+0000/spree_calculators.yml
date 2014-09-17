@@ -1,0 +1,59 @@
+
+---
+spree_calculators:
+  columns:
+  - id
+  - type
+  - calculable_id
+  - calculable_type
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Spree::Calculator::Shipping::FlatRate
+    - 1
+    - Spree::ShippingMethod
+    - 2014-06-26 08:29:12.000000000 Z
+    - 2014-06-26 08:29:12.000000000 Z
+  - - 2
+    - Spree::Calculator::Shipping::FlatRate
+    - 2
+    - Spree::ShippingMethod
+    - 2014-06-26 08:29:12.000000000 Z
+    - 2014-06-26 08:29:12.000000000 Z
+  - - 3
+    - Spree::Calculator::Shipping::FlatRate
+    - 3
+    - Spree::ShippingMethod
+    - 2014-06-26 08:29:12.000000000 Z
+    - 2014-06-26 08:29:12.000000000 Z
+  - - 4
+    - Spree::Calculator::Shipping::FlatRate
+    - 4
+    - Spree::ShippingMethod
+    - 2014-06-26 08:29:12.000000000 Z
+    - 2014-06-26 08:29:12.000000000 Z
+  - - 5
+    - Spree::Calculator::Shipping::FlatRate
+    - 5
+    - Spree::ShippingMethod
+    - 2014-06-26 08:29:12.000000000 Z
+    - 2014-06-26 08:29:13.000000000 Z
+  - - 6
+    - Spree::Calculator::DefaultTax
+    - 1
+    - Spree::TaxRate
+    - 2014-06-26 08:29:16.000000000 Z
+    - 2014-06-26 08:29:16.000000000 Z
+  - - 7
+    - Spree::Calculator::DefaultTax
+    - 2
+    - Spree::TaxRate
+    - 2014-07-21 21:47:16.000000000 Z
+    - 2014-07-21 21:47:16.000000000 Z
+  - - 8
+    - Spree::Calculator::Shipping::FlatPercentItemTotal
+    - 6
+    - Spree::ShippingMethod
+    - 2014-07-22 06:27:41.000000000 Z
+    - 2014-07-22 06:27:41.000000000 Z
