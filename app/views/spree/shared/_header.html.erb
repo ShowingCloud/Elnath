@@ -1,14 +1,35 @@
+	<% cart_item_count = 0 %>
+	<% if @order %>
+		<% cart_item_count = @order.item_count %>
+	<% end %>
 	<div id='topDiv'>
 		<div id='locationDiv' class='topDivCLass'>
 			<p>您的位置:<label>中国/RMB</label></p>
 			<p><label>English</label>/<label>Chinese</label></p>
 		</div>
 		<div id='logoDiv' class='topDivCLass'><a href='/'><img src=<%= image_path('spree/frontend/bigRoosterLogo.png') %> alt='logo'/></a></div>
-		<div id='loginOrRegDiv' class='topDivCLass'>
-			<p><a href='/checkout/registration'>登录</a>/<a href='/signup'>注册</a></p>
-			<p><a href='#'>购物车</a>[<label>0</label>]</p>
-			<p id='searchInputP'><input id='searchInputText' type='text' placeholder='搜索'><img id='searchBtnImg' src=<%= image_path('spree/frontend/searchImg.png') %> alt='search'></p>
-		</div>
+		<% if current_spree_user %>
+			<div id='userInfoDiv' class='topDivCLass'>
+				<p>
+					<select>
+						<option>Hi <%= current_spree_user.login %></option>
+						<option onclick="javascript:window.location='/logout'">退出登录</option>
+					</select>
+				</p>
+				<p>
+					<a id='linkToCredits' href='#'>可用积分[<label>0</label>]</a>
+					<a id='linkToCart' href='/cart'>购物车[<label><%= cart_item_count %></label>]</a>
+					<a id='linkToFavourite' href='#'>收藏夹[<label>0</label>]</a>
+				</p>
+				<p id='searchInputP'><input id='searchInputText' type='text' placeholder='搜索'><img id='searchBtnImg' src=<%= image_path('spree/frontend/searchImg.png') %> alt='search'></p>
+			</div>
+		<% else %>
+			<div id='loginOrRegDiv' class='topDivCLass'>
+				<p><a href='/login'>登录</a>/<a href='/signup'>注册</a></p>
+				<p><a href='/cart'>购物车</a>[<label><%= cart_item_count %></label>]</p>
+				<p id='searchInputP'><input id='searchInputText' type='text' placeholder='搜索'><img id='searchBtnImg' src=<%= image_path('spree/frontend/searchImg.png') %> alt='search'></p>
+			</div>
+		<% end %>
 		<div style='clear:both'></div>
 		<div id='navigateDiv'>
 			<ul id='navigateList'>
