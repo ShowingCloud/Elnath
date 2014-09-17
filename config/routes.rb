@@ -1,5 +1,9 @@
 Elnath::Application.routes.draw do
 
+  get '/favorites', :to => 'spree/products#favorites'
+  get '/add_favorite', :to => 'spree/products#add_favorite'
+  get '/remove_favorite', :to => 'spree/products#remove_favorite'
+
   mount Ckeditor::Engine => '/ckeditor'
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
