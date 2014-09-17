@@ -2,8 +2,10 @@
 	<% if @order %>
 		<% cart_item_count = @order.item_count %>
 	<% end %>
-	<% Array(session[:recently_visited]).each do |id| %>
-		<%= @products.find(id) %>
+	<% if @products %>
+		<% Array(session[:recently_visited]).each do |id| %>
+			<%= @products.find_by_id(id) %>
+		<% end %>
 	<% end %>
 	<div id='topDiv'>
 		<div id='locationDiv' class='topDivCLass'>
