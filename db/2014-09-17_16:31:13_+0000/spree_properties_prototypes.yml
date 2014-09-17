@@ -1,9 +1,0 @@
-
----
-spree_properties_prototypes:
-  columns:
-  - prototype_id
-  - property_id
-  records: 
-  - - 4
-    - 12
