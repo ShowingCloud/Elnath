@@ -2,6 +2,9 @@
 	<% if @order %>
 		<% cart_item_count = @order.item_count %>
 	<% end %>
+	<% Array(session[:recently_visited]).each do |id| %>
+		<%= @products.find(id) %>
+	<% end %>
 	<div id='topDiv'>
 		<div id='locationDiv' class='topDivCLass'>
 			<p>您的位置:<label>中国/RMB</label></p>
