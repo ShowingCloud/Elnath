@@ -1,0 +1,6 @@
+<!-- insert_top '.product-image' sequence :after => 'sort_product_as_time'-->
+<p id='newTagP'>
+	<% if (Time.now - product.available_on).to_i < 1296001 %>
+		<span id='newTagSpan'>NEW</span>
+	<% end %>
+</p>
