@@ -7,3 +7,29 @@
      text-align: center;
      font-weight: bold;
 }
+.costPriceSpan{
+	text-decoration: line-through;
+	font-size:14px;
+	float:right;
+	margin-right:10px;
+	}
+ul#products li .price {
+	color: red;
+	font-size: 14px;
+	display: inline-block;
+	padding-top:0;
+	float:left;
+	margin-left:10px;
+}
+ul#products li a.info{
+	border:none;
+	height:25px;
+}
+#newTagSpan{
+	border: 1px solid #C0C0C0;
+	color: #C0C0C0;
+}
+#newTagP{
+	text-align: left;
+	height: 20px;
+}
