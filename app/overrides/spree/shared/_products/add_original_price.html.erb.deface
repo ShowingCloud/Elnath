@@ -1,0 +1,2 @@
+<!-- insert_after '[itemprop="price"]' sequence :after => 'sort_product_as_time' -->
+<span class='costPriceSpan'>￥<%= product.cost_price%></span>
