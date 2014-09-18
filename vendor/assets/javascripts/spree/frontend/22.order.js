@@ -1,12 +1,22 @@
 jQuery(document).ready(function() {
-	$('.deleteProductBtn').click(function(){
-		var btnName = $(this).parent().parent().parent().find('.cart-item-delete').find('.delete').click();
+	$("#logoutSelector").change(function(){
+		if( $("#logoutSelector").val()==1)
+		{
+			window.location='/logout';
+		}
 	});
+	
+	$('.deleteProductBtn').click(function(){
+		alert($(this).parent().parent().parent().find('.cart-item-delete').find('.delete').attr('id'));
+		$(this).parent().parent().parent().find('.cart-item-delete').find('.delete').click();
+	});
+	
 	if('undefined'!=typeof($('.cart-item-price').html()))
 	{
 		$('.cart-item-price').html($('.cart-item-price').html().replace('元','￥'));
 		$('.cart-item-total').html($('.cart-item-total').html().replace('元','￥'));
 	}
+	
 	$('.selectAllCheckbox').click(function(){
 		if($(this).is(':checked'))
 		{
