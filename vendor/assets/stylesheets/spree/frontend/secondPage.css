@@ -33,3 +33,34 @@ ul#products li a.info{
 	text-align: left;
 	height: 20px;
 }
+.pagination>.prev{
+	display:none;
+}
+.pagination>.next{
+	display:none;
+}
+.pagination>.first{
+	display:none;
+}
+.pagination>.last{
+	display:none;
+}
+.pagination>.page{
+	border:1px solid black;
+	height:18px;
+	width:18px;
+	margin:0 5px;
+	font-size: 13px;
+	display: inline-block;
+	text-align: center;
+}
+.pagination>.current{
+	background-color:black;
+	color:white;
+}
+.pagination>.gap{
+	border:none;
+}
+.pagination{
+	padding-left:350px;
+}

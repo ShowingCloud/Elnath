@@ -16,4 +16,5 @@
 <% end %>
 <% reset_cycle("classes") %>
 </ul>
+<input type='hidden' id='imagePathHid' value='<%= image_path('spree/frontend/pageLeft.png') %>'>
 
