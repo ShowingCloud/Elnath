@@ -21,7 +21,7 @@ module Spree
 
 		def	write_recently_visited
 			load_product
-			session[:recently_visited] = Array(session[:recently_visited]).insert(0, @product.id).uniq.take(5)
+			session[:recently_visited] = Array(session[:recently_visited]).insert(0, @product.id).uniq.take(10)
 		end
 
 	end
