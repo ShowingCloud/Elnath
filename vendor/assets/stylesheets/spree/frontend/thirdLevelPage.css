@@ -5,8 +5,23 @@
 div [itemprop='description']{
 	text-align:center;
 }
+#inside-product-cart-form>div[data-hook="product_price"]{
+	margin-left:0;
+}
 #add-to-cart-button{
 	background-color:black;
+	display:block;
+	width:150px;
+	margin:8px 0;
+}
+#add_to_favour{
+	background-color:black;
+	display:block;
+	width:150px;
+	margin:8px 0;
+	padding-top:7px;
+	padding-bottom:7px;
+	font-size:14px;
 }
 div [data-hook="product_price"] span [itemprop='price']{
 	color:black;
