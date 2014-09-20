@@ -1,7 +1,16 @@
 jQuery(document).ready(function() {
- /*   $('#selector_input').click(function(){
+	//商品图片滚动条
+	$("#product-thumbnails").attr("class", "thumbnails jcarousel jcarousel-skin-tango");
+    $("#product-thumbnails li img").attr("height", "110px");
+    $("#product-thumbnails li img").attr("width", "105px");
+    jQuery('#product-thumbnails').jcarousel({
+        vertical: true,
+        scroll: 2
+    });
+	/* $('#selector_input').click(function(){
     	$('#product-variants').css('display','block');
     });*/
+	//
 	$('[data-hook="product_properties"]>h6').html('产品信息');
 	
 	if(typeof($('span[itemprop="price"]').html()) != "undefined"){

@@ -1,0 +1,10 @@
+<!-- replace '.add-to-cart' -->
+<div class="add-to-cart">
+	<%= number_field_tag :quantity, 1, :class => 'title', :min => 1 %>
+	<label id='productRemain'>剩余<span id='stockQuantity'> </span>件</label>
+	<%= button_tag :class => 'large primary', :id => 'add-to-cart-button', :type => :submit do %>
+	<%= Spree.t(:add_to_cart) %>
+	<% end %>
+	<input type='button' id='add_to_favour' value='加入收藏夹'>
+	<input type='hidden' id='productId' value='<%= @product.id %>'>
+</div>
