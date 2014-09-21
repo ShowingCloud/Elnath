@@ -1,3 +1,42 @@
+ul#recentBrowsedlist li .price {
+	color: red;
+	font-size: 14px;
+	display: inline-block;
+	padding-top:0;
+	float:left;
+}
+ul#recentBrowsedlist li .price .costPriceSpan{
+	margin-right:0;
+}
+#recentBrowseDiv > p:first-child{
+	height: 30px;
+	font-size: 16px;
+	text-align: center;
+	margin: 20px 0;
+}
+#recentBrowseDiv{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right:10px;
+	border:1px solid #9FA0A0;
+	width:900px;
+}
+#recentBrowsedlist{
+	padding-left:30px;
+	height: 180px;
+	width: 870px;
+}
+#recentBrowsedlist [data-hook="recent_browsed_item"]
+{
+	width:125px;
+	margin-left:10px;
+}
+#recentBrowsedlist li a.info{
+	margin-top: 5px;
+	font-size: 12px;
+	color: #bbbbbb;
+	overflow: hidden;
+}
 .taxonomy-root{
      text-align: center;
      color: white;
@@ -12,7 +51,8 @@
 	font-size:14px;
 	float:right;
 	margin-right:10px;
-	}
+	color: black;
+}
 ul#products li .price {
 	color: red;
 	font-size: 14px;
@@ -32,6 +72,9 @@ ul#products li a.info{
 #newTagP{
 	text-align: left;
 	height: 20px;
+}
+#taxonomies{
+	width:180px;
 }
 .pagination>.prev{
 	display:none;

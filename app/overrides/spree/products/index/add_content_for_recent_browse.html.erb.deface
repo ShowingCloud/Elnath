@@ -1,0 +1,27 @@
+<!-- insert_before 'erb[silent]:contains(":keywords")' -->
+<% content_for :advertisement do %>
+	<div style='clear:both;'></div>
+	<div id='recentBrowseDiv'>
+	<p>最近浏览</p>
+	<% if @products_recently_visited.any? %>
+	<ul id="recentBrowsedlist" class="inline product-listing" data-hook='recent_browse_ul'>
+	<% @products_recently_visited.take(6).each do |product| %>
+			<% url = product_path(product, :taxon_id => @taxon.try(:id)) %>
+			<li id="recent_browsed_<%= product.id %>" class="columns three <%= cycle("alpha", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="recent_browsed_item" itemscope itemtype="http://schema.org/Product">
+			<% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
+			<div class="product-image">
+			<%= link_to small_image(product, :itemprop => "image"), url, :itemprop => 'url' %>
+			</div>
+			<%= link_to truncate(product.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => product.name %>
+			<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+			<span class="price selling" itemprop="price"><%= display_price(product) %>
+			<span class='costPriceSpan'>￥<%= product.cost_price%></span>
+			</span>
+			<% end %>
+			</li>
+		<% end %>
+		<% reset_cycle("classes") %>
+		</ul>
+	<% end %>
+	</div>
+<% end %>
