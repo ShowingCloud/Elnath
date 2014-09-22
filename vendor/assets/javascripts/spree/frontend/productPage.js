@@ -11,6 +11,10 @@ jQuery(document).ready(function() {
     	$('#product-variants').css('display','block');
     });*/
 	//
+	if($('[itemprop="browsedItem"]>[itemprop="price"]').length!=0)
+	{
+		$('[itemprop="browsedItem"]>[itemprop="price"]').html($('[itemprop="browsedItem"]>[itemprop="price"]').html().replace('CNY',''));
+	}
 	$('[data-hook="product_properties"]>h6').html('产品信息');
 	
 	if(typeof($('span[itemprop="price"]').html()) != "undefined"){

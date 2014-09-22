@@ -1,3 +1,10 @@
+span[itemprop="browsedItem"]{
+	display:block;
+	height:25px;
+}
+span[itemprop="browsedItem"] span{
+	font-size:13px;
+}
 ul#recentBrowsedlist li .price {
 	color: red;
 	font-size: 14px;
@@ -30,6 +37,7 @@ ul#recentBrowsedlist li .price .costPriceSpan{
 {
 	width:125px;
 	margin-left:10px;
+	text-align:center;
 }
 #recentBrowsedlist li a.info{
 	margin-top: 5px;
