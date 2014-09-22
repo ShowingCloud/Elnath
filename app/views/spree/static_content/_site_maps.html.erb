@@ -1,0 +1,113 @@
+<style>
+p{font-size:13px}
+a{color:black; text-decoration:none;}
+#navigateDiv1 {
+ height: 40px;
+ text-align: center;
+ margin-top: 10px; 
+ border-top-color: rgb(0, 0, 0);
+ border-top-width: 3px;
+}
+#navigateList1 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+#navigateList1 > li:first-child{
+	margin-left: 0px; 
+}
+#navigateList1 > li {
+	list-style: none; 
+	width: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 5px; 
+	float: left;text-align:center;
+}
+.secondMenu1 li:first-child {
+	border-top:1px solid black; 
+}
+.secondMenu1 li {
+	list-style: none;
+	width: 100px; 
+	height: 20px; 
+	text-align: center; 
+	padding-top: 5px; 
+	font-size: 12px;
+}
+.secondMenu1 li a {
+	font-weight: normal;
+}	
+.clubSpan {
+	border-radius: 5px;
+	width: 36px;
+	color: white;
+	font-size: 10px; 
+	margin-top: -6px; 
+	float: right;
+	display:inline-block;
+	background-color: rgb(15, 166, 188);
+}
+.border_bottom{
+	border-bottom:1px solid black;
+}
+</style>
+<h5 style='margin-left:20px;'>
+	<a href='/'>首页</a>/<a href='#'>网站地图</a>
+</h5>
+<img src=<%= image_path('spree/frontend/line_right.png') %>>
+<DIV id="navigateDiv1">
+<UL id="navigateList1">
+  <LI class='border_bottom'><A href="/">首页</A>				 </LI>
+  <LI ><A href="/products' target='_blank'" target="_blank">所有商品</A>					 
+		<UL class="secondMenu1">
+			<LI><A href="/t/shang-zhuang">上装</A></LI>
+			<LI><A href="/t/xia-zhuang#">下装</A></LI>
+			<LI><A href="/t/wai-tao">外套</A></LI>
+			<LI><A href="/t/pei-jian">配饰</A></LI>
+		</UL>
+	</LI>
+  <LI><A href="/t/nan-zhuang-shang-zhuang">男装</A>					 
+	<UL class="secondMenu1">
+		<LI><A href="/t/nan-zhuang-shang-zhuang/chen-shan">衬衫</A></LI>
+		<LI><A href="/t/nan-zhuang-shang-zhuang/poloshan">POLO衫</A></LI>
+		<LI><A href="/t/nan-zhuang-shang-zhuang/txu-slash-bei-xin">T恤/卫衣</A></LI>
+		<LI><A href="/t/nan-zhuang-shang-zhuang/zhen-zhi-shan">针织衫</A></LI>
+		<LI><A href="/t/nan-zhuang-shang-zhuang/wai-tao">外套</A></LI>
+		<LI><A href="/t/nan-zhuang-shang-zhuang/ku-zhuang">裤装</A></LI>
+		<LI><A href="/t/nan-zhuang-shang-zhuang/pei-shi">配饰</A></LI>
+	</UL>
+	</LI>
+  <LI><A href="/t/nu-zhuang-shang-zhuang">女装</A>					 
+  <UL class="secondMenu1">
+    <LI><A href="/t/nu-zhuang-shang-zhuang/chen-yi">衬衫</A></LI>
+    <LI><A href="/t/nu-zhuang-shang-zhuang/poloshan">POLO衫</A></LI>
+    <LI><A href="/t/nu-zhuang-shang-zhuang/txu-slash-bei-xin">T恤/卫衣</A></LI>
+    <LI><A href="/t/nu-zhuang-shang-zhuang/zhen-zhi-shan">针织衫</A></LI>
+    <LI><A href="/t/nu-zhuang-shang-zhuang/lian-yi-qun">连衣裙</A></LI>
+    <LI><A href="/t/nu-zhuang-shang-zhuang/wai-tao">外套</A></LI>
+    <LI><A href="/t/nu-zhuang-shang-zhuang/ku-zhuang">裤装</A></LI>
+    <LI><A href="/t/nu-zhuang-shang-zhuang/pei-shi">配饰</A></LI></UL></LI>
+	<LI class='border_bottom'><A href="#">最新活动</A></LI>
+	<LI><A href="#" target="_blank">品牌介绍</A>
+		<UL class="secondMenu1">
+			<LI><A href="#">BIG ROOSTER</A></LI>
+			<LI><A href="http://www.baoxiniao.com.cn/">中国报喜鸟集团</A></LI>
+		</UL>
+	</LI>
+	<LI class='border_bottom'><A href="#">会员中心</A></LI>
+	<LI><A href="#">帮助中心</A>
+		<UL class="secondMenu1">
+			<LI><A href="/commonProblems">常见问题</A></LI>
+			<LI><A href="/announcement">网站声明</A></LI>
+			<LI><A href="/connectUs">联系我们</A></LI>
+			<LI><A href="#">门店地址</A></LI>
+			<LI><A href="#">网站地图</A></LI>
+		</UL>
+	</LI>
+	<LI><A href="#" target="_blank">关注我们</A>
+		<UL class="secondMenu1">
+			<LI><A href="http://weibo.com/bigrooster">新浪微博</A></LI>
+			<LI><A href="/weixin">微信</A></LI></UL></LI>
+		</UL>
+	</li>
+</DIV>

@@ -4,40 +4,40 @@
 		<div id='bottomNavigateDiv'>
 			<ul id='bottomNavigateList'>
 				<li>
-					<a href='#'>首页</a>
+					<a href='/'>首页</a>
 				</li>
 				<li>
 					<a href='/products' target='_blank'>所有商品</a>
 					<ul class="secondMenu">
-							<li><a href="#">上装</a></li>
-							<li><a href="#">下装</a></li>
-							<li><a href="#">外套</a></li>
-							<li><a href="#">配饰</a></li>
+							<li><a href="/t/shang-zhuang">上装</a></li>
+							<li><a href="/t/xia-zhuang">下装</a></li>
+							<li><a href="/t/wai-tao">外套</a></li>
+							<li><a href="/t/pei-jian">配饰</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href='#'>男装</a>
+					<a href='/t/nan-zhuang-shang-zhuang'>男装</a>
 					<ul class="secondMenu">
-							<li><a href="#">衬衫</a></li>
-							<li><a href="#">POLO衫</a></li>
-							<li><a href="#">T恤/卫衣</a></li>
-							<li><a href="#">针织衫</a></li>
-							<li><a href="#">外套</a></li>
-							<li><a href="#">裤装</a></li>
-							<li><a href="#">配饰</a></li>
+							<li><a href="/t/nan-zhuang-shang-zhuang/chen-shan">衬衫</a></li>
+							<li><a href="/t/nan-zhuang-shang-zhuang/poloshan">POLO衫</a></li>
+							<li><a href="/t/nan-zhuang-shang-zhuang/txu-slash-bei-xin">T恤/卫衣</a></li>
+							<li><a href="/t/nan-zhuang-shang-zhuang/zhen-zhi-shan">针织衫</a></li>
+							<li><a href="/t/nan-zhuang-shang-zhuang/wai-tao">外套</a></li>
+							<li><a href="/t/nan-zhuang-shang-zhuang/ku-zhuang">裤装</a></li>
+							<li><a href="/t/nan-zhuang-shang-zhuang/pei-shi">配饰</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href='#'>女装</a>
+					<a href='/t/nu-zhuang-shang-zhuang'>女装</a>
 					<ul class="secondMenu">
-							<li><a href="#">衬衫</a></li>
-							<li><a href="#">POLO衫</a></li>
-							<li><a href="#">T恤/卫衣</a></li>
-							<li><a href="#">针织衫</a></li>
-							<li><a href="#">连衣裙</a></li>
-							<li><a href="#">外套</a></li>
-							<li><a href="#">裤装</a></li>
-							<li><a href="#">配饰</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/chen-yi">衬衫</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/poloshan">POLO衫</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/txu-slash-bei-xin">T恤/卫衣</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/zhen-zhi-shan">针织衫</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/lian-yi-qun">连衣裙</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/wai-tao">外套</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/ku-zhuang">裤装</a></li>
+							<li><a href="/t/nu-zhuang-shang-zhuang/pei-shi">配饰</a></li>
 					</ul>
 				</li>
 				<li><a href='#'>最新活动</a></li>
@@ -56,27 +56,27 @@
 				<p><img src=<%= image_path('spree/frontend/userLogo.png') %> alt='userLogo'>会员专区</p>
 				<p><a href='#'>会员中心</a></p>
 				<p><a href='#'>会员制度</a></p>
-				<p><a href='#'>如何使用积分</a></p>
-				<p><a href='#'>会员常见问题</a></p>
+				<p><a href='/howToUseScore'>如何使用积分</a></p>
+				<p><a href='/commonProblems'>会员常见问题</a></p>
 			</div>
 			<div id='transportDiv'>
 				<p><img src=<%= image_path('spree/frontend/transports.png') %> alt='transports' style="width:14px;">配送流程</p>
-				<p><a href='#'>配送说明</a></p>
-				<p><a href='#'>退货说明</a></p>
+				<p><a href='/deliveryStatement'>配送说明</a></p>
+				<p><a href='/goodsReturn'>退换货说明</a></p>
 			</div>
 			<div id='aboutUsDiv'>
 				<p><img src=<%= image_path('spree/frontend/home.png') %> alt='home'>关于我们</p>
-				<p><a href='#'>BIG ROOSTER</a></p>
+				<p><a href='/brandIntroduce'>BIG ROOSTER</a></p>
 				<p><a href='#'>中国报喜鸟集团</a></p>
 				<p><a href='#'>产品系列</a></p>
 			</div>
 			<div id='helpDiv'>
 				<p><img src=<%= image_path('spree/frontend/connectUs.png') %> alt='connectUs'>帮助中心</p>
-				<p><a href='#'>常见问题</a></p>
-				<p><a href='#'>网站声明</a></p>
-				<p><a href='#'>联系我们</a></p>
+				<p><a href='/commonProblems'>常见问题</a></p>
+				<p><a href='/announcement'>网站声明</a></p>
+				<p><a href='/connectUs'>联系我们</a></p>
 				<p><a href='#'>门店地址</a></p>
-				<p><a href='#'>网站地图</a></p>
+				<p><a href='/siteMap'>网站地图</a></p>
 			</div>
 			<div id='focusUsDiv'>
 				<p><img src=<%= image_path('spree/frontend/focusUS.png') %> alt='focusUS'>关注我们</p>
