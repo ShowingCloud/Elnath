@@ -11,7 +11,7 @@ a.disable{color:#CFCFCF}
 .mr30{ margin-right:30px;}
 .mb20{ margin-bottom:20px; }
 .mt50{margin-top: 50px;}
-.clearfix:after,.logon li:after,.productDetailM .popPageSel:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}.clearfix{ display:inline-block}*html
+.clearfix:after,.logon li:after,.productDetailM .popPageSel:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}.clearfix{ display:inline-block}
 .clearfix,.logon li,.footerLists{ height:1%}.clearfix,.logon li{ display:block}
 .settleAccountsList { width:400px;font-family:tahoma,arial,sans-serif;}
 .fl{float: left;}
