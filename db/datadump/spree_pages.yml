@@ -173,3 +173,37 @@ spree_pages:
     - false
     - ''
     - true
+  - - 11
+    - "退货说明"
+    - "<p>&lt;p&gt; &lt;/p&gt;</p>\r\n"
+    - "/goodsReturn"
+    - 2014-09-22 07:44:26.000000000 Z
+    - 2014-09-22 10:31:23.000000000 Z
+    - false
+    - false
+    - ''
+    - 9
+    - true
+    - ''
+    - ''
+    - goods_return_statement
+    - false
+    - ''
+    - true
+  - - 12
+    - "网站地图"
+    - "<p>&lt;p&gt;&lt;/p&gt;</p>\r\n"
+    - "/siteMap"
+    - 2014-09-22 08:10:01.000000000 Z
+    - 2014-09-22 08:11:01.000000000 Z
+    - false
+    - false
+    - ''
+    - 10
+    - true
+    - ''
+    - ''
+    - site_maps
+    - false
+    - ''
+    - true

@@ -12,9 +12,9 @@ spree_promotion_actions:
     - 3
     - 
     - Spree::Promotion::Actions::CreateAdjustment
-    - 2014-07-22 07:16:55.000000000 Z
+    - 
   - - 2
     - 3
     - 
     - Spree::Promotion::Actions::CreateLineItems
-    - 2014-07-22 07:33:25.000000000 Z
+    - 
