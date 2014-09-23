@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -ex
 
 RAILS_ENV=production
 export RAILS_ENV
