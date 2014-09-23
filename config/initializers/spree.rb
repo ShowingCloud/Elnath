@@ -9,6 +9,8 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = "BIG ROOSTER -- BRITISH HERITAGE CASUAL"
+
+  config.default_country_id = 119
 end
 
 Spree.user_class = "Spree::LegacyUser"
