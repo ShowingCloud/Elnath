@@ -54,12 +54,42 @@ a{
     font-weight: normal;
 	margin-left: -4px;
 }
-.salesPrice{color: red;
-font-size: 14px;
-display: inline-block;
-padding-top: 0;
-float: left;
-margin-left: 10px;
+.salesPrice{
+	color: red;
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 0;
+	margin-right: 10px;
+}
+.leftLinear{
+	display: inline-block;
+	height: 3px;
+	width: 360px;
+	border-radius: 3px;
+	margin-right:20px;
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%,from(white), to(black));/*chrome*/
+	background: -ms-linear-gradient(left, #fff,  #000);   /* IE 10 */
+	background: -webkit-linear-gradient(left, #fff, #000); /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(left, #fff, #000);  /*Opera 11.10+*/
+	vertical-align: middle;
+}
+.rightLinear{
+	display: inline-block;
+	height: 3px;
+	width: 360px;
+	border-radius: 3px;
+	margin-left:20px;
+	background: -webkit-gradient(linear, 100% 0%, 0% 0%,from(white), to(black));/*chrome*/
+	background: -ms-linear-gradient(right, #fff,  #000);   /* IE 10 */
+	background: -webkit-linear-gradient(right, #fff, #000); /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(right, #fff, #000);  /*Opera 11.10+*/
+	vertical-align: middle;
+}
+.costPriceSpan1 {
+	text-decoration: line-through;
+	font-size: 14px;
+	margin-right: 10px;
+	color: black;
 }
 #topDiv{
 	width:950px;
@@ -238,7 +268,7 @@ margin-left: 10px;
 	height:160px;
 }
 #rightProductDiv4 > div{
-	margin-top: 70px;
+	margin-top: 85px;
 }
 #rightProductDiv4 > div:first-child{
 	margin-top: 0px;
@@ -272,7 +302,7 @@ margin-left: 10px;
 	margin-bottom: 10px;
 }
 .productList div p{
-	font-weight: normal;
+	font-size:12px;
 }
 .titleParagraph{
 	font-size:22px;
@@ -301,6 +331,7 @@ margin-left: 10px;
 	float:left;
 	margin-left:7px;
 	width:230px;
+	text-align:center;
 }
 .productList div:first-child{
 	margin-left:0px;

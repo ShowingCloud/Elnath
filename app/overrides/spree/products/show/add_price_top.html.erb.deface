@@ -2,7 +2,7 @@
 <div id='productID'>
 	<p>产品编号：<span id='productSku'></span></p>
 	<div>
-		<span id='discount_price'></span>
-		<span id='original_price'></span>
+		<span id='discount_price'><%= display_price(@product) %></span>
+		<span id='original_price'>￥<%= @product.cost_price %></span>
 	</div>
 </div>

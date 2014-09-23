@@ -4,6 +4,6 @@
 	<ul>
 	<li id='productDetailsItem'>商品信息</li>
 	<li id='newCommentsItem'>最新评论</li>
-	<li id='afterSalesItem'><a href='#'>售后服务</a></li>
+	<li id='afterSalesItem'><a href='/goodsReturn' target="_blank">售后服务</a></li>
 	</ul>
 </div>

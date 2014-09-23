@@ -39,6 +39,16 @@ ul#recentBrowsedlist li .price .costPriceSpan{
 	margin-left:10px;
 	text-align:center;
 }
+#breadcrumbs>ul>li>a{
+	color:black;
+}
+#sidebar_products_search
+{
+	display:none;
+}
+#breadcrumbs>ul>li>span>a{
+	color:black;
+}
 #recentBrowsedlist li a.info{
 	margin-top: 5px;
 	font-size: 12px;
@@ -56,14 +66,14 @@ ul#recentBrowsedlist li .price .costPriceSpan{
 }
 .costPriceSpan{
 	text-decoration: line-through;
-	font-size:14px;
+	font-size:12px;
 	float:right;
 	margin-right:10px;
 	color: black;
 }
 ul#products li .price {
 	color: red;
-	font-size: 14px;
+	font-size: 12px;
 	display: inline-block;
 	padding-top:0;
 	float:left;
@@ -72,6 +82,7 @@ ul#products li .price {
 ul#products li a.info{
 	border:none;
 	height:25px;
+	color:black;
 }
 #newTagSpan{
 	border: 1px solid #C0C0C0;
