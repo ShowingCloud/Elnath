@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -ex
 
 git pull
 rake db:migrate
