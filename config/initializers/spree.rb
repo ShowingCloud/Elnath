@@ -11,7 +11,6 @@ Spree.config do |config|
   config.site_name = "BIG ROOSTER -- BRITISH HERITAGE CASUAL"
 
   config.default_country_id = 119
-  config.show_descendents = false
 end
 
 Spree.user_class = "Spree::LegacyUser"
