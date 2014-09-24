@@ -58,5 +58,8 @@ gem 'spree_reviews', github: 'spree/spree_reviews', branch: '2-2-stable'
 gem 'spree_comments', github: 'spree/spree_comments', branch: '2-2-stable'
 gem 'spree_address_book', github: 'romul/spree_address_book', branch: '2-2-stable'
 
+gem 'spree_alipay', github: 'ShowingCloud/spree_alipay', branch: '2-2-stable'
+gem 'activemerchant_patch_for_china', github: 'ShowingCloud/activemerchant_patch_for_china'
+
 gem 'activerecord-session_store'
 gem 'yaml_db', github: 'jetthoughts/yaml_db'

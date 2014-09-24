@@ -11,4 +11,5 @@
  *= require spree/frontend/spree_static_content
  *= require spree/frontend/spree_reviews
  *= require store/spree_address_book
+ *= require spree/frontend/spree_alipay
 */
