@@ -1,3 +1,69 @@
-<% Array(@favorites).each do |favorite| %>
-	<%= favorite.to_json %>
-<% end %>
+<div style='margin-bottom:20px;'>
+<p style='margin:10px 0;'>
+<a href='/'>首页</a>/<a href='#'>收货地址薄</a>
+</p>
+<img src=<%= image_path('spree/frontend/line_right.png') %>>
+</div>
+<div style="font-size:13px;width:960px;margin:0 auto;font-family: tahoma,arial,sans-serif;">
+	<div id='addrLeftPartDiv'>
+		<ul>
+		<li class='headLi'>会员中心</li>
+		<li class='childLi firstChildLi'><a href='#'>会员中心</a></li>
+		<li class='childLi lastChildLi'><a href='#'>积分商城</a></li>
+		<li class='headLi'>交易管理</li>
+		<li class='childLi firstChildLi'><a href='#'>我的订单</a></li>
+		<li class='childLi'><a href='#'>我的收藏</a></li>
+		<li class='childLi lastChildLi'><a href='#'>我的评价</a></li>
+		<li class='headLi'>账户管理</li>
+		<li class='childLi firstChildLi'><a href='#'>修改个人资料</a></li>
+		<li class='childLi'><a href='#'>修改密码</a></li>
+		<li class='childLi lastChildLi'><a href='#'>收货地址簿</a></li>
+		<li class='headLi'>服务中心</li>
+		<li class='childLi firstChildLi lastChildLi'><a href='#'>退换货政策</a></li>
+		</ul>
+	</div>
+	<div class="right" style="margin-bottom: 15px;border:1px solid #D3D3D3;">
+		<div style="width:98%;margin: 0 auto;">
+			<div style="background-color: #EFEFEF;margin: 20px 0px;">
+			<input style="margin-left:20px;vertical-align:middle;background:#EFEFEF;" type="checkbox">
+			<label style="margin-left:5px;vertical-align:middle;">全选</label>
+			<input type="button" onclick="window.location.href=''" value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
+		</div>
+		<div>
+		<table style="width: 100%;">
+			<tr style="background:#EFEFEF;height:30px;">
+			<td colspan="3" style="padding-left:20px;">商品信息</td>
+			<td align="center">价格</td>
+			<td align="center">操作</td>
+			</tr>
+			<% Array(@favorites).each do |favorite| %>
+				<% url = product_path(favorite, :taxon_id => @taxon.try(:id)) %>
+				
+				<tr class="favorite">
+				<td style="width:30px;padding-left:10px;"><input type="checkbox"></td>
+				<td style="width:90px;"><%= link_to small_image(favorite, :itemprop => "image"), url, :itemprop => 'url' %></td>
+				<td style="text-align:left;"><%= link_to truncate(favorite.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => favorite.name %>
+				</td>
+				<td><%= display_price(favorite) %></td>
+				<td><input type="button" onclick="window.location.href=''" value="加入购物车" class="addto">
+				<p><a href=<%= url %> >查看详情</a></p>
+				<p><a href="">删除</a></p>
+				</td>
+				</tr>
+			<% end %>
+		</table>
+		<div style="background-color: #EFEFEF;margin: 20px 0px;">
+			<input style="margin-left:20px;vertical-align:middle;background:#EFEFEF;" type="checkbox">
+			<label style="margin-left:5px;vertical-align:middle;">全选</label>
+			<input type="button" onclick="window.location.href=''" value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
+		</div>
+		<div class="digg">
+			<span class="disabled">?</span> 
+			<span class="current">1</span> 
+			<a href="#?page=2">2</a> 
+			<a href="#?page=3">3</a> ... 15 <a class="next" href="#?page=2">?</a></div>
+	</div>
+	</div>
+	</div>
+</div>
+
