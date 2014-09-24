@@ -85,6 +85,7 @@ vendor/extensions/**/spec/dummy
 
 # sensitive data
 config/database.yml
+config/initializers/app_init.rb
 config/initializers/devise.rb
 config/initializers/secret_token.rb
 db/data.yml
