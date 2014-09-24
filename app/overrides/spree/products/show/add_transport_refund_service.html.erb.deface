@@ -1,7 +1,7 @@
 <!--insert_after '[data-hook="product_properties"]'-->
 <div id='transportAndRefundService'>
 	<ul>
-	<li><a href='/goodsReturn'><span>退换货政策</span><span>&gt;</span></a></li>
-	<li><a href='/deliveryStatement'><span>配送说明</span><span>&gt;</span></a></li>
+	<li><a href='/goodsReturn'><span>退换货政策</span></a></li>
+	<li><a href='/deliveryStatement'><span>配送说明</span></a></li>
 	</ul>
 </div>
