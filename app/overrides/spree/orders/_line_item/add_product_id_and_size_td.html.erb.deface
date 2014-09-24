@@ -1,5 +1,5 @@
 <!--insert_before '[data-hook="cart_item_quantity"]'-->
-<td class='productSkuTd'><span></span></td>
+<td class='productSkuTd'><span><%= variant.sku %></span></td>
 <td class='colorAndSizeTd'>
 	<select>
 		<option></option>
