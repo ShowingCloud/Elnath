@@ -3,6 +3,17 @@
 		<% cart_item_count = @order.item_count %>
 	<% end %>
 	<% %>
+	<div id='shieldDiv'></div>
+	<div id="customerServiceDiv">
+		<p><img id='closeImg' src=<%= image_path('spree/frontend/close.png') %>></p>
+		<div>
+			<img src=<%= image_path('spree/frontend/customerService.png') %>>
+		</div>
+		<div id='servieNumberDiv'>
+			<p>客服热线</p>
+			<p>021-32563580</p>
+		</div>
+	</div>
 	<div id='topDiv'>
 		<div id='locationDiv' class='topDivCLass'>
 			<p>您的位置:<label>中国/RMB</label></p>
@@ -89,8 +100,8 @@
 	</div>
 	<div style='clear:both;'></div>
 	<div id='rightFixedDiv'>
-		<div><a href='#'><img src=<%= image_path('spree/frontend/cartIcon.png') %> alt='cartIcon'></a></div>
-		<div><a href='#'><img src=<%= image_path('spree/frontend/hotline.png') %> alt='hotline'></a></div>
+		<div><a href='/cart'><img src=<%= image_path('spree/frontend/cartIcon.png') %> alt='cartIcon'></a></div>
+		<div><a href='#'><img id='hotLineImg' src=<%= image_path('spree/frontend/hotline.png') %> alt='hotline'></a></div>
 		<div><a href='#'><img src=<%= image_path('spree/frontend/memberCenter.png') %> alt='memberCenter'></a></div>
 		<div><a href='#'><img src=<%= image_path('spree/frontend/goTop.png') %> alt='goTop'></a></div>
 	</div>
