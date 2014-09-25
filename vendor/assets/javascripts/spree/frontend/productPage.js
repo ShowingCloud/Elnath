@@ -86,4 +86,36 @@ jQuery(document).ready(function() {
 			}
 		}
     });
+	
+	//放大镜功能 
+	$('img[itemprop="image"]').mouseover(function(){
+		if(typeof($('.linkToLargeImg>img').attr('src'))!='undefined')
+		{
+			$(".linkToLargeImg").attr('href',$('.linkToLargeImg>img').attr('src').replace('product/','large/'));
+			//$(".zoomWrapperImage>img").attr('src',$('.linkToLargeImg>.zoomPad>img').attr('src').replace('product/','large/'));
+		}else
+		{
+			if(typeof($('.linkToLargeImg>.zoomPad>img').attr('src'))!='undefined')
+			{
+				$(".linkToLargeImg").attr('href',$('.linkToLargeImg>.zoomPad>img').attr('src').replace('product/','large/'));
+				$(".zoomWrapperImage>img").attr('src',$('.linkToLargeImg>.zoomPad>img').attr('src').replace('product/','large/'));
+			}
+		}
+	});
+	if(typeof($('.linkToLargeImg>img').attr('src'))!='undefined')
+	{
+	  $(".linkToLargeImg").attr('href',$('.linkToLargeImg>img').attr('src').replace('product/','large/'));
+	}
+   var options = {  
+            zoomType: 'standard',  
+            lens:true,  
+            preloadImages: false,
+			title:false,
+            alwaysOn:false,  
+            zoomWidth: 300,  
+            zoomHeight: 300,
+            xOffset:10, 
+            //...MORE OPTIONS  
+    };  
+  $('.linkToLargeImg').jqzoom(options);
 });

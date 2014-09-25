@@ -1,0 +1,6 @@
+<!-- replace '#main-image' -->
+<div id="main-image" data-hook>
+	<a class='linkToLargeImg' rel='gal1'>
+		<%= render :partial => 'image' %>
+	</a>
+</div>

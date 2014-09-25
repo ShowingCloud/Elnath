@@ -1,7 +1,7 @@
 #properties_slider_div{
 	height: 75px;
 	overflow: auto;
-	width: 360px;
+	width: 320px;
 }
 #product-properties td strong{
     font-weight: normal;
@@ -27,7 +27,7 @@
 	list-style: none;
 	border-bottom: 1px solid #D9D9DB;
 	height: 28px;
-	width: 160px;
+	width: 145px;
 	margin-top: 10px;
 	font-size: 14px;
 	float: left;
@@ -158,9 +158,14 @@ table#product-properties{
     width:420px;
     float: left;
 }
-#main-image img{
+#product-images>#main-image img{
     width:420px;
     height: 420px;
+	max-width: 800px;
+}
+#product-images>#main-image>.linkToLargeImg>.zoomPad>.zoomWindow img{
+    width:800px;
+    height: 800px;
 }
 #thumbnails{
     width:105px;
