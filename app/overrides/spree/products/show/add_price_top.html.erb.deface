@@ -1,8 +1,8 @@
 <!-- insert_before '[data-hook="cart_form"]'-->
 <div id='productID'>
-	<p>产品编号：<span id='productSku'></span></p>
+	<p>产品编号：<span id='productSku'><%= @product.slug %></span></p>
 	<div>
-		<span id='discount_price'><%= display_price(@product) %></span>
+		<span id='discount_price'>￥<%= @product.price %></span>
 		<span id='original_price'>￥<%= @product.cost_price %></span>
 	</div>
 </div>
