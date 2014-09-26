@@ -64,3 +64,4 @@ gem 'httparty'
 
 gem 'activerecord-session_store'
 gem 'yaml_db', github: 'jetthoughts/yaml_db'
+
