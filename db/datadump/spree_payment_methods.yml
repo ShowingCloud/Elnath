@@ -18,54 +18,76 @@ spree_payment_methods:
     - Spree::Gateway::Bogus
     - Credit Card
     - Bogus payment gateway for development.
-    - true
+    - false
     - development
     - 
     - 2014-06-26 08:29:12.000000000 Z
-    - 2014-06-26 08:29:12.000000000 Z
-    - 
+    - 2014-09-25 16:34:40.000000000 Z
+    - ''
     - false
   - - 2
     - Spree::Gateway::Bogus
     - Credit Card
     - Bogus payment gateway for production.
-    - true
+    - false
     - production
     - 
     - 2014-06-26 08:29:12.000000000 Z
-    - 2014-06-26 08:29:12.000000000 Z
-    - 
+    - 2014-09-25 16:36:31.000000000 Z
+    - ''
     - false
   - - 3
     - Spree::Gateway::Bogus
     - Credit Card
     - Bogus payment gateway for staging.
-    - true
-    - staging
+    - false
+    - development
     - 
     - 2014-06-26 08:29:12.000000000 Z
-    - 2014-06-26 08:29:12.000000000 Z
-    - 
+    - 2014-09-25 16:36:36.000000000 Z
+    - ''
     - false
   - - 4
     - Spree::Gateway::Bogus
     - Credit Card
     - Bogus payment gateway for test.
-    - true
+    - false
     - test
     - 
     - 2014-06-26 08:29:12.000000000 Z
-    - 2014-06-26 08:29:12.000000000 Z
-    - 
+    - 2014-09-25 16:36:41.000000000 Z
+    - ''
     - false
   - - 5
     - Spree::PaymentMethod::Check
     - Check
     - Pay by check.
-    - true
+    - false
     - development
     - 
     - 2014-06-26 08:29:12.000000000 Z
-    - 2014-06-26 08:29:12.000000000 Z
+    - 2014-09-25 16:36:45.000000000 Z
+    - ''
+    - false
+  - - 6
+    - Spree::BillingIntegration::Alipay
+    - "支付宝付款"
+    - ''
+    - true
+    - development
     - 
+    - 2014-09-25 16:36:26.000000000 Z
+    - 2014-09-25 16:36:26.000000000 Z
+    - ''
+    - false
+  - - 7
+    - Spree::BillingIntegration::Alipay
+    - "支付宝付款"
+    - ''
+    - true
+    - production
+    - 
+    - 2014-09-25 16:39:22.000000000 Z
+    - 2014-09-25 16:39:22.000000000 Z
+    - ''
     - false

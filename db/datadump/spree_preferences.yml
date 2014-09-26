@@ -11,12 +11,12 @@ spree_preferences:
   records: 
   - - 1
     - |
-      --- 49
+      --- 119
       ...
     - spree/app_configuration/default_country_id
     - integer
     - 2014-06-26 08:28:38.000000000 Z
-    - 2014-06-26 08:28:38.000000000 Z
+    - 2014-09-25 16:40:39.000000000 Z
   - - 2
     - |
       --- 0.0
@@ -130,7 +130,7 @@ spree_preferences:
     - spree/app_configuration/site_name
     - string
     - 2014-06-28 14:47:15.000000000 Z
-    - 2014-09-23 08:45:00.000000000 Z
+    - 2014-09-25 16:40:38.000000000 Z
   - - 16
     - |
       --- BIG ROOSTER -- BRITISH HERITAGE CASUAL
@@ -240,7 +240,7 @@ spree_preferences:
     - spree/app_configuration/show_raw_product_description
     - boolean
     - 2014-06-29 15:39:12.000000000 Z
-    - 2014-09-23 08:45:00.000000000 Z
+    - 2014-09-25 16:40:37.000000000 Z
   - - 30
     - |
       --- CKEditor
@@ -265,3 +265,48 @@ spree_preferences:
     - boolean
     - 2014-07-02 14:15:45.000000000 Z
     - 2014-07-02 14:15:45.000000000 Z
+  - - 33
+    - |
+      --- ''
+    - spree/billing_integration/alipay/partner/6
+    - string
+    - 2014-09-25 16:37:49.000000000 Z
+    - 2014-09-25 16:37:49.000000000 Z
+  - - 34
+    - |
+      --- ''
+    - spree/billing_integration/alipay/sign/6
+    - string
+    - 2014-09-25 16:37:49.000000000 Z
+    - 2014-09-25 16:37:49.000000000 Z
+  - - 35
+    - |
+      --- ''
+    - spree/billing_integration/alipay/email/6
+    - string
+    - 2014-09-25 16:37:49.000000000 Z
+    - 2014-09-25 16:37:49.000000000 Z
+  - - 36
+    - |
+      --- false
+      ...
+    - spree/billing_integration/alipay/using_direct_pay_service/6
+    - boolean
+    - 2014-09-25 16:37:49.000000000 Z
+    - 2014-09-25 16:37:49.000000000 Z
+  - - 37
+    - |
+      --- test
+      ...
+    - spree/billing_integration/alipay/server/6
+    - string
+    - 2014-09-25 16:37:49.000000000 Z
+    - 2014-09-25 16:37:49.000000000 Z
+  - - 38
+    - |
+      --- true
+      ...
+    - spree/billing_integration/alipay/test_mode/6
+    - boolean
+    - 2014-09-25 16:37:49.000000000 Z
+    - 2014-09-25 16:37:49.000000000 Z
