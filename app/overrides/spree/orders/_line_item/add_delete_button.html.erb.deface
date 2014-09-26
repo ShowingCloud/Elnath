@@ -1,4 +1,0 @@
-<!--insert_bottom '[data-hook="cart_item_total"]'-->
-<div>
-	<input type='button' class='deleteProductBtn' value='从购物车中删除' />
-</div>

@@ -1,2 +1,0 @@
-<!--insert_before '[data-hook="cart_item_price"]' sequence :after =>'move_sales_price_td_to_tail' -->
-<td class='hangtagPriceTd'><span id='hangtagPrice'><%= variant.cost_price %></span></td>
