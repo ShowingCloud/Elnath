@@ -60,6 +60,7 @@ gem 'spree_address_book', github: 'romul/spree_address_book', branch: '2-2-stabl
 
 gem 'spree_alipay', github: 'ShowingCloud/spree_alipay', branch: '2-2-stable'
 gem 'activemerchant_patch_for_china', github: 'ShowingCloud/activemerchant_patch_for_china'
+gem 'httparty'
 
 gem 'activerecord-session_store'
 gem 'yaml_db', github: 'jetthoughts/yaml_db'
