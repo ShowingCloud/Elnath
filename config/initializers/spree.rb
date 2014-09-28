@@ -11,6 +11,7 @@ Spree.config do |config|
   config.site_name = "BIG ROOSTER -- BRITISH HERITAGE CASUAL"
 
   config.default_country_id = 119
+  config.products_per_page = 24
 end
 
 Spree.user_class = "Spree::LegacyUser"
