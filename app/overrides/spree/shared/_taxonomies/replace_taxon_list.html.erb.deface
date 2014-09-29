@@ -1,0 +1,11 @@
+<!-- replace '#taxonomies' -->
+<nav id="taxonomies" class="sidebar-item" data-hook>
+	<% id_tail = 1 %>
+	<% @taxonomies.each do |taxonomy| %>
+		<% cache [I18n.locale, taxonomy, max_level] do %>
+		<a class='taxonHead' href='taxonomy.root' id=<%= 'taxon_head'+id_tail.to_s %> ><h6 class='taxonomy-root'><%=taxonomy.name%></h6></a>
+		<div id=<%= 'taxon_ul'+id_tail.to_s %> ><%= taxons_tree(taxonomy.root, @taxon, max_level) %></div>
+		<% end %>
+	<% id_tail = id_tail+1 %>
+	<% end %>
+</nav>

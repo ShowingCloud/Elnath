@@ -49,4 +49,16 @@ jQuery(document).ready(function() {
 			}
 		});
 	}
+	if($('.taxonomy-root').length!=0)
+	{
+		var i = 1;
+		$('.taxonHead').each(function(){
+			var originHref=$('#taxon_ul'+i).find('li').find('a').attr('href');
+			var linkArray=originHref.split('/');
+			var targetHref=originHref.replace(linkArray[linkArray.length-1],'');
+			$(this).attr('href',targetHref);
+			i++;
+		});
+		
+	}
 });
