@@ -1,3 +1,6 @@
+.taxons-list li{
+	margin:5px 0;
+}
 span[itemprop="browsedItem"]{
 	display:block;
 	height:25px;
@@ -121,6 +124,6 @@ ul#products li a.info{
 .pagination>.gap{
 	border:none;
 }
-.pagination{
+.pagination{ 
 	float: right;
 }
