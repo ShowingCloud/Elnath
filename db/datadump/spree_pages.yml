@@ -207,3 +207,37 @@ spree_pages:
     - false
     - ''
     - true
+  - - 13
+    - "最新活动"
+    - "<p>&lt;p&gt;&lt;/p&gt;</p>\r\n"
+    - "/latestActivity"
+    - 2014-09-28 18:46:25.000000000 Z
+    - 2014-09-28 18:46:25.000000000 Z
+    - false
+    - false
+    - ''
+    - 11
+    - true
+    - ''
+    - ''
+    - latest_activity
+    - false
+    - ''
+    - true
+  - - 14
+    - "会员中心"
+    - "<p>&lt;p&gt;&lt;/p&gt;</p>\r\n"
+    - "/memberCenter"
+    - 2014-09-28 18:56:11.000000000 Z
+    - 2014-09-28 18:56:11.000000000 Z
+    - false
+    - false
+    - ''
+    - 12
+    - true
+    - ''
+    - ''
+    - member_center
+    - false
+    - ''
+    - true
