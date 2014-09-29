@@ -1,3 +1,9 @@
+span[data-hook="line_item_description"]{
+	display:none;
+}
+#leaveWordsInputShow{
+	width:350px;
+}
 .currency{
 	display: none;
 }
@@ -40,6 +46,7 @@
 #bottomTotalPriceDiv>p>span:last-child{
 	width:110px;
 	padding-left: 20px;
+	text-align:left;
 	display: inline-block;
 }
 #leaveWordsInput{
@@ -71,10 +78,10 @@
 #cart-detail tbody:last-child{
 	display: none;
 }
-.cart-item-price>div,.cart-item-total>div{
+.cart_item_price>div,.cart_item_total>div{
 	margin-top: 40px;
 }
-.cart-item-price,.cart-item-total{
+.cart_item_price,.cart_item_total{
 	padding-top: 75px;
 }
 .cart-item-delete{

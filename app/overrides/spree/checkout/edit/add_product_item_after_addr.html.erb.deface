@@ -16,37 +16,57 @@
 </div>
 <div style="text-align:center;margin-left:1px;margin-right:0px;">
 <table class="cart">
-<tr style="border-top:1px solid #C3C3C3;">
-<td width="20%" id='productImageTd'><img alt="" src="img/T-shirt.jpg"></td>
-<td width="20%" id='productNameTd'><a href="">简约基础男式短T袖</a></td>
-<td width="9%" id='productNumberTd'>23423425</td>
-<td width="10%" id='productSizeAndColorTd'><label>黑色L</label></td>
-<td width="9" id='productQuantityTd'><label>1</label></td>
-<td width="9%" id='brandPriceTd'>¥ 499.00</td>
-<td width="9%" id='officialPriceTd'>¥ 399.00</td>
-<td width="9%" id='itemTotalPriceTd'>¥ 399.00</td>
+<% @order.line_items.each do |line_item| %>
+<% variant = line_item.variant %>
+<tr class="<%= cycle('', 'alt') %> line-item">
+	<td class="cart-item-image" data-hook="cart_item_image">
+		<% if variant.images.length == 0 %>
+		<%= link_to small_image(variant.product), variant.product %>
+		<% else %>
+		<%= link_to image_tag(variant.images.first.attachment.url(:small)), variant.product %>
+		<% end %>
+
+	</td>
+	<td class="cart-item-description" data-hook="cart_item_description">
+		<h4><%= link_to line_item.name, product_path(variant.product) %></h4>
+		<%= variant.options_text %>
+		<% if line_item.insufficient_stock? %>
+		<span class="out-of-stock">
+		<%= Spree.t(:out_of_stock) %>&nbsp;&nbsp;<br />
+		</span>
+		<% end %>
+		<span class="line-item-description" data-hook="line_item_description">
+		<%= line_item.description %>
+		</span>
+	</td>
+	<td class='productSkuTd'>
+		<span>
+			<%= variant.sku %>
+		</span>
+	</td>
+	<td class='colorAndSizeTd'>
+			<span class='sizeAndColorSpan'></span>
+	</td>
+	<td class="cart-item-quantity" data-hook="cart_item_quantity">
+		<%= line_item.quantity %>
+	</td>	
+	<td class='hangtagPriceTd'>
+		￥<span id='hangtagPrice'><%= line_item.cost_price %></span>
+	</td>
+	<td class="cart_item_price1" data-hook="cart_item_price1">
+		￥<span class='salePriceSpan'><%= line_item.price %></span>
+	</td>
+	<td class="cart_item_total1" data-hook="cart_item_total1">
+		￥<span class='linePriceSpan'><%= line_item.price*line_item.quantity unless line_item.quantity.nil? %></span>
+	</td>
+</tr>
+<% end %>
 </table>
 </div>
-<div class=" mt20 mr20 mb20 fr clearfix">
-	<table class="settleAccountsList">
-		<tr>
-			<td width="50%" align="right"><label>商品总金额 :</label></td>
-			<td><label>&nbsp;RMB&nbsp;¥&nbsp;</label></td>
-			<td style="text-align:right"><label>1197.00</label></td>
-		</tr>
-		<tr>
-			<td width="50%" align="right"><label>优惠 :</label></td>
-			<td><label>&nbsp;RMB&nbsp;¥&nbsp;</label></td>
-			<td style="text-align:right"><label>0.00</label></td>
-		</tr>
-		<tr>
-			<td width="50%" align="right"><label>总计金额（不含运费）:</label></td>
-			<td><label>&nbsp;RMB&nbsp;¥&nbsp;</label></td>
-			<td style="text-align:right"><label>1197.00</label></td>
-		</tr>
-		<tr>
-			<td colspan="3" align="left"><label>&nbsp;&nbsp;&nbsp;&nbsp;订单留言
-			:</label><label>XXXXXXXXXXXXXXXXXXXXXXX</label></td>
-		</tr>
-	</table>
+<div id='bottomTotalPriceDiv'>
+	<p><span>商品总金额：RMB ￥</span><span id='totalPriceSpan'><%=@order.item_total+@order.shipment_total%></span></p>
+	<p><span>优惠：RMB ￥</span><span id='totalPriceSpan'></span></p>
+	<p><span>总计金额(不含运费)：RMB ￥</span><span id='totalPriceSpan'><%=@order.item_total %></span></p>
+	<p><input type='text' id='leaveWordsInputShow' placeholder='订单留言'/></p>
 </div>
+
