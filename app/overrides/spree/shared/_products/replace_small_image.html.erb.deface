@@ -1,0 +1,4 @@
+<!-- replace '.product-image' -->
+<div class="product-image">
+<%= link_to product_image(product, :itemprop => "image"), url, :itemprop => 'url' %>
+</div>
