@@ -1,0 +1,2 @@
+<!--replace 'h1'-->
+<h1><%= accurate_title %>:<%=@order.number%></h1>

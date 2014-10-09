@@ -1,0 +1,11 @@
+<!-- insert_before '#order_summary' -->
+<div>
+	<div><a href='/'>首页</a>/<a href='#'>购物车</a></div>
+	<img src=<%= image_path('spree/frontend/line_right.png') %> >
+	<input type='hidden' id='orderData' value=<%= @order.to_json()%>>
+	<ul class="Nav mt10">
+		<li>1 查看购物车</li>
+		<li>2 填写并核对订单信息</li>
+		<li class="NavSelect">3 成功提交订单</li>
+	</ul>
+</div>
