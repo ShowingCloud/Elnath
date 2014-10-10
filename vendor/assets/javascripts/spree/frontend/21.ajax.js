@@ -11,5 +11,17 @@ jQuery(document).ready(function(){
 		});
 		alert('加入收藏夹成功！');
 	});
-	
+	$('.delete_addr').click(function(){
+		var addrId = $(this).attr('addr_id');
+		$.ajax ({
+			url:	"/addresses/"+addrId,
+			type:	"post",
+			dataType: "html",
+			data: {
+				_method:'delete',
+			}
+		});
+		$(this).parent().empty();
+		alert('删除成功');
+	});
 });
