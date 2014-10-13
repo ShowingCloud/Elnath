@@ -13,7 +13,7 @@ module Spree
 		end
 
 		def remove_favorite
-			session[:favorite] = Array(session[:favorite]).delete(params[:product_id].to_i)
+			session[:favorite] = Array(session[:favorite]) - Array(params[:product_id].to_i)
 			redirect_to "/favorites"
 		end
 
