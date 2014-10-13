@@ -25,44 +25,45 @@
 	<div class="right" style="margin-bottom: 15px;border:1px solid #D3D3D3;">
 		<div style="width:98%;margin: 0 auto;">
 			<div style="background-color: #EFEFEF;margin: 20px 0px;">
-			<input style="margin-left:20px;vertical-align:middle;background:#EFEFEF;" type="checkbox">
+			<input style="margin-left:20px;vertical-align:middle;background:#EFEFEF;" type="checkbox" class='selectAllCheckbox'>
 			<label style="margin-left:5px;vertical-align:middle;">全选</label>
 			<input type="button" onclick="window.location.href=''" value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
 		</div>
 		<div>
+		<h1><%=Array(session[:favorite]).to_json%></h1>
 		<table style="width: 100%;">
 			<tr style="background:#EFEFEF;height:30px;">
 			<td colspan="3" style="padding-left:20px;">商品信息</td>
 			<td align="center">价格</td>
 			<td align="center">操作</td>
 			</tr>
-			<% Array(@favorites).each do |favorite| %>
+			<% Array(@favorites).uniq.each do |favorite| %>
 				<% url = product_path(favorite, :taxon_id => @taxon.try(:id)) %>
-				
 				<tr class="favorite">
-				<td style="width:30px;padding-left:10px;"><input type="checkbox"></td>
+				<td style="width:30px;padding-left:10px;"><input type="checkbox" class='itemCheckbox'></td>
 				<td style="width:90px;"><%= link_to small_image(favorite, :itemprop => "image"), url, :itemprop => 'url' %></td>
 				<td style="text-align:left;"><%= link_to truncate(favorite.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => favorite.name %>
 				</td>
 				<td><%= display_price(favorite) %></td>
 				<td><input type="button" onclick="window.location.href=''" value="加入购物车" class="addto">
 				<p><a href=<%= url %> >查看详情</a></p>
-				<p><a href="">删除</a></p>
+				<p><label class='deleteFavorite' productid=<%=favorite.id%> >删除</label></p>
 				</td>
 				</tr>
 			<% end %>
 		</table>
 		<div style="background-color: #EFEFEF;margin: 20px 0px;">
-			<input style="margin-left:20px;vertical-align:middle;background:#EFEFEF;" type="checkbox">
+			<input style="margin-left:20px;vertical-align:middle;background:#EFEFEF;" type="checkbox" class='selectAllCheckbox'>
 			<label style="margin-left:5px;vertical-align:middle;">全选</label>
 			<input type="button" onclick="window.location.href=''" value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
 		</div>
 		<div class="digg">
-			<span class="disabled">?</span> 
+			<span class="disabled"><</span> 
 			<span class="current">1</span> 
 			<a href="#?page=2">2</a> 
-			<a href="#?page=3">3</a> ... 15 <a class="next" href="#?page=2">?</a></div>
-	</div>
+			<a href="#?page=3">3</a>
+			<a class="next" href="#?page=2">></a></div>
+		</div>
 	</div>
 	</div>
 </div>
