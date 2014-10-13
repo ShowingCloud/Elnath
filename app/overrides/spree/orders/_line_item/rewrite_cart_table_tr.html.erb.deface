@@ -10,7 +10,6 @@
 		<% else %>
 		<%= link_to image_tag(variant.images.first.attachment.url(:small)), variant.product %>
 		<% end %>
-
 	</td>
 	<td class="cart-item-description" data-hook="cart_item_description">
 		<h4><%= link_to line_item.name, product_path(variant.product) %></h4>
@@ -43,6 +42,7 @@
 	<td class="cart_item_price" data-hook="cart_item_price">
 		￥<span class='salePriceSpan'><%= line_item.price %></span>
 		<div>
+			<input type='hidden' class='productId' value=<%=variant.product.id%> >
 			<input type='button' class='addToFavouriteBtn' value='移至收藏夹' />
 		</div>
 	</td>
