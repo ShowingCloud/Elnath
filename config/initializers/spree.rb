@@ -12,6 +12,7 @@ Spree.config do |config|
 
   config.default_country_id = 119
   config.products_per_page = 24
+  config.currency = "CNY"
 end
 
 Spree.user_class = "Spree::LegacyUser"
