@@ -446,7 +446,23 @@ spree_products:
     - 0
   - - 26
     - "男士条纹短T恤"
-    - 
+    - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/980/content_ybta431121st-_t_01.jpg\"
+      style=\"height:849px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/981/content_ybta431121st-_t_02.jpg\"
+      style=\"height:478px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/982/content_ybta431121st-_t_03.jpg\"
+      style=\"height:1338px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/983/content_ybta431121st-_t_08.jpg\"
+      style=\"height:255px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/984/content_ybta431121st-_t_09.jpg\"
+      style=\"height:211px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/985/content_ybta431121st-_t_11.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/986/content_ybta431121st-_t_12.jpg\"
+      style=\"height:792px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/987/content_ybta431121st-_t_13.jpg\"
+      style=\"height:624px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/988/content_ybta431121st-_t_14.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/989/content_ybta431121st-_t_15.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/990/content_ybta431121st-_t_16.jpg\"
+      style=\"height:863px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/991/content_ybta431121st-_t_17.jpg\"
+      style=\"height:501px; width:750px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/992/content_ybta431121st-_t_18.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/993/content_ybta431121st-_t_19.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/994/content_ybta431121st-_t_20.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/995/content_ybta431121st-_t_21.jpg\"
+      /></p>\r\n"
     - 2014-06-26 00:00:00.000000000 Z
     - 
     - ybta431121st
@@ -455,7 +471,7 @@ spree_products:
     - 1
     - 4
     - 2014-06-27 15:51:36.000000000 Z
-    - 2014-09-30 06:45:49.000000000 Z
+    - 2014-10-14 17:10:29.000000000 Z
     - 0.0
     - 0
   - - 27
