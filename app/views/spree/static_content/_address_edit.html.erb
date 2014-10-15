@@ -26,14 +26,16 @@
 		<img class='headImage' src=<%= image_path('spree/frontend/existedAddr.png') %>>
 	</div>
 	<div id='existedAddrDiv'>
-		<div id='addrDetailsDiv'>
-			<p>用户名，上海市，市辖区，静安区，江宁路831号永业坊101室，200000，12345678901</p>
-			<p>
-				<span>［修改］</span>
-				<span>［删除］</span>
-				<span>设为默认地址</span>
-			</p>
-		</div>
+		<% spree_current_user.addresses.each do |address| %>
+			<div class='addrDetailsDiv'>
+				<p><span><%=address.lastname+' '+address.firstname%></span>，<span><%=address.state%></span>，<span><%=address.city%></span>，<span><%=address.address1%></span>，<span><%=address.address2%></span>，<span><%=address.zipcode%></span>，<span><%=address.phone%></span></p>
+				<p>
+					<span class='addrOpSpan'>［修改］</span>
+					<span class='addrOpSpan'>［删除］</span>
+					<span class='addrOpSpan'>设为默认地址</span>
+				</p>
+			</div>
+		<%end%>
 	</div>
 	<div id='addrRightBottomDiv'>
 		<div id='addAddrHeadDiv'><img class='headImage' src=<%= image_path('spree/frontend/addReceiveAddr.png') %>></div>
