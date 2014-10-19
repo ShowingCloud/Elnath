@@ -1,4 +1,10 @@
 jQuery(document).ready(function() {
+	/*$("#order_bill_address_attributes_firstname").blur( function () { 
+		$("#order_bill_address_attributes_lastname").val('-');
+	});
+	$("#order_ship_address_attributes_firstname").blur( function () { 
+		$("#order_ship_address_attributes_lastname").val('-');
+	});*/
 	$("#logoutSelector").change(function(){
 		if( $("#logoutSelector").val()==1)
 		{
@@ -7,7 +13,6 @@ jQuery(document).ready(function() {
 	});
 	
 	$('.deleteProductBtn').click(function(){
-		alert($(this).parent().parent().parent().find('.cart-item-delete').find('.delete').attr('id'));
 		$(this).parent().parent().parent().find('.cart-item-delete').find('.delete').click();
 	});
 	

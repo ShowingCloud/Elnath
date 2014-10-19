@@ -1,0 +1,37 @@
+#spinner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	display: none;
+}
+.productImage{
+	display:block;
+	width:170px;
+}
+#productList li{
+	float:left;
+	margin:25px 18px 0 0;
+}
+#productList li p{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+.hangTagPrice{
+	text-decoration: line-through;
+	font-size: 12px;
+	margin: 0 15px;
+	color: black;
+	float: right;
+}
+.salePrice{
+	color: red;
+	font-size: 12px;
+	display: inline-block;
+	padding-top: 0;
+	float: left;
+	margin: 0 15px;
+}
