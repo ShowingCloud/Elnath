@@ -241,3 +241,20 @@ spree_pages:
     - false
     - ''
     - true
+  - - 15
+    - "搜索"
+    - "<p> </p>"
+    - "/product_search"
+    - 2014-10-20 03:24:45.000000000 Z
+    - 2014-10-20 03:25:47.000000000 Z
+    - false
+    - false
+    - ''
+    - 13
+    - true
+    - ''
+    - ''
+    - search_product
+    - false
+    - ''
+    - true
