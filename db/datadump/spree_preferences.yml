@@ -16,7 +16,7 @@ spree_preferences:
     - spree/app_configuration/default_country_id
     - integer
     - 2014-06-26 08:28:38.000000000 Z
-    - 2014-10-20 03:26:50.000000000 Z
+    - 2014-10-21 06:34:47.000000000 Z
   - - 2
     - |
       --- 0.0
@@ -104,7 +104,7 @@ spree_preferences:
     - spree/app_configuration/currency
     - string
     - 2014-06-26 08:29:16.000000000 Z
-    - 2014-10-20 03:26:50.000000000 Z
+    - 2014-10-21 06:34:47.000000000 Z
   - - 13
     - |
       ---
@@ -130,7 +130,7 @@ spree_preferences:
     - spree/app_configuration/site_name
     - string
     - 2014-06-28 14:47:15.000000000 Z
-    - 2014-10-20 03:26:50.000000000 Z
+    - 2014-10-21 06:34:47.000000000 Z
   - - 16
     - |
       --- BIG ROOSTER -- BRITISH HERITAGE CASUAL
@@ -240,7 +240,7 @@ spree_preferences:
     - spree/app_configuration/show_raw_product_description
     - boolean
     - 2014-06-29 15:39:12.000000000 Z
-    - 2014-10-20 03:26:49.000000000 Z
+    - 2014-10-21 06:34:47.000000000 Z
   - - 30
     - |
       --- CKEditor
@@ -317,4 +317,4 @@ spree_preferences:
     - spree/app_configuration/products_per_page
     - integer
     - 2014-09-30 08:58:15.000000000 Z
-    - 2014-10-20 03:26:50.000000000 Z
+    - 2014-10-21 06:34:47.000000000 Z
