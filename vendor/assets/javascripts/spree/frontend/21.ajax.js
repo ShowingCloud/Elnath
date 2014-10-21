@@ -1,4 +1,4 @@
-function displayProduct(){
+/*function displayProduct(){
 	var keyWords=window.location.search.split('=')[1];
 	if(keyWords!='')
 	{
@@ -21,13 +21,21 @@ function displayProduct(){
 			});
 	}
 }
-
+*/
 jQuery(document).ready(function(){
 	$('#searchBtnImg').click(function(){
 		if(keyWords!='')
 		{
 			var keyWords=$('#searchInputText').val();
-			window.location='/product_search?keyWords='+keyWords;
+			window.location='/products?keywords='+keyWords;
+		}
+	});
+	
+	$("#searchInputText").keypress(function(){  
+		if(keyWords!='')
+		{
+			var keyWords=$('#searchInputText').val();
+			window.location='/products?keywords='+keyWords;
 		}
 	});
 	
@@ -66,6 +74,19 @@ jQuery(document).ready(function(){
 			}
 		});
 		alert('shanchu收藏夹成功！');
+	});
+	$('.delete_addr').click(function(){
+		var addrId = $(this).attr('addr_id');
+		$.ajax ({
+			url:	"/addresses/"+addrId,
+			type:	"post",
+			dataType: "html",
+			data: {
+				_method:'delete',
+			}
+		});
+		$(this).parent().empty();
+		alert('删除成功');
 	});
 	$('.delete_addr').click(function(){
 		var addrId = $(this).attr('addr_id');
