@@ -15,4 +15,8 @@ Spree.config do |config|
   config.currency = "CNY"
 end
 
-Spree.user_class = "Spree::LegacyUser"
+Spree.user_class = "UserTest"
+
+          Rails.application.config.to_prepare do
+            require_dependency 'spree/authentication_helpers'
+          end
