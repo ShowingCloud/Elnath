@@ -42,8 +42,7 @@
 	<td class="cart_item_price" data-hook="cart_item_price">
 		￥<span class='salePriceSpan'><%= line_item.price %></span>
 		<div>
-			<input type='hidden' class='productId' value=<%=variant.product.id%> >
-			<input type='button' class='addToFavouriteBtn' value='移至收藏夹' />
+			<input type='button' class='addToFavouriteBtn' productId=<%=variant.product.id%> value='移至收藏夹' />
 		</div>
 	</td>
 	<td class="cart_item_total" data-hook="cart_item_total">
