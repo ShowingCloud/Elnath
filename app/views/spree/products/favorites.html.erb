@@ -1,6 +1,6 @@
 <div style='margin-bottom:20px;'>
 <p style='margin:10px 0;'>
-<a href='/'>首页</a>/<a href='#'>收货地址薄</a>
+<a href='/'>首页</a>/<a href='#'>我的收藏</a>
 </p>
 <img src=<%= image_path('spree/frontend/line_right.png') %>>
 </div>
@@ -39,14 +39,14 @@
 			<% Array(@favorites).uniq.each do |favorite| %>
 				<% url = product_path(favorite, :taxon_id => @taxon.try(:id)) %>
 				<tr class="favorite">
-				<td style="width:30px;padding-left:10px;"><input type="checkbox" class='itemCheckbox'></td>
+				<td style="width:30px;padding-left:10px;"><input type="checkbox" productid=<%=favorite.id%> class='itemCheckbox'></td>
 				<td style="width:90px;"><%= link_to small_image(favorite, :itemprop => "image"), url, :itemprop => 'url' %></td>
 				<td style="text-align:left;"><%= link_to truncate(favorite.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => favorite.name %>
 				</td>
 				<td><%= display_price(favorite) %></td>
-				<td><input type="button" onclick="window.location.href=''" value="加入购物车" class="addto">
-				<p><a href=<%= url %> >查看详情</a></p>
-				<p><label class='deleteFavorite' productid=<%=favorite.id%> >删除</label></p>
+				<td>
+					<p><a href=<%= url %> >查看详情</a></p>
+					<p><label class='deleteFavorite' productid=<%=favorite.id%> >删除</label></p>
 				</td>
 				</tr>
 			<% end %>
@@ -54,7 +54,7 @@
 		<div style="background-color: #EFEFEF;margin: 20px 0px;">
 			<input style="margin-left:20px;vertical-align:middle;background:#EFEFEF;" type="checkbox" class='selectAllCheckbox'>
 			<label style="margin-left:5px;vertical-align:middle;">全选</label>
-			<input type="button" onclick="window.location.href=''" value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
+			<input type="button" id='bacthDelete' value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
 		</div>
 		<div class="digg">
 			<span class="disabled"><</span> 

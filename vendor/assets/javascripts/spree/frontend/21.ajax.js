@@ -51,8 +51,9 @@ jQuery(document).ready(function(){
 		});
 		alert('加入收藏夹成功！');
 	});
+	
 	$('.addToFavouriteBtn').click(function(){
-		var productId=$(this).parent().find('productId').val();
+		var productId=$(this).attr('productid');
 		$.ajax ({
 			url:	"/add_favorite",
 			type:	"get",
@@ -61,8 +62,10 @@ jQuery(document).ready(function(){
 					product_id:productId
 			}
 		});
+		$(this).parent().parent().parent().find('.cart-item-delete').find('.delete').click();
 		alert('加入收藏夹成功！');
 	});
+	
 	$('.deleteFavorite').click(function(){
 		var productId=$(this).attr('productid');
 		$.ajax ({
@@ -73,8 +76,9 @@ jQuery(document).ready(function(){
 					product_id:productId
 			}
 		});
-		alert('shanchu收藏夹成功！');
+		$(this).parent().parent().parent().remove();
 	});
+	
 	$('.delete_addr').click(function(){
 		var addrId = $(this).attr('addr_id');
 		$.ajax ({
@@ -85,20 +89,46 @@ jQuery(document).ready(function(){
 				_method:'delete',
 			}
 		});
-		$(this).parent().empty();
+		$(this).parent().remove();
 		alert('删除成功');
 	});
-	$('.delete_addr').click(function(){
-		var addrId = $(this).attr('addr_id');
+	
+	$('#bacthDelete').click(function(){
+		$('.itemCheckbox').each(function(){
+			if($(this).is(':checked'))
+			{
+				var productId=$(this).attr('productid');
+				$.ajax ({
+					url:	"/remove_favorite",
+					type:	"get",
+					dataType:	"json",
+					data:{
+							product_id:productId
+					}
+				});
+				$(this).parent().parent().remove();
+			}
+		});
+	});
+	
+	$('#saveAddrBtn').click(function(){
+		var newAddr={};
+		newAddr['firstname']=$('#consigneeInput').val();
+		newAddr['lastname']='-';
+		newAddr['address1']=$('#district').val();
+		newAddr['address2']=$('#streetAddrInput').val();
+		newAddr['city']=$('#city').val();
+		newAddr['state_id']=$('#province').val();
+		newAddr['zipcode']=$('#postcodeInput').val();
+		newAddr['country_id']='119';
+		newAddr['phone']=$('#mobilePhoneInput').val();
 		$.ajax ({
-			url:	"/addresses/"+addrId,
+			url:	"/addresses",
 			type:	"post",
 			dataType: "html",
 			data: {
-				_method:'delete',
+				address:newAddr
 			}
 		});
-		$(this).parent().empty();
-		alert('删除成功');
 	});
 });
