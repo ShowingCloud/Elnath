@@ -1,1 +1,8 @@
 zh-CN:
+  spree:
+    product_name: "品名"
+    product_number: "货号"
+    size_and_color: "颜色&尺寸"
+    hangtag_price: "吊牌价"
+    sales_price: "官网价"
+    total_price: "总价"
