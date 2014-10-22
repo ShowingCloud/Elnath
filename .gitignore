@@ -104,6 +104,7 @@ db/datadump/spree_orders.yml
 db/datadump/spree_orders_promotions.yml
 db/datadump/spree_payments.yml
 db/datadump/spree_payment_capture_events.yml
+db/datadump/spree_roles_users.yml
 db/datadump/spree_shipments.yml
 db/datadump/spree_shipping_rates.yml
 db/datadump/spree_state_changes.yml
