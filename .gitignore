@@ -21,6 +21,9 @@ coverage
 # Don't upload precompiled assets
 pubic/assets/*
 
+# Don't upload precompiled deface
+app/compiled_views/*
+
 # Public Cache
 public/javascripts/cache
 public/stylesheets/cache
