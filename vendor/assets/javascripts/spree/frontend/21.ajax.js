@@ -51,7 +51,28 @@ jQuery(document).ready(function(){
 		});
 		alert('加入收藏夹成功！');
 	});
-	
+	$('#moveSelectToFavour').click(function(){
+		var idCount=0;
+		var deleteId='';
+		$('.itemCheckbox').each(function(){
+   			if ($(this).is(':checked'))
+   			{
+				var productId=$(this).attr('productid');
+				$.ajax ({
+					url:	"/add_favorite",
+					type:	"get",
+					dataType:	"json",
+					data:{
+							product_id:productId
+					}
+				});
+   				deleteId=$(this).parent().parent().find('.cart-item-delete').find('.delete').attr('id');
+				$('#order_line_items_attributes_'+idCount+'_quantity').attr('value','0');
+   			};
+			idCount++;
+  		});
+		$('#'+deleteId).click();
+	});
 	$('.addToFavouriteBtn').click(function(){
 		var productId=$(this).attr('productid');
 		$.ajax ({
@@ -90,7 +111,6 @@ jQuery(document).ready(function(){
 			}
 		});
 		$(this).parent().remove();
-		alert('删除成功');
 	});
 	
 	$('#bacthDelete').click(function(){

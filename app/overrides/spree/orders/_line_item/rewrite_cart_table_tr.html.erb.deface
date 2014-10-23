@@ -1,8 +1,7 @@
 <!-- replace 'tr' -->
 <tr class="<%= cycle('', 'alt') %> line-item">
 	<td class='checkboxTd'>
-		<input type='checkbox' class='itemCheckbox' checked="true">
-
+		<input type='checkbox' class='itemCheckbox' checked="true" productId=<%=variant.product.id%> >
 	</td>
 	<td class="cart-item-image" data-hook="cart_item_image">
 		<% if variant.images.length == 0 %>
