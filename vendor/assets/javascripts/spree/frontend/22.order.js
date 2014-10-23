@@ -21,6 +21,19 @@ jQuery(document).ready(function() {
 		$('.cart-item-price').html($('.cart-item-price').html().replace('元','￥'));
 		$('.cart-item-total').html($('.cart-item-total').html().replace('元','￥'));
 	}
+	$('#deleteSelectItem').click(function(){
+		var idCount=0;
+		var deleteId='';
+		$('.itemCheckbox').each(function(){
+   			if ($(this).is(':checked'))
+   			{
+   				deleteId=$(this).parent().parent().find('.cart-item-delete').find('.delete').attr('id');
+				$('#order_line_items_attributes_'+idCount+'_quantity').attr('value','0');
+   			};
+			idCount++;
+  		});
+		$('#'+deleteId).click();
+	});
 	
 	$('.selectAllCheckbox').click(function(){
 		if($(this).is(':checked'))
@@ -48,7 +61,7 @@ jQuery(document).ready(function() {
 	        $(".selectAllCheckbox").prop("checked", true); 
 	    }
 	});
-
+	
 	$('.checkoutBtn').click(function(){
 		//var order={};
 		//order['line_items_attributes'] = [];
