@@ -1,0 +1,13 @@
+<!--replace '[data-hook="order_summary"]'-->
+<table data-hook="order_summary">
+  <tbody>
+    <tr data-hook="item_total">
+      <td><strong><%= Spree.t(:item_total) %>:</strong></td>
+      <td><strong>￥<%= order.item_total %></strong></td>
+    </tr>
+    <tr data-hook="order_total">
+      <td><strong><%= Spree.t(:order_total) %>:</strong></td>
+      <td><strong><span id='summary-order-total'>￥<%= order.total %></span></strong></td>
+    </tr>
+  </tbody>
+</table>
