@@ -1,0 +1,2 @@
+<!--replace "legend"-->
+<legend><%= Spree.t(address_type + "_address")%></legend>

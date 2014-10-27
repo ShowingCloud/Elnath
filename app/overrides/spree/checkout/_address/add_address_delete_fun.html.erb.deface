@@ -1,6 +1,6 @@
 <!--replace '.field>span'-->
  <span id="<%= [address_type, dom_id(address)].join('_') %>">
 <label><%= form.radio_button "#{address_name}_id", address.id, :checked => (idx == 0) %> <%= address %></label> <a href="<%= edit_address_path(address) %>" data-hook="edit_address"><%= t(:edit) %></a>
-<label class='delete_addr' addr_id=<%= address.id %> > 删除</label>
+<label class='delete_addr' addr_id=<%= address.id %> > <%= Spree.t(:delete) %></label>
 <br />
 </span>
