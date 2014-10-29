@@ -1,5 +1,7 @@
 Elnath::Application.routes.draw do
 
+  resources :localities
+
   get '/favorites', :to => 'spree/products#favorites'
   get '/add_favorite', :to => 'spree/products#add_favorite'
   get '/remove_favorite', :to => 'spree/products#remove_favorite'

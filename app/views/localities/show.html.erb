@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @locality.name %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @locality.level %>
+</p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @locality.parent %>
+</p>
+
+<p>
+  <strong>Sort:</strong>
+  <%= @locality.sort %>
+</p>
+
+<p>
+  <strong>Areacode:</strong>
+  <%= @locality.areacode %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @locality.zipcode %>
+</p>
+
+<p>
+  <strong>Telcode:</strong>
+  <%= @locality.telcode %>
+</p>
+
+<p>
+  <strong>Freight paid:</strong>
+  <%= @locality.freight_paid %>
+</p>
+
+<p>
+  <strong>Freight cod:</strong>
+  <%= @locality.freight_cod %>
+</p>
+
+<%= link_to 'Edit', edit_locality_path(@locality) %> |
+<%= link_to 'Back', localities_path %>
