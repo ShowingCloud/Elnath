@@ -31,9 +31,9 @@ class LocalitiesController < ApplicationController
 		@locality = Locality.find params[:id]
 
 		@children = Locality.find :all, :conditions => { :parent => params[:id] }
-		@locality[:children] = @children
+		#@locality[:children] = @children
+		respond_with ret = {:locality => @locality,:children => @children}
 
-		respond_with @locality
 	end
 
 	# PUT /localities/:id
