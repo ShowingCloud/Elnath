@@ -1,6 +1,16 @@
-<!--replace '.field>span'-->
- <span id="<%= [address_type, dom_id(address)].join('_') %>">
-<label><%= form.radio_button "#{address_name}_id", address.id, :checked => (idx == 0) %> <span><%=address.lastname+' '+address.firstname%></span><br/><span><%= address.city %></span><br/><span><%= address.address1 %></span></label><br/><span><%=address.phone%></span> <a href="<%= edit_address_path(address) %>" data-hook="edit_address"><%= Spree.t(:edit) %></a>
-<label class='delete_addr' addr_id=<%= address.id %> > <%= Spree.t(:delete) %></label>
-<br />
-</span>
+<!--replace '.field'-->
+<p class="field">
+      <% @addresses.each_with_index do |address, idx| %>
+		<span id="<%= [address_type, dom_id(address)].join('_') %>">
+		<label><%= form.radio_button "#{address_name}_id", address.id, :checked => (idx == 0) %> 
+			<span><%=address.lastname+' '+address.firstname%></span><br/><span><%= address.city %></span><br/>
+			<span><%= address.address1 %></span></label><br/><span><%=address.phone%></span> 
+			<a href="<%= edit_address_path(address) %>" data-hook="edit_address"><%= Spree.t(:edit) %></a>
+		<label class='delete_addr' addr_id=<%= address.id %> > <%= Spree.t(:delete) %></label>
+		<br />
+		</span>
+      <% end %>
+		<label><%= form.radio_button "#{address_name}_id", 0 %> <%= Spree.t('other_address') %></label>
+</p>
+
+

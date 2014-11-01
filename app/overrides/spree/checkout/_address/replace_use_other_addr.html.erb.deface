@@ -1,2 +1,0 @@
-<!--replace '.field>label'-->
-<label><%= form.radio_button "#{address_name}_id", 0 %> <%= Spree.t('other_address') %></label>
