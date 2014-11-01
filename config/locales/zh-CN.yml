@@ -12,3 +12,4 @@ zh-CN:
     use_billing_address: "使用账单地址"
     other_address: "使用其它地址"
     state: "省"
+    edit: "修改"

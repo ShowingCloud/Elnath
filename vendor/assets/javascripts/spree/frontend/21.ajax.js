@@ -22,7 +22,54 @@
 	}
 }
 */
+
 jQuery(document).ready(function(){
+	$('.cityAddress>select:first-child').change(function(){
+		if($(this).val()==0)
+		{
+			return;
+		}
+		var selectorId=$(this).next().attr('id');
+		var proviceId = $(this).val();
+		getNextLocality(selectorId,proviceId);
+	});
+	$('.cityAddress>select:nth-child(2)').change(function(){
+		if($(this).val()==0)
+		{
+			return;
+		}
+		var selectorId=$(this).next().attr('id');
+		var proviceId = $(this).val();
+		getNextLocality(selectorId,proviceId);
+	});
+	
+	$('.cityAddress>select:nth-child(3)').change(function(){
+		if($(this).val()==0)
+		{
+			return;
+		}
+		var addressType=$(this).attr('id').substring(0,4);
+		$('#order_'+addressType+'_address_attributes_city').val($(this).prev().prev().children('option:selected').text()+' '+$(this).prev().children('option:selected').text()+" "+$(this).children('option:selected').text());
+		$('#order_'+addressType+'_address_attributes_address2').val($(this).val());
+	});
+	
+	function getNextLocality(selectorId , proviceId)
+	{
+		$('#'+selectorId).html("<option value='0'>请选择</option>");
+		$.ajax ({
+				url:	"/localities/"+proviceId+".json",
+				type:	"GET",
+				dataType:	"json"
+			}).done (function (resp) {
+				for (var i = 0; i < resp.children.length; i++) {
+					if (resp.children[i].sort == -1)
+					continue;
+					$('#'+selectorId).append ("<option value="+resp.children[i].id +">" + resp.children[i].name +"</option>");
+				}
+			}).fail (function() {
+				alert ("请求发送失败，请稍候再试");
+			});
+	}
 	$('#searchBtnImg').click(function(){
 		if(keyWords!='')
 		{

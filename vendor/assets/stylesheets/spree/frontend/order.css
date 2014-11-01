@@ -1,3 +1,24 @@
+#baddress2,#bcountry{
+	display:none ! important;
+}
+#saddress2,#scountry{
+	display:none ! important;
+}
+#bcity,#scity{
+	display:none ! important;
+}
+#bstate,#sstate{
+	display:none ! important;
+}
+#billing_city>.cityAddress>select{
+	width:32.4%;
+}
+#shipping_city>.cityAddress>select{
+	width:32.4%;
+}
+.inner[data-hook="shipping_inner"] input[type=text], .inner[data-hook="shipping_inner"] select{
+width: 100%;
+}
 #cooperateBank>img{
 	width: 675px;
 }
