@@ -1,4 +1,4 @@
-<!--replace '.field'-->
+<!--replace 'div.select_address>p.field'-->
 <p class="field">
       <% @addresses.each_with_index do |address, idx| %>
 		<span id="<%= [address_type, dom_id(address)].join('_') %>">
