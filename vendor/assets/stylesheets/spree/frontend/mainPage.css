@@ -3,6 +3,15 @@ body, div, li, input, button, p, a,input[type="button"]{font-family:'Microsoft Y
 	float:left;
 	margin-left: 30px;
 }
+#spinner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	display: none;
+}
 #customerServiceDiv{
 	z-index:101;
 	position:fixed;
