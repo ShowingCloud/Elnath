@@ -309,7 +309,7 @@ spree_products:
     - 1
     - 4
     - 2014-06-27 06:36:59.000000000 Z
-    - 2014-09-25 02:14:48.000000000 Z
+    - 2014-10-22 07:40:10.000000000 Z
     - 0.0
     - 0
   - - 19
@@ -393,13 +393,13 @@ spree_products:
     - 
     - 2014-06-26 00:00:00.000000000 Z
     - 
-    - t-a
+    - fd10229741
     - "男士 翻领  短袖  T恤"
     - "男士 翻领  短袖  T恤"
     - 1
     - 4
     - 2014-06-27 12:46:18.000000000 Z
-    - 2014-09-30 06:48:05.000000000 Z
+    - 2014-10-22 07:31:01.000000000 Z
     - 0.0
     - 0
   - - 23
@@ -680,7 +680,7 @@ spree_products:
     - 1
     - 4
     - 2014-06-28 15:40:11.000000000 Z
-    - 2014-09-24 06:32:23.000000000 Z
+    - 2014-10-22 07:58:56.000000000 Z
     - 0.0
     - 0
   - - 45
@@ -694,7 +694,7 @@ spree_products:
     - 1
     - 4
     - 2014-06-29 14:31:30.000000000 Z
-    - 2014-09-24 06:36:12.000000000 Z
+    - 2014-10-22 08:02:05.000000000 Z
     - 0.0
     - 0
   - - 46
@@ -1604,7 +1604,7 @@ spree_products:
     - 1
     - 4
     - 2014-07-14 03:42:40.000000000 Z
-    - 2014-09-24 07:02:32.000000000 Z
+    - 2014-10-22 07:53:13.000000000 Z
     - 0.0
     - 0
   - - 84
@@ -1633,7 +1633,7 @@ spree_products:
     - 1
     - 4
     - 2014-07-14 03:44:56.000000000 Z
-    - 2014-09-24 06:57:34.000000000 Z
+    - 2014-10-22 08:10:00.000000000 Z
     - 0.0
     - 0
   - - 85
@@ -2216,5 +2216,486 @@ spree_products:
     - 4
     - 2014-09-16 07:12:15.000000000 Z
     - 2014-09-16 07:47:52.000000000 Z
+    - 0.0
+    - 0
+  - - 121
+    - "秋冬时尚休闲长袖衬衫"
+    - 
+    - 2014-11-01 00:00:00.000000000 Z
+    - 2014-11-03 07:05:53.000000000 Z
+    - 1414998353_ybca350531
+    - 
+    - 
+    - 
+    - 4
+    - 2014-11-01 03:18:31.000000000 Z
+    - 2014-11-03 07:05:53.000000000 Z
+    - 0.0
+    - 0
+  - - 122
+    - BIG ROOSTER大公鸡正品英伦毛衣男 修身男士V领针织开衫 薄小外套
+    - 
+    - 2014-11-01 00:00:00.000000000 Z
+    - 2014-11-03 06:58:20.000000000 Z
+    - 1414997900_big-rooster-v
+    - 
+    - 
+    - 
+    - 4
+    - 2014-11-01 05:02:43.000000000 Z
+    - 2014-11-03 06:58:20.000000000 Z
+    - 0.0
+    - 0
+  - - 123
+    - "大公鸡2014秋冬装新款韩版休闲套装 加厚运动卫衣女"
+    - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/1004/content_ybaa370682_01.jpg\"
+      style=\"height:1030px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1005/content_ybaa370682_02.jpg\"
+      style=\"height:754px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1006/content_ybaa370682_03.jpg\"
+      style=\"height:677px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1007/content_ybaa370682_04.jpg\"
+      style=\"height:852px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1008/content_ybaa370682_05.jpg\"
+      style=\"height:1036px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1009/content_ybaa370682_06.jpg\"
+      style=\"height:1293px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1010/content_ybaa370682_07.jpg\"
+      style=\"height:483px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1011/content_ybaa370682_09.jpg\"
+      style=\"height:711px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1012/content_ybaa370682_10.jpg\"
+      style=\"height:764px; width:790px\" /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - '2014'
+    - "时尚女士卫衣"
+    - "时尚女士卫衣"
+    - 
+    - 4
+    - 2014-11-03 01:38:29.000000000 Z
+    - 2014-11-03 01:56:07.000000000 Z
+    - 0.0
+    - 0
+  - - 124
+    - "男士修身西服"
+    - "<p><img alt=\"\" src=\"/ckeditor_assets/pictures/1013/content_ybca320271--_01.jpg\"
+      style=\"height:1030px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1014/content_ybca320271--_02.jpg\"
+      style=\"height:723px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1015/content_ybca320271--_03.jpg\"
+      style=\"height:637px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1016/content_ybca320271--_04.jpg\"
+      style=\"height:1128px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1017/content_ybca320271--_05.jpg\"
+      style=\"height:1038px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1018/content_ybca320271--_06.jpg\"
+      style=\"height:971px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1019/content_ybca320271--_07.jpg\"
+      style=\"height:1085px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1020/content_ybca320271--_08.jpg\"
+      style=\"height:1216px; width:790px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/1021/content_ybca320271--_09.jpg\"
+      style=\"height:768px; width:790px\" /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ybca320271
+    - "男士西服"
+    - "男士西服"
+    - 
+    - 4
+    - 2014-11-03 02:01:52.000000000 Z
+    - 2014-11-03 02:22:20.000000000 Z
+    - 0.0
+    - 0
+  - - 125
+    - 'big rooster大公鸡2014秋装新款牛角扣 复古长款 连帽毛衫 外套女 '
+    - "<p><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2M6zmaXXXXXcIXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2tqzQapXXXXbCXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB26znjaXXXXXXIXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2RljoaXXXXXbbXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2vyrkaXXXXXX2XpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2nWnoaXXXXXbuXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2Ko2maXXXXXbVXXXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - big-rooster-2014
+    - 'big rooster大公鸡2014秋装新款牛角扣 复古长款 连帽毛衫 外套女 '
+    - 'big rooster大公鸡2014秋装新款牛角扣 复古长款 连帽毛衫 外套女 '
+    - 
+    - 4
+    - 2014-11-03 02:13:23.000000000 Z
+    - 2014-11-03 02:23:24.000000000 Z
+    - 0.0
+    - 0
+  - - 126
+    - "大公鸡2014秋装新款 英伦风男士衬衫 男 潮 "
+    - "<p><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2CDjoaXXXXXaOXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2jSreapXXXXcRXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2ekLpaXXXXXafXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2.0PraXXXXXXFXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2AePmaXXXXXcQXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB24_vnaXXXXXbyXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2PbbqaXXXXXXNXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2CCbqaXXXXXX1XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2YIfkaXXXXXa.XpXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - 2014-ybca310021
+    - "大公鸡2014秋装新款 英伦风男士衬衫 男 潮"
+    - "大公鸡2014秋装新款 英伦风男士衬衫 男 潮"
+    - 
+    - 4
+    - 2014-11-03 02:30:28.000000000 Z
+    - 2014-11-03 02:42:18.000000000 Z
+    - 0.0
+    - 0
+  - - 127
+    - "男士修身衬衣"
+    - "<p><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2MvKQaXXXXXXnXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2IimMaXXXXXcIXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2lrSNaXXXXXbBXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2OhKMaXXXXXceXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2qc1JaXXXXXXeXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2P7yNaXXXXXbLXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2O2SMaXXXXXc3XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2s4qOaXXXXXaNXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2Du1OaXXXXXbjXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2S_GMaXXXXXcsXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2VRONaXXXXXbuXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2rjKNaXXXXXbGXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2JryOaXXXXXbnXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2k2CQaXXXXXXyXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2sf5LaXXXXXc3XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB26vOQaXXXXXX3XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2RrKNaXXXXXb5XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2Tc1MaXXXXXcPXXXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ybca320421
+    - "男士衬衣"
+    - "男士衬衣"
+    - 
+    - 4
+    - 2014-11-03 02:37:36.000000000 Z
+    - 2014-11-03 02:59:45.000000000 Z
+    - 0.0
+    - 0
+  - - 128
+    - "女士性感 半身裙"
+    - "<p><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2Q2yLaXXXXXaKXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2eBeQaXXXXXbmXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2mU5IaXXXXXatXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2ZBmMaXXXXXXzXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2RXuMaXXXXXX5XpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2FRSMaXXXXXcQXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2OFaOaXXXXXcjXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2Tw1JaXXXXXaIXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB29ESIaXXXXXaGXpXXXXXXXXXX_!!1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ybqa370672
+    - "女士短裙"
+    - "女士短裙"
+    - 
+    - 4
+    - 2014-11-03 03:04:43.000000000 Z
+    - 2014-11-03 03:19:03.000000000 Z
+    - 0.0
+    - 0
+  - - 129
+    - "秋装韩版修身显瘦百褶裙女款休闲时尚"
+    - "<p><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2fnKQaXXXXXaXXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2leGJaXXXXXaZXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2s1ePaXXXXXaNXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2gRKPaXXXXXXrXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2pAyQaXXXXXazXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2F01PaXXXXXaPXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB27uqQaXXXXXXmXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2FxWRaXXXXXXGXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2z59QaXXXXXXxXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2YvGQaXXXXXa1XXXXXXXXXXXX_!!1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ybqa370972
+    - "女士短裙"
+    - "女士短裙"
+    - 
+    - 4
+    - 2014-11-03 05:09:49.000000000 Z
+    - 2014-11-03 05:22:43.000000000 Z
+    - 0.0
+    - 0
+  - - 130
+    - "秋冬新款中年纯色修身休闲 男士毛衣"
+    - "<p><img alt=\"YBYA380861--b（模&amp;平）_01\" src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2TpSMaXXXXXXOXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_02\" src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2XJOLaXXXXXcPXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_03\" src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2TRCLaXXXXXabXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_04\" src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2pRCNaXXXXXcrXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_05\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB281iMaXXXXXXGXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_06\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2VEWLaXXXXXXyXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_07\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2UaWOaXXXXXbZXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_08\" src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB27dKMaXXXXXXKXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YBYA380861--b（模&amp;平）_09\" src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB262GMaXXXXXXdXpXXXXXXXXXX_!!1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ybya380861
+    - "男士开衫毛衣针织衫"
+    - "男士开衫毛衣针织衫"
+    - 
+    - 4
+    - 2014-11-03 05:32:50.000000000 Z
+    - 2014-11-03 05:44:39.000000000 Z
+    - 0.0
+    - 0
+  - - 131
+    - "草小西装真皮皮衣女短款修身皮夹克"
+    - "<p><img alt=\"YLVA361472（模&amp;平）_01\" src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2bb1QaXXXXXXmXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_02\" src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2okCLaXXXXXXFXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_03\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB29sONaXXXXXciXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_04\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2nfaNaXXXXXb5XXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_05\" src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB29KeQaXXXXXXSXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_06\" src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2ygOMaXXXXXbuXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_07\" src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2jeeNaXXXXXbwXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_08\" src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2uu5OaXXXXXbdXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_09\" src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2pgOPaXXXXXalXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_10\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2TYKOaXXXXXbwXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_11\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB26aWNaXXXXXbQXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img alt=\"YLVA361472（模&amp;平）_12\" src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2SnyMaXXXXXcuXXXXXXXXXXXX_!!1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ylva361472
+    - "女士皮衣夹克"
+    - "女士皮衣夹克"
+    - 
+    - 4
+    - 2014-11-03 05:53:25.000000000 Z
+    - 2014-11-03 06:09:04.000000000 Z
+    - 0.0
+    - 0
+  - - 132
+    - "秋装新款男士皮衣外套立领男式皮夹克加厚男装"
+    - "<p><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2mKKIaXXXXXaUXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2FcSHaXXXXXbdXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB27y9JaXXXXXcHXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2r75QaXXXXXatXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2b.eQaXXXXXXkXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB25f9QaXXXXXX1XXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2ldCHaXXXXXaTXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2CC1HaXXXXXaTXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2GdKGaXXXXXcOXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2mZGNaXXXXXb1XXXXXXXXXXXX_!!1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ylvb360401
+    - "男士加厚皮衣夹克"
+    - "男士加厚皮衣夹克"
+    - 
+    - 4
+    - 2014-11-03 06:12:46.000000000 Z
+    - 2014-11-03 06:20:40.000000000 Z
+    - 0.0
+    - 0
+  - - 133
+    - "女士羽绒服"
+    - "<p><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2yO5PaXXXXXaaXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2WwOPaXXXXXX4XXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2Lu9QaXXXXXXAXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2zdKPaXXXXXXeXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2C3GOaXXXXXaWXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2u49PaXXXXXaXXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2oPOOaXXXXXaRXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2KEKPaXXXXXXTXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2eimNaXXXXXbeXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2xcqQaXXXXXXoXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2TluMaXXXXXcqXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2ahWGaXXXXXbRXpXXXXXXXXXX_!!1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ysfa360562
+    - "女士羽绒服外套"
+    - "女士羽绒服外套"
+    - 
+    - 4
+    - 2014-11-03 06:42:09.000000000 Z
+    - 2014-11-03 06:52:09.000000000 Z
+    - 0.0
+    - 0
+  - - 134
+    - "男士宽松通勤开衫卫衣"
+    - 
+    - 2014-11-03 00:00:00.000000000 Z
+    - 2014-11-03 07:00:09.000000000 Z
+    - 1414998009_ybaa410181rs
+    - 
+    - 
+    - 
+    - 4
+    - 2014-11-03 06:44:47.000000000 Z
+    - 2014-11-03 07:00:09.000000000 Z
+    - 0.0
+    - 0
+  - - 135
+    - "男士宽松通勤开衫卫衣"
+    - 
+    - 2014-11-03 00:00:00.000000000 Z
+    - 2014-11-03 07:00:12.000000000 Z
+    - 1414998012_-36777dda-6bda-4d58-82c1-bdde464fe6d3
+    - 
+    - 
+    - 
+    - 4
+    - 2014-11-03 06:45:28.000000000 Z
+    - 2014-11-03 07:00:12.000000000 Z
+    - 0.0
+    - 0
+  - - 136
+    - "男士宽松通勤开衫卫衣"
+    - 
+    - 2014-11-03 00:00:00.000000000 Z
+    - 2014-11-03 07:00:16.000000000 Z
+    - 1414998016_0fd2a179-bc45-4a6c-80df-fa697c686237
+    - 
+    - 
+    - 
+    - 4
+    - 2014-11-03 06:47:20.000000000 Z
+    - 2014-11-03 07:00:16.000000000 Z
+    - 0.0
+    - 0
+  - - 137
+    - "男士宽松通勤开衫卫衣"
+    - "<p><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2lk6taVXXXXb3XpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2Yh_vaVXXXXagXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2HPYwaVXXXXXJXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2VyvBaVXXXXXiXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2EjLxaVXXXXcZXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB27NPwaVXXXXalXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2eE6yaVXXXXcbXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2PL_waVXXXXXUXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2ncjxaVXXXXXrXpXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - 64b26593-62c6-431b-b136-bf35b9cd57ba
+    - 
+    - 
+    - 
+    - 4
+    - 2014-11-03 06:49:16.000000000 Z
+    - 2014-11-03 07:08:32.000000000 Z
+    - 0.0
+    - 0
+  - - 138
+    - BIG ROOSTER大公鸡英伦长袖男衬衫 男士长袖衬衫长袖衬衣男长袖潮
+    - "<p><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2aPzjaXXXXXa4XpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2imrWapXXXXXHXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2Z8zlaXXXXXXtXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2rD_oaXXXXXXyXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB22hnpaXXXXXajXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2DJzqaXXXXXaZXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2ezbqaXXXXXaTXXXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - big-rooster
+    - BIG ROOSTER大公鸡英伦长袖男衬衫 男士长袖衬衫长袖衬衣男长袖潮
+    - BIG ROOSTER大公鸡英伦长袖男衬衫 男士长袖衬衫长袖衬衣男长袖潮
+    - 
+    - 4
+    - 2014-11-03 06:52:22.000000000 Z
+    - 2014-11-03 07:03:52.000000000 Z
+    - 0.0
+    - 0
+  - - 139
+    - "大公鸡2014秋季新款男士衬衫 英伦风修身 长袖 衬衫"
+    - "<p><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2IDUbaXXXXXXKXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB27BweaXXXXXXvXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2hp.haXXXXXbzXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2WZQhaXXXXXbuXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2BgEgaXXXXXbJXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2JCIfaXXXXXbSXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB22echaXXXXXbiXXXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2IyQgaXXXXXbyXXXXXXXXXXXX_!!1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - 2014-ybcb366301
+    - "大公鸡2014秋季新款男士衬衫 英伦风修身 长袖 衬衫"
+    - "大公鸡2014秋季新款男士衬衫 英伦风修身 长袖 衬衫"
+    - 
+    - 4
+    - 2014-11-03 07:06:05.000000000 Z
+    - 2014-11-03 07:16:23.000000000 Z
+    - 0.0
+    - 0
+  - - 140
+    - "男士宽松通勤开衫卫衣"
+    - "<p><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2792zaVXXXXb6XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB26y2waVXXXXXBXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2gUYzaVXXXXb2XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2UKHBaVXXXXXMXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2UofxaVXXXXc3XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2DabAaVXXXXbhXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2eCvzaVXXXXbUXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2PETzaVXXXXbQXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2lTDAaVXXXXX9XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2OkPzaVXXXXb2XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2SS6waVXXXXXjXpXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ybaa410381rs
+    - "外套 卫衣 开衫"
+    - "外套 卫衣 开衫"
+    - 
+    - 4
+    - 2014-11-03 07:12:50.000000000 Z
+    - 2014-11-03 07:18:54.000000000 Z
+    - 0.0
+    - 0
+  - - 141
+    - BIG ROOSTER大公鸡正品英伦毛衣男士 修身男士园领针织衫
+    - "<p><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2AbPkaXXXXXbiXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2Qz8yaFXXXXbhXpXXXXXXXXXX_!!1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2K6_raXXXXXaIXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2zYTkaXXXXXaSXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2f6roaXXXXXcbXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2S7PmaXXXXXXNXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2j0fnaXXXXXXzXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2sX_laXXXXXXuXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2LCLnaXXXXXc6XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2mB2jaXXXXXbpXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2ZHfraXXXXXbKXXXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - big-rooster-ybya23026158
+    - BIG ROOSTER大公鸡正品英伦毛衣男士 修身男士园领针织衫
+    - BIG ROOSTER大公鸡正品英伦毛衣男士 修身男士园领针织衫
+    - 
+    - 4
+    - 2014-11-03 07:19:05.000000000 Z
+    - 2014-11-03 07:25:58.000000000 Z
+    - 0.0
+    - 0
+  - - 142
+    - "男士修身衬衫"
+    - "<p><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB2NEjAaVXXXXa6XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img02.taobaocdn.com/imgextra/i2/1690412810/TB26.PuaVXXXXaHXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2oS2AaVXXXXaCXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2N8PwaVXXXXXdXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2KojzaVXXXXb5XXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2eNYBaVXXXXXyXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB20LDvaVXXXXatXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB2FoYyaVXXXXcqXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB25JnxaVXXXXXjXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB27cLBaVXXXXacXXXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img04.taobaocdn.com/imgextra/i4/1690412810/TB2h4PuaVXXXXbOXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img03.taobaocdn.com/imgextra/i3/1690412810/TB2ss6xaVXXXXXjXpXXXXXXXXXX-1690412810.jpg\"
+      /><img src=\"http://img01.taobaocdn.com/imgextra/i1/1690412810/TB23afvaVXXXXa4XpXXXXXXXXXX-1690412810.jpg\"
+      /></p>\r\n"
+    - 2014-11-03 00:00:00.000000000 Z
+    - 
+    - ybca411431rs
+    - "男士修身衬衫 长袖衬衫"
+    - "男士修身衬衫 长袖衬衫"
+    - 1
+    - 4
+    - 2014-11-03 07:21:51.000000000 Z
+    - 2014-11-03 07:29:39.000000000 Z
     - 0.0
     - 0
