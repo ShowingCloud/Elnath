@@ -24,6 +24,19 @@
 */
 
 jQuery(document).ready(function(){
+	$('div[data-hook="buttons"]>input[name="commit"]').click(function(e){
+		if($('#billing_district').val()==0&&$('#order_bill_address_id_0').is(':checked'))
+		{
+			alert('请填写省/市/区');
+			e.preventDefault();
+			return;
+		}
+		if($('#shipping_district').val()==0&&$('#order_ship_address_id_0').is(':checked'))
+		{
+			alert('请填写省/市/区');
+			e.preventDefault();
+		}
+	});
 	$('.cityAddress>select:first-child').change(function(){
 		if($(this).val()==0)
 		{
@@ -51,6 +64,7 @@ jQuery(document).ready(function(){
 		var addressType=$(this).attr('id').substring(0,4);
 		$('#order_'+addressType+'_address_attributes_city').val($(this).prev().prev().children('option:selected').text()+' '+$(this).prev().children('option:selected').text()+" "+$(this).children('option:selected').text());
 		$('#order_'+addressType+'_address_attributes_address2').val($(this).val());
+		$('#order_'+addressType+'_address_attributes_country_id').val('119');
 	});
 	
 	function getNextLocality(selectorId , proviceId)
