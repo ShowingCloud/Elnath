@@ -19,6 +19,9 @@
 .inner[data-hook="shipping_inner"] input[type=text], .inner[data-hook="shipping_inner"] select{
 width: 100%;
 }
+.cart-item-delete{
+	padding:0px;
+}
 #cooperateBank>img{
 	width: 675px;
 }
