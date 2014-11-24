@@ -28,8 +28,8 @@
 	<div id='existedAddrDiv'>
 		<% spree_current_user.addresses.each do |address| %>
 			<div class='addrDetailsDiv'>
-				<p><span><%=address.lastname+' '+address.firstname%></span>，<span><%=address.state%></span>，<span><%=address.city%></span>，<span><%=address.address1%></span>，<span><%=address.address2%></span>，<span><%=address.zipcode%></span>，<span><%=address.phone%></span></p>
-				<p>
+				<p><span><%=address.lastname+' '+address.firstname%></span>，<span><%=address.state%></span>，<span><%=address.city%></span>，<span><%=address.address1%></span>，<span><%=address.zipcode%></span>，<span><%=address.phone%></span></p>
+				<p district_id=<%=address.address2%> >
 					<span class='addrOpSpan'>［修改］</span>
 					<span class='addrOpSpan'>［删除］</span>
 					<span class='addrOpSpan'>设为默认地址</span>
@@ -44,7 +44,14 @@
 				<label class='leftLabel' style='float:left'>收货人姓名：</label>
 				<input type="text" id='consigneeInput' style='display:inline-block;float:left;'>
 			</p>
-			<p><label class='leftLabel'>地区：</label><select><option value=''>请选择</option></select>省/直辖市<select><option>请选择</option></select>市/地区<select><option>请选择</option></select>市区/县</p>
+			<p>
+				<label class='leftLabel'>地区：</label>
+				<span class='cityAddress' style='margin-left:-5px;'>
+				<select id="shipping_province" class='provinceSelector' style='width:130px;'><option value='0' selected="selected">请选择</option></select>
+				<select id="shipping_town" class='townSelector' style='width:130px;'><option value='0' selected="selected">请选择</option></select>
+				<select id="shipping_district" class='districtSelector' style='width:130px;'><option value='0' selected="selected">请选择</option></select>
+				</span>
+			</p>
 			<p><label class='leftLabel'></label><input type="text" id="streetAddrInput" placeholder='请直接填写街道地址，省市区不需填写'></p>
 			<p><label class='leftLabel'>邮编地址：</label><input type="text" id='postcodeInput'></p>
 			<p><label class='leftLabel'>手机号码：</label><input type="text" id='mobilePhoneInput'><label>手机和电话号码至少必填一项</label></p>
@@ -55,3 +62,20 @@
 		</div>
 	</div>
 </div>
+	<script type='text/javascript'>
+		jQuery(document).ready(function(){
+			$.ajax ({
+				url:	"/localities/1.json",
+				type:	"GET",
+				dataType:	"json"
+			}).done (function (resp) {
+				for (var i = 0; i < resp.children.length; i++) {
+					if (resp.children[i].sort == -1)
+					continue;					
+					$("#shipping_province").append ("<option value="+resp.children[i].id +">" + resp.children[i].name + "</option>");
+				}
+			}).fail (function() {
+				alert ("请求发送失败，请稍候再试");
+			});
+		});
+	</script>

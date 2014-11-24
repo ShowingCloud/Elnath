@@ -1,0 +1,95 @@
+<!--replace 'div.inner'-->
+	<% address_type = 'shipping' %>
+	<% address_name = 'address' %>
+	<% address_form = f %>
+	<% address = @address %>
+    <div class="inner" data-hook=<%="#{address_type}_inner" %>>
+	<% address_id = address_type.chars.first %>	
+	<% ADDRESS_FIELDS.each do |field| %>
+	  <% if field == "country" %>
+		<p class="field" id="<%= "#{address_id}country" %>">
+		  <%= address_form.label :country_id, Spree.t(:country) %><span class="required">*</span><br />
+		  <span id="<%= "#{address_id}country-selection" %>">
+			<%= address_form.collection_select :country_id, available_countries, :id, :name, {}, {:class => 'required'} %>
+		  </span>
+		</p>
+	  <% elsif field == "company" %>
+		<div id=<%="#{address_type}_city"%> >
+			<p>省/市/区<span class="required">*</span></p>
+			<p class='cityAddress'>
+				<select id=<%="#{address_type}_province" %> class='provinceSelector'><option value='0' selected="selected">请选择</option></select>
+				<select id=<%="#{address_type}_town" %> class='townSelector'><option value='0' selected="selected">请选择</option></select>
+				<select id=<%="#{address_type}_district" %> class='districtSelector'><option value='0' selected="selected">请选择</option></select>
+			</p>
+		</div>
+	  <% else %>
+		<% next if field == "company" && !Spree::Config[:company] %>
+		<% next if field == "alternative_#{address_id}_phone" && !Spree::Config["alternative_#{address_id}_phone"] %>
+		<%= address_field(address_form, field.to_sym, address_id) %>
+	  <% end %>
+	<% end %>
+    </div>
+	<script type='text/javascript'>
+		jQuery(document).ready(function(){
+		
+			var district_id = $('#address_address2').val();
+			var city_id='';
+			var province_id='';
+			$.ajax ({
+				url:	"/localities/"+district_id+".json",
+				type:	"GET",
+				dataType:	"json"
+			}).done (function (resp1){
+				city_id = resp1.locality.parent;
+				$.ajax ({
+					url:	"/localities/"+city_id+".json",
+					type:	"GET",
+					dataType:	"json"
+				}).done (function (resp2){
+					province_id = resp2.locality.parent;
+					for (var i = 0; i < resp2.children.length; i++) {
+							if (resp2.children[i].sort == -1)
+							continue;							
+							$("#shipping_district").append ("<option value="+resp2.children[i].id +">" + resp2.children[i].name + "</option>");
+						}
+					$("#shipping_district").val(district_id);
+					$.ajax ({
+						url:	"/localities/1.json",
+						type:	"GET",
+						dataType:	"json"
+					}).done (function (resp) {
+						for (var i = 0; i < resp.children.length; i++) {
+							if (resp.children[i].sort == -1)
+							continue;							
+							$("#shipping_province").append ("<option value="+resp.children[i].id +">" + resp.children[i].name + "</option>");
+						}
+						$("#shipping_province").val(province_id);
+						$.ajax ({
+							url:	"/localities/"+ province_id +".json",
+							type:	"GET",
+							dataType:	"json"
+						}).done (function (resp3) {
+							for (var i = 0; i < resp3.children.length; i++) {
+								if (resp3.children[i].sort == -1)
+								continue;							
+								$("#shipping_town").append ("<option value="+resp3.children[i].id +">" + resp3.children[i].name + "</option>");
+							}
+							$("#shipping_town").val(city_id);
+						}).fail(function(){
+							alert ("请求发送失败，请稍候再试");
+						});
+						
+						
+					}).fail (function() {
+						alert ("请求发送失败，请稍候再试");
+					});
+				}).fail (function() {
+					alert ("请求发送失败，请稍候再试");
+				});
+			}).fail (function() {
+				alert ("请求发送失败，请稍候再试");
+			});
+			
+		});
+	</script>
+	

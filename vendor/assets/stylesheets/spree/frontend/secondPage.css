@@ -83,7 +83,7 @@ ul#products li .price {
 }
 ul#products li a.info{
 	border:none;
-	height:35px;
+	height:35px !important;
 	color:black;
 }
 #newTagSpan{
@@ -127,4 +127,14 @@ ul#products li a.info{
 }
 .pagination{ 
 	float: right;
+}
+ul#products li .product-image img {
+max-width: 100%;
+height: 160px;
+}
+ul#products li .product-image {
+min-height: 110px;
+background-color: white;
+border:none;
+padding:0;
 }
