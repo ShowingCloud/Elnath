@@ -67,6 +67,6 @@
 	<p><span>商品总金额：RMB ￥</span><span id='totalPriceSpan'><%=@order.item_total+@order.shipment_total%></span></p>
 	<p><span>优惠：RMB ￥</span><span id='totalPriceSpan'></span></p>
 	<p><span>总计金额(不含运费)：RMB ￥</span><span id='totalPriceSpan'><%=@order.item_total %></span></p>
-	<p><input type='text' id='leaveWordsInputShow' placeholder='订单留言'/></p>
+	<p><input type='text' id='leaveWordsInputShow' placeholder='订单留言' value=<%= @order.message%> disabled="disabled"/></p>
 </div>
 
