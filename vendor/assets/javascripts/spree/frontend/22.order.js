@@ -11,7 +11,10 @@ jQuery(document).ready(function() {
 			window.location='/logout';
 		}
 	});
-	
+	$('.line_item_quantity').bind('input propertychange', function() {
+		//alert($(this).val()*$(this).parent().attr('unit_price'));
+		$(this).parent().parent().find('.cart_item_total').find('.linePriceSpan').html(($(this).val()*$(this).parent().attr('unit_price')).toFixed(1));
+	});
 	$('.deleteProductBtn').click(function(){
 		$(this).parent().parent().parent().find('.cart-item-delete').find('.delete').click();
 	});
