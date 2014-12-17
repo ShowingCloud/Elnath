@@ -1,0 +1,261 @@
+<style>
+*::-moz-selection {
+    background: none repeat scroll 0 0 #0fa6bc;
+    color: white;
+}
+#changerpassword {
+	margin:0 auto;
+	display: block;
+	width: 950px;
+}
+#changerpassword p,dl,dt,dd{
+	font-size:10px;
+	font-family:'Î¢ÈíÑÅºÚ';
+}
+#changerpassword h2{
+	margin-left:40px;
+	font-size:12px;
+	font-weight:normal;
+	font-family:'Î¢ÈíÑÅºÚ';
+	color:#330000;	
+}
+#changerpassword a {
+	color:#330000;
+	text-decoration:none;
+}
+#changerpassword a:hover{
+	color:#0fa6bc;
+	cursor:pointer;
+}
+#changerpassword img {
+	margin-top:-10px;
+	margin-bottom:30px;
+}
+#leftsidebar {
+	width:160px;
+	padding-bottom:15px;
+	display:block;
+	float:left;
+	border:1px solid #ccc;
+	background:#fff;
+}
+#leftsidebar h3,#leftsidebar p {
+	text-align:center;
+	font-size:10px;
+}
+#leftsidebar h3{
+	color:#fff;
+	background:#333;
+	margin-top:0;
+	height:25px;
+	line-height:25px;
+	margin-bottom:16px;
+}
+#rightmessage {
+	width:770px;
+	height:350px;
+	margin-right:0 ;
+	display:block;
+	float:right;
+	border:1px solid #ccc;
+
+}
+#rightmessage p {
+	display:block;
+	padding-left:195px;
+	padding-top:10px;
+}
+#rightmessage input {
+	display:block;
+	margin-left:110px;
+	margin-top:-25px;
+	height:35px;
+}
+#rightmessage hr {
+	border:1px solid #666;
+	width:96%;
+}
+#rightmessage button {
+	color:#0fa6bc;
+	background:#0fa6bc;
+}
+#oldpassword,#newpassword {
+	text-indent:55px;
+}
+#tishi {
+	color:#999;
+	text-indent:110px;
+}
+#button  input{
+	display:block;
+	height:35px;
+	width:80px;
+	margin-left:155px;
+	color: #fff;
+	background: #0FA6BC;
+	border: 1px solid #0fa6bc;
+}
+
+#personalInformation {
+	width:80%;
+	height:580px;
+	margin-right:0 ;
+	display:block;
+	float:right;
+	border:1px solid #ccc;
+}
+#personalInformation dl {
+	margin-top:12px;
+	margin-left:65px;
+}
+#personalInformation dt {
+	
+}
+#personalInformation dd {
+	margin-left:0;
+	margin-top:6px;
+}
+#personalInformation dd input {
+	width:321px;
+	color:#999;
+	text-indent:5px;
+	border:1px solid #330000;
+}
+#personalInformation dd .xinbie {
+	margin-left:0px;
+	width:2px;
+	padding-left:0;
+	margin-right:6px;
+}
+#open {
+	display:block;
+    float: right;
+    margin-right: 340px;
+}
+#personalInformation dd select {
+	line-height:31px;
+	height:31px;
+	width:321px;
+	color:#999;
+	border:1px solid #330000;
+}
+#personalInformation dd .quyu {
+	width:105px;
+}
+#button_1 input{
+	border:1px solid #0fa6bc;
+	color:#fff;
+	background:#0fa6bc;
+	height:30px;
+	width:90px;
+	margin-top: 11px;
+	margin-left: 20px;
+}
+#personalInformation span{
+	color:#cc0000;
+	margin-left:4px;
+}
+#Address {
+	width:80%;
+	padding-bottom:60px;
+	margin-right:0 ;
+	display:block;
+	float:right;
+	border:1px solid #ccc;
+}
+#Address img{
+	margin:20px 25px auto 10px;
+	display:block;
+}
+#oldAddressmessage {
+	border-top:1px dashed #ccc; 
+	margin:5px 25px auto 10px;
+	border-bottom:1px solid #ccc;
+	padding-bottom:12px;
+}
+#oldAddressmessage p{
+	margin-bottom:10px;
+	line-height:25px;
+	color:#330000;
+}
+#oldAddressmessage a{
+	color:#1ea5bc;
+}
+#nowAddressmessage {
+	border-top:1px dashed #ccc; 
+	padding-left:45px;
+	padding-top:20px;
+	margin:5px 25px auto 10px;
+
+}
+.now {
+	margin:0;
+}
+#changerpassword dl {
+	margin-top: -5px;
+	margin:0;
+}
+
+
+#nowAddressmessage dd{
+	margin-left: 78px; 
+}
+#nowAddressmessage dd input{
+	line-height:25px;
+	text-indent:5px;
+
+}
+#nowAddressmessage dt{
+  position: relative;
+  top: 22px;
+ }
+#input_1 {
+	width:180px;
+}
+#input_2 select {
+	width:90px;
+	height:26px;
+	line-height:25px;
+}
+#input_3 {
+	width:370px;
+	color:#999;
+}
+#input_4 {
+	width:100px;
+}
+#input_5 {
+	width:100px;
+}
+#input_6 em{
+	color:#999;
+	font-style: normal;
+}
+#input_6_1 {
+	width:40px;
+	color:#999;
+}
+#input_6_2 {
+	width:100px;
+	color:#999;
+}
+#input_6_3 {
+	width:100px;
+	color:#999;
+}
+#input_7 {
+	color:#0fa6bc;
+	font-style: normal;
+}
+#nowAddressmessage span{
+	color:#cc0000;
+}
+#button_2 input{
+	border:1px solid #0fa6bc;
+	color:#fff;
+	background:#0fa6bc;
+	height:30px;
+	width:90px;
+	margin-top: 11px;
+}
+</style>
