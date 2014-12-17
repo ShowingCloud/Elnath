@@ -18,3 +18,4 @@ end
 
 Spree.user_class = "Spree::LegacyUser"
 Spree::PermittedAttributes.checkout_attributes << :message
+Spree::PermittedAttributes.user_attributes.push :nickname, :gender, :birthday, :cellphone, :city, :passwd_hint_question, :passwd_hint_answer

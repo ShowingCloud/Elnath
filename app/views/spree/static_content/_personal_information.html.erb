@@ -24,31 +24,32 @@
 			<p><a href='#'>退换货政策</a></p>
 		</div>
 	</div>
-	<%= form_tag("/user/spree_user", method: "put") do %>
+	<%= form_tag("/users/"+spree_current_user.id.to_s, method: "put") do %>
 		<div id='personalInformation'>
 		<dl>
 			<dt>姓名<span>*</span></dt>
-			<dd><input type='text' id='nickname' placeholder='比卢特用户名' name='spree_user[nickname]'><input type='hidden' name='spree_user[id]' value=<%= spree_current_user.id %> ></dd>
+			<dd><input type='text' id='nickname' placeholder='比卢特用户名' name='user[nickname]'>
+			<input type='hidden' name='user[id]' value=<%= spree_current_user.id %> ></dd>
 		</dl>
 		<dl>
 			<dt>性别<span>*</span></dt>
 			<dd>
-				<input id='male' type='radio' name='spree_user[gender]' value='male' style='width:20px'>
+				<input id='male' type='radio' name='user[gender]' value='male' style='width:20px'>
 				<label for='male'>男</label>
-				<input id='female' type='radio' name='spree_user[gender]' value='female' style='width:20px'>
+				<input id='female' type='radio' name='user[gender]' value='female' style='width:20px'>
 				<label for='female'>女</label>
 			</dd>
 		</dl>
 		<dl>
 			<dt>生日<span>*</span></dt>
 			<dd>
-				<input id="datetimepicker4" type="text" name='spree_user[birthday]'></input>
+				<input id="datetimepicker4" type="text" name='user[birthday]'></input>
 				<!--<img id='open' src=<%= image_path('spree/frontend/calendar.png') %> style="margin-top: -39px;">-->
 			</dd>
 		</dl>
 		<dl>
 			<dt>手机<span>*</span></dt>
-			<dd><input type='text' id='cellphone' name='spree_user[cellphone]' ></dd>
+			<dd><input type='text' id='cellphone' name='user[cellphone]' ></dd>
 		</dl>
 		<dl><dt>省/市/区</dt><dd>
 		<select id="user_province" class='quyu' tabindex="10">
@@ -60,8 +61,8 @@
 		 <select id="user_city" name="spree_user[city]" class='quyu' tabindex="12">
 		 <option value="0">县/市</option>
 		 </select></dd></dl>
-		<dl><dt>密码提示问题<span>*</span></dt><dd><input type='text' name='spree_user[passwd_hint_question]'></dd></dl>
-		<dl><dt>密码提示答案<span>*</span></dt><dd><input type='text' name='spree_user[passwd_hint_answer]'></dd></dl>
+		<dl><dt>密码提示问题<span>*</span></dt><dd><input type='text' name='user[passwd_hint_question]'></dd></dl>
+		<dl><dt>密码提示答案<span>*</span></dt><dd><input type='text' name='user[passwd_hint_answer]'></dd></dl>
 		<dl id='button_1'><input type="submit" id='saveUserInfoBtn' value="保存" ></dl>
 		</div>
 	<% end %>
