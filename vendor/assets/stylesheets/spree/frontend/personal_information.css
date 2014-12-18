@@ -27,10 +27,6 @@
 	color:#0fa6bc;
 	cursor:pointer;
 }
-#changerpassword img {
-	margin-top:-10px;
-	margin-bottom:30px;
-}
 #leftsidebar {
 	width:160px;
 	padding-bottom:15px;
@@ -99,7 +95,7 @@
 #personalInformation {
 	width:80%;
 	height:580px;
-	margin-right:0 ;
+	margin-right:10px;
 	display:block;
 	float:right;
 	border:1px solid #ccc;
@@ -129,8 +125,8 @@
 }
 #open {
 	display:block;
-    float: right;
-    margin-right: 340px;
+  float: right;
+  margin-right: 20px;
 }
 #personalInformation dd select {
 	line-height:31px;

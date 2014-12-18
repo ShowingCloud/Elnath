@@ -44,7 +44,7 @@
 			<dt>生日<span>*</span></dt>
 			<dd>
 				<input id="datetimepicker4" type="text" name='user[birthday]'></input>
-				<!--<img id='open' src=<%= image_path('spree/frontend/calendar.png') %> style="margin-top: -39px;">-->
+				<img id='open' src=<%= image_path('spree/frontend/calendar.png') %> >
 			</dd>
 		</dl>
 		<dl>
@@ -68,3 +68,18 @@
 	<% end %>
 	
 </div>
+<script>
+$('#datetimepicker4').datetimepicker({
+    //yearOffset:2,
+    lang:'ch',
+    timepicker:false,
+    format:'Y/m/d',
+    formatDate:'Y/m/d',
+   // minDate:'-1970/01/02', // yesterday is minimum date
+   // maxDate:'+1970/01/02' // and tommorow is maximum date calendar
+});
+$('#datetimepicker4').datetimepicker();
+$('#open').click(function(){
+	$('#datetimepicker4').datetimepicker('show');
+});
+</script>

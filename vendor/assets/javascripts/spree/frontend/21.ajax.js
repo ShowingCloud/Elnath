@@ -24,6 +24,19 @@
 */
 
 jQuery(document).ready(function(){
+	$('#datetimepicker4').datetimepicker({
+    //yearOffset:2,
+    lang:'ch',
+    timepicker:false,
+    format:'Y/m/d',
+    formatDate:'Y/m/d',
+   // minDate:'-1970/01/02', // yesterday is minimum date
+   // maxDate:'+1970/01/02' // and tommorow is maximum date calendar
+	});
+	$('#open').click(function(){
+		$('#datetimepicker4').datetimepicker('show');
+	});
+	
 	$('div[data-hook="buttons"]>input[name="commit"]').click(function(e){
 		if($('#billing_district').val()==0&&$('#order_bill_address_id_0').is(':checked'))
 		{
