@@ -28,39 +28,84 @@
 	<div id='existedAddrDiv'>
 		<% spree_current_user.addresses.each do |address| %>
 			<div class='addrDetailsDiv'>
-				<p><span><%=address.lastname+' '+address.firstname%></span>，<span><%=address.state%></span>，<span><%=address.city%></span>，<span><%=address.address1%></span>，<span><%=address.zipcode%></span>，<span><%=address.phone%></span></p>
-				<p district_id=<%=address.address2%> >
-					<span class='addrOpSpan'>［修改］</span>
-					<span class='addrOpSpan'>［删除］</span>
-					<span class='addrOpSpan'>设为默认地址</span>
+				<p>
+					<span><%=address.lastname+' '+address.firstname%></span>，
+					<span><%=address.state%></span>
+					<span><%=address.city%></span>，
+					<span><%=address.address1%></span>，
+					<span><%=address.zipcode%></span>，
+					<span><%=address.phone%></span>
 				</p>
+					<a href=<%= "/addresses/"+address.id.to_s+"/edit" %> >
+						<span class='addrOpSpan'>［修改］</span>
+					</a>
+					<a class="delete_addr" addr_id=<%= address.id %> >
+						<span class='addrOpSpan'>［删除］</span>
+					</a>
+					<a>
+						<span class='addrOpSpan'>设为默认地址</span>
+					</a>
 			</div>
 		<%end%>
 	</div>
+	<%= form_tag("/addresses", method: "post") do %>
 	<div id='addrRightBottomDiv'>
-		<div id='addAddrHeadDiv'><img class='headImage' src=<%= image_path('spree/frontend/addReceiveAddr.png') %>></div>
+		<div id='addAddrHeadDiv'>
+			<img class='headImage' src=<%= image_path('spree/frontend/addReceiveAddr.png') %>>
+		</div>
 		<div id='addAddrInputDiv'>
 			<p>
 				<label class='leftLabel' style='float:left'>收货人姓名：</label>
-				<input type="text" id='consigneeInput' style='display:inline-block;float:left;'>
+				<input type="text" id='consigneeInput1' name="address[lastname]" style='display:inline-block;float:left;' placeholder='姓'>
+				<input type="text" id='consigneeInput2' name="address[firstname]" style='display:inline-block;float:left;margin-left:10px;' placeholder='名'>
 			</p>
 			<p>
 				<label class='leftLabel'>地区：</label>
 				<span class='cityAddress' style='margin-left:-5px;'>
-				<select id="shipping_province" class='provinceSelector' style='width:130px;'><option value='0' selected="selected">请选择</option></select>
-				<select id="shipping_town" class='townSelector' style='width:130px;'><option value='0' selected="selected">请选择</option></select>
-				<select id="shipping_district" class='districtSelector' style='width:130px;'><option value='0' selected="selected">请选择</option></select>
+					<select id="shipping_province" class='provinceSelector' style='width:130px;'>
+						<option value='0' selected="selected">请选择</option>
+					</select>
+					<select id="shipping_town" class='townSelector' style='width:130px;'>
+						<option value='0' selected="selected">请选择</option>
+					</select>
+					<select id="shipping_district" class='districtSelector' style='width:130px;'>
+						<option value='0' selected="selected">请选择</option>
+					</select>
 				</span>
+				<input name="address[country_id]" value='119' type='hidden'>
+				<input name="address[city]" type='hidden' id='order_ship_address_attributes_city'>
+				<input name="address[address2]" type='hidden' id='order_ship_address_attributes_address2'>
 			</p>
-			<p><label class='leftLabel'></label><input type="text" id="streetAddrInput" placeholder='请直接填写街道地址，省市区不需填写'></p>
-			<p><label class='leftLabel'>邮编地址：</label><input type="text" id='postcodeInput'></p>
-			<p><label class='leftLabel'>手机号码：</label><input type="text" id='mobilePhoneInput'><label>手机和电话号码至少必填一项</label></p>
-			<p><label class='leftLabel'>固定电话：</label><input type="text" id='telephoneInput1' style='width:50px' placeholder='区号'>-<input type="text" id='telephoneInput2' style='width:110px' placeholder='电话号码'>-<input type="text" id='telephoneInput3' style='width:110px' placeholder='分机号'>
+			<p>
+				<label class='leftLabel'></label>
+				<input type="text" id="streetAddrInput" name="address[address1]" placeholder='请直接填写街道地址，省市区不需填写'>
 			</p>
-			<p><label class='leftLabel'></label><input type="checkbox" id='setDefaultAddrChk'><label for='setDefaultAddrChk'>设为默认地址</label></p>
-			<p><input type="button" value="保存" id='saveAddrBtn'></p>
+			<p>
+				<label class='leftLabel'>邮编地址：</label>
+				<input type="text" id='postcodeInput' name="address[zipcode]">
+			</p>
+			<p>
+				<label class='leftLabel'>手机号码：</label>
+				<input type="text" id='mobilePhoneInput' name="address[phone]">
+				<label>手机和电话号码至少必填一项</label>
+			</p>
+			<p>
+				<label class='leftLabel'>固定电话：</label>
+				<input type="text" id='telephoneInput1' style='width:50px' placeholder='区号'>-
+				<input type="text" id='telephoneInput2' style='width:110px' placeholder='电话号码'>-
+				<input type="text" id='telephoneInput3' style='width:110px' placeholder='分机号'>
+			</p>
+			<p>
+				<label class='leftLabel'></label>
+				<input type="checkbox" id='setDefaultAddrChk'>
+				<label for='setDefaultAddrChk'>设为默认地址</label>
+			</p>
+			<p>
+				<input type="submit" value="保存" id='saveAddrBtn'>
+			</p>
 		</div>
 	</div>
+	<% end %>
 </div>
 	<script type='text/javascript'>
 		jQuery(document).ready(function(){

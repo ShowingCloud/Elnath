@@ -93,9 +93,10 @@
 }
 
 #personalInformation {
-	width:80%;
+	width:78%;
 	height:580px;
 	margin-right:10px;
+	padding-left:20px;
 	display:block;
 	float:right;
 	border:1px solid #ccc;

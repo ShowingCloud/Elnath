@@ -204,25 +204,4 @@ jQuery(document).ready(function(){
 			}
 		});
 	});
-	
-	$('#saveAddrBtn').click(function(){
-		var newAddr={};
-		newAddr['firstname']=$('#consigneeInput').val();
-		newAddr['lastname']='-';
-		newAddr['address1']=$('#district').val();
-		newAddr['address2']=$('#streetAddrInput').val();
-		newAddr['city']=$('#city').val();
-		newAddr['state_id']=$('#province').val();
-		newAddr['zipcode']=$('#postcodeInput').val();
-		newAddr['country_id']='119';
-		newAddr['phone']=$('#mobilePhoneInput').val();
-		$.ajax ({
-			url:	"/addresses",
-			type:	"post",
-			dataType: "html",
-			data: {
-				address:newAddr
-			}
-		});
-	});
 });
