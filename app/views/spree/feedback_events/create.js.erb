@@ -1,0 +1,10 @@
+<% if @feedback_event.valid? %>
+$("div#feedback_event_<%= @event.id %>").html("<%= escape_javascript(render('spree/feedback_events/summary', event: @event)) %>");
+<% else %>
+$("div#feedback_event_<%= @event.id %>").html("<%= escape_javascript(render('spree/feedback_events/form', event: @event)) %>");
+<% end %>
+$(document).ready(function() {
+		$("div#feedback_event_<%= @event.id %>").find('.star').rating({
+required: true
+});
+});

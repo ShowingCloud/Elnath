@@ -1,0 +1,9 @@
+<div id="events">
+<%= render 'spree/shared/rating', locals: @product, event: 0 %>
+<% for event in (Spree::Events::Config[:track_locale] ? @product.events.localized(I18n.locale) : @product.events).default_approval_filter.pevent %>
+<%= render 'spree/shared/event', event: event %>
+<% end %>
+<% if Spree::Events::Config[:feedback_rating] && (!Spree::Events::Config[:require_login] || spree_current_user) %>
+<%= link_to Spree.t(:write_your_own_event), new_product_event_path(@product), class: 'btn btn-default' %>
+<% end %>
+</div>

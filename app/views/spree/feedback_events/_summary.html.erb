@@ -1,0 +1,6 @@
+<p>
+<%= Spree.t(:voice, count: event.feedback_events.count) %>.
+<span title="<%= pluralize(event.feedback_stars, 'star') %> <%= Spree.t(:out_of_5) %>">
+<%= render 'spree/events/stars', stars: event.feedback_stars %>
+</span>
+</p>

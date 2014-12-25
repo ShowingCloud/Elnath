@@ -1,0 +1,29 @@
+<div class="event" itemprop="events" itemscope itemtype="http://schema.org/Event">
+<span class="events-rating" title="<%= txt_stars(event.rating) %>">
+<%= render 'spree/events/stars', stars: event.rating %>
+</span>
+<span itemprop="name"><%= event.title %></span>
+<br/>
+<span class="attribution"><%= Spree.t(:submitted_on) %>
+<strong><%= l event.created_at.to_date %></strong>
+</span>
+<span itemprop="datePublished" content="<%= event.created_at.to_date.to_s %>"></span>
+<span itemprop="eventRating" content="<%= event.rating %>"></span>
+<% if event.show_identifier %>
+<% if Spree::Events::Config[:show_email] && event.user %>
+<span itemprop="author"><%= event.user.email %></span>
+<% else %>
+<span itemprop="author"><%= event.name %></span>
+<% end %>
+<% else %>
+<span itemprop="author"><%= Spree.t(:anonymous) %></span>
+<% end %>
+<div itemprop="eventBody">
+<%= simple_format(event.event) %>
+</div>
+<% if Spree::Events::Config[:feedback_rating] && (!Spree::Events::Config[:require_login] || spree_current_user) %>
+<div class="feedback_event" id="feedback_event_<%= event.id %>">
+<%= render 'spree/feedback_events/form', event: event %>
+</div>
+<% end %>
+</div>

@@ -1,14 +1,12 @@
 class Spree::EventsController < Spree::StoreController
-  def index
-    @events = Event.all
-  end
-
 	def new
+	  debugger
     @event = Spree::Event.new(product: @product)
 	  authorize! :create, @event
 	end
 
 	def create
+	  debugger
 	  params[:event].sub!(/\s*[^0-9]*\z/, '') unless params[:event].blank?
     @event = Spree::Event.new(event_params)
   	@event.product = @product

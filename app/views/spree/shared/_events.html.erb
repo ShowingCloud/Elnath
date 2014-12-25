@@ -1,0 +1,14 @@
+v id="events">
+<h3 class="product-section-title"><%= Spree.t(:events) %></h3>
+<% if Spree::Events::Config[:include_unapproved_events] == false and @product.events.approved.count == 0 %>
+<p class="events-none"><%= Spree.t(:no_events_available) %></p>
+<% else %>
+<%= render 'spree/shared/rating', product: @product, event: 0 %>
+<% for event in (Spree::Events::Config[:track_locale] ? @product.events.localized(I18n.locale) : @product.events).default_approval_filter.pevent %>
+<%= render 'spree/shared/event', event: event %>
+<% end %>
+<% end %>
+<% if !Spree::Events::Config[:require_login] || spree_current_user %>
+<%= link_to Spree.t(:write_your_own_event), new_product_event_path(@product), class: 'btn btn-default', rel: 'nofollow' %>
+<% end %>
+</div>

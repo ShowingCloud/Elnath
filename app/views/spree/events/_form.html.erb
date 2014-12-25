@@ -1,6 +1,4 @@
-<%= form_for event, url: product_events_path(product), html: { method: :post } do |f| %>
-<%= render 'spree/shared/error_messages', target: event %>
-
+<%= form_for @spree_event,  'spree_events_path'  do |f| %>
 <div class="form-group">
   <%= f.label :name %>
   <%= f.text_field :name, maxlength: 255, size: 50, class: 'form-control' %>
@@ -29,4 +27,3 @@
   <%= f.submit Spree.t(:submit_your_event), class: 'btn btn-default' %>
 </div>
 <% end %>
-																									 </div>

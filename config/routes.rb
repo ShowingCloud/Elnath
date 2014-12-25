@@ -1,12 +1,13 @@
 Elnath::Application.routes.draw do
-  namespace :admin do
-   resources :events, only: [:index, :destroy, :edit, :update] do
+  namespace :spree do
+	  resources :events 
 	end
-	resources :products do
-		  resources :events, only: [:index, :new, :create] do
-	  end
-		end
-  resources :localities
+
+	resources :product_event do
+	resources :events
+	end
+	
+	resources :localities
 
   get '/favorites', :to => 'spree/products#favorites'
   get '/add_favorite', :to => 'spree/products#add_favorite'
@@ -73,5 +74,4 @@ Elnath::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
 end

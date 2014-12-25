@@ -1,0 +1,13 @@
+<%= render 'spree/feedback_events/summary', event: event %>
+<%= form_for (@feedback_event ||= event.feedback_events.build), url: feedback_events_path(event), method: :post, remote: true do |f| %>
+<% unless @feedback_event.errors.empty? %>
+<div class="error"><%= @feedback_event.errors[:rating] %></div>
+<% end %>
+<%= Spree.t(:was_this_event_helpful) %>
+<% for i in 1..Spree::Events::Config.stars %>
+<%= radio_button_tag 'feedback_event[rating]', Spree.t(:star, count: i), false, class: 'star' %>
+<% end %>
+<button class="feedback-event btn btn-default">
+<%= Spree.t(:say_yes) %>
+</button>
+<% end %>
