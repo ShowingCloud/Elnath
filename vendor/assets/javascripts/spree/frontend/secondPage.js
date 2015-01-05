@@ -1,11 +1,12 @@
 jQuery(document).ready(function() {
-	if($('nav.pagination>span:first-child').length!=0&&$('#imagePathHid').length!=0)
+	if($('nav.pagination>span:first-child').length!=0&&$('#closeImg').length!=0)
 	{
 		
 		$('nav.pagination>span:first-child').before('<input type="button" id="toPrevPage"/>');
 		$('nav.pagination>span:last-child').after('<span class="page" id="lastPageSpan" style="display:none"><a></a></span><input type="button" id="toNextPage"/>');
-		var rightImgPath = $('#imagePathHid').val().replace('Left','Right');
-		$('#toPrevPage').css({'border':'none','width':'20px','height':'20px','background-image':'url('+$('#imagePathHid').val()+')','background-repeat':'no-repeat','background-size':'20px'});
+		var rightImgPath = $('#closeImg').prop('src').replace('close','pageRight');
+		var leftImagePath = $('#closeImg').prop('src').replace('close','pageLeft');
+		$('#toPrevPage').css({'border':'none','width':'20px','height':'20px','background-image':'url('+leftImagePath+')','background-repeat':'no-repeat','background-size':'20px'});
 		$('#toNextPage').css({'border':'none','width':'20px','height':'20px','background-image':'url('+rightImgPath+')','background-repeat':'no-repeat','background-size':'20px'});
 		//var currentPage = parseInt($('.current').html());
 
