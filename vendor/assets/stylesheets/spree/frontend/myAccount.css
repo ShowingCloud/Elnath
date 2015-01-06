@@ -52,3 +52,32 @@ border: #A8A8A8 1px solid; padding:0px 1px;
 
 tr.favorite{text-align:center;} tr.favorite td{border-bottom: 2px dashed #D3D3D3;}
 input.addto{margin-top:20px;padding:4px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;}
+
+.welcomeTitle{
+	font-size:20px
+}
+
+#useableScoreDiv{
+	float:left;
+	margin-top:30px;
+	width:150px;
+	text-align:center;
+	margin-left:95px;
+	font-size:15px
+}
+#currentStatusDiv{
+	float:left;
+	border-left:1px solid #B8B8B8;
+	margin-top:30px;
+	width:250px;
+	text-align:center;
+	font-size:15px
+}
+#timeRemain{
+	float:left;
+	border-left:1px solid #B8B8B8;
+	margin-top:30px;
+	width:180px;
+	text-align:center;
+	font-size:15px
+}
