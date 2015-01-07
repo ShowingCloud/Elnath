@@ -7,6 +7,11 @@ jQuery(document).ready(function() {
         vertical: true,
         scroll: 2
     });
+	if($('.stockRemain').val()==0)
+	{
+		$(this).parent().css('color','red');
+	}
+
 	/* $('#selector_input').click(function(){
     	$('#product-variants').css('display','block');
     });*/
@@ -23,7 +28,7 @@ jQuery(document).ready(function() {
 		if(selectItemPre!=$(this).attr('id'))
 		{
 			$('#'+selectItemPre).css('background-color','white');
-			$('#'+selectItemPre).css('color','black');
+			$('#'+selectItemPre).css();
 			$(this).css('background-color','#0FA6BB');
 			$(this).css('color','white')
 			$('div[data-hook="description"]').show();
