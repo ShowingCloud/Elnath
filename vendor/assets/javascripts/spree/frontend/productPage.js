@@ -7,11 +7,21 @@ jQuery(document).ready(function() {
         vertical: true,
         scroll: 2
     });
-	if($('.stockRemain').val()==0)
-	{
-		$(this).parent().css('color','red');
-	}
-
+	$('.stockRemain').each(function(){
+		if($(this).val()==0)
+		{
+			$(this).parent().find('.variant-description').css('color','#AAA');
+		}
+	});
+	$('#add-to-cart-button').click(function(e){
+		//alert($('input[name="variant_id"]:checked').next().html());
+		if($('input[name="variant_id"]:checked').next().find('.stockRemain').val()==0)
+		{
+			alert('您选择的颜色尺码没有库存！');
+			e.preventDefault(); 
+		}
+	});
+	
 	/* $('#selector_input').click(function(){
     	$('#product-variants').css('display','block');
     });*/
@@ -28,7 +38,7 @@ jQuery(document).ready(function() {
 		if(selectItemPre!=$(this).attr('id'))
 		{
 			$('#'+selectItemPre).css('background-color','white');
-			$('#'+selectItemPre).css();
+			$('#'+selectItemPre).css('color','black');
 			$(this).css('background-color','#0FA6BB');
 			$(this).css('color','white')
 			$('div[data-hook="description"]').show();
@@ -68,7 +78,8 @@ jQuery(document).ready(function() {
 
 
     $('#product-variants li label').click(function(){
-    	var sizeAndColorStr=$(this).html().substring($(this).html().indexOf(':')+1,$(this).html().length-10);
+    	var sizeAndColorStr=$(this).find('.variant-description').html().substring($(this).find('.variant-description').html().indexOf(':')+1,$(this).find('.variant-description').html().length);
+		//alert($(this).find('.variant-description').html());
     	//alert(sizeAndColorStr.indexOf(':'));
     	sizeAndColorStr=sizeAndColorStr.replace(new RegExp(","),"  ");
     	//sizeAndColorStr.substring(sizeAndColorStr.indexof(':'),sizeAndColorStr.length);
@@ -81,6 +92,10 @@ jQuery(document).ready(function() {
 			if($('#product-variants').css('display')=='block')
 			{
 				$("#product-variants").css('display','none');
+				if($('input[name="variant_id"]:checked').next().find('.stockRemain').val()==0)
+				{
+					$('#stockQuantity').html('0');
+				}
 			}
 		}else{
 			if($('#product-variants').css('display')=='block')
