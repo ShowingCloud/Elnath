@@ -26,26 +26,30 @@
 		<img class='headImage' src=<%= image_path('spree/frontend/existedAddr.png') %>>
 	</div>
 	<div id='existedAddrDiv'>
-		<% spree_current_user.addresses.each do |address| %>
-			<div class='addrDetailsDiv'>
-				<p>
-					<span><%=address.lastname+' '+address.firstname%></span>，
-					<span><%=address.state%></span>
-					<span><%=address.city%></span>，
-					<span><%=address.address1%></span>，
-					<span><%=address.zipcode%></span>，
-					<span><%=address.phone%></span>
-				</p>
-					<a href=<%= "/addresses/"+address.id.to_s+"/edit" %> >
-						<span class='addrOpSpan'>［修改］</span>
-					</a>
-					<a class="delete_addr" addr_id=<%= address.id %> >
-						<span class='addrOpSpan'>［删除］</span>
-					</a>
-					<a>
-						<span class='addrOpSpan'>设为默认地址</span>
-					</a>
-			</div>
+		<% if current_spree_user %>
+			<% spree_current_user.addresses.each do |address| %>
+				<div class='addrDetailsDiv'>
+					<p>
+						<span><%=address.lastname+' '+address.firstname%></span>，
+						<span><%=address.state%></span>
+						<span><%=address.city%></span>，
+						<span><%=address.address1%></span>，
+						<span><%=address.zipcode%></span>，
+						<span><%=address.phone%></span>
+					</p>
+						<a href=<%= "/addresses/"+address.id.to_s+"/edit" %> >
+							<span class='addrOpSpan'>［修改］</span>
+						</a>
+						<a class="delete_addr" addr_id=<%= address.id %> >
+							<span class='addrOpSpan'>［删除］</span>
+						</a>
+						<a>
+							<span class='addrOpSpan'>设为默认地址</span>
+						</a>
+				</div>
+			<%end%>
+		<% else %>
+			<h1 id='loginFirst'>请先登录！<h1>
 		<%end%>
 	</div>
 	<%= form_tag("/addresses", method: "post") do %>
@@ -109,6 +113,7 @@
 </div>
 	<script type='text/javascript'>
 		jQuery(document).ready(function(){
+		
 			$.ajax ({
 				url:	"/localities/1.json",
 				type:	"GET",

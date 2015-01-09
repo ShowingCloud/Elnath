@@ -44,6 +44,8 @@
 		<b class='welcomeTitle'>你好
 			<% if current_spree_user %>
 				<%=current_spree_user.login %>
+			<% else %>
+				<input id='loginFirst' type='hidden'>
 			<% end %>
 			！欢迎来到BIG ROOSTER！
 		</b>
