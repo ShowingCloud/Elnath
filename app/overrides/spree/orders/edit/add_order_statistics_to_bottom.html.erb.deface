@@ -1,7 +1,7 @@
 <!--insert_after '[data-hook="cart_buttons"]'-->
 <div id='bottomTotalPriceDiv'>
-	<p><span>商品总金额：RMB ￥</span><span id='totalPriceSpan'><%=@order.item_total+@order.shipment_total%></span></p>
-	<p><span>优惠：RMB ￥</span><span id='totalPriceSpan'></span></p>
+	<p><span>商品总金额：RMB ￥</span><span id='productsPriceSpan'><%=@order.item_total+@order.shipment_total%></span></p>
+	<p><span>优惠：RMB ￥</span><span id='discountSpan'>0</span></p>
 	<p><span>总计金额(不含运费)：RMB ￥</span><span id='totalPriceSpan'><%=@order.item_total %></span></p>
 	<p><input type='text' id='leaveWordsInput' placeholder='订单留言' name='order[message]'/></p>
 	<p><a href='/products'><span id='continueShopping'>继续购物</span></a><span><input type='button' class='checkoutBtn' value='结算'/></span></p>

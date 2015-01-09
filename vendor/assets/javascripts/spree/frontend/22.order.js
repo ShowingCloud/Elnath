@@ -14,6 +14,12 @@ jQuery(document).ready(function() {
 	$('.line_item_quantity').bind('input propertychange', function() {
 		//alert($(this).val()*$(this).parent().attr('unit_price'));
 		$(this).parent().parent().find('.cart_item_total').find('.linePriceSpan').html(($(this).val()*$(this).parent().attr('unit_price')).toFixed(1));
+		var orderTotal = 0;
+		$('.linePriceSpan').each(function(){
+			orderTotal+=parseInt($(this).html());
+		});
+		$('#totalPriceSpan').html(orderTotal.toFixed(1));
+		$('#productsPriceSpan').html(orderTotal.toFixed(1));
 	});
 	$('.deleteProductBtn').click(function(){
 		$(this).parent().parent().parent().find('.cart-item-delete').find('.delete').click();
