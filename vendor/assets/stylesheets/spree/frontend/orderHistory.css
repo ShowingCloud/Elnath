@@ -19,7 +19,7 @@ a.disable{color:#CFCFCF}
 .left{text-align:center;border:1px solid #D3D3D3;border-collapse:collapse;float: left;width: 160px;margin-right: 10px;font-size:12px;}
 .left h4{background:#4B4A48;color:#FFFFFF;padding:5px;border-top:1px solid #D3D3D3;border-bottom:1px solid #D3D3D3;margin-top:0;}
 .left p{color: #5D5D5D;}
-.right{width: 730px;float: left; margin-left:25px; font-family: tahoma,arial,sans-serif;}
+.right{width: 760px;float: left; margin-left:20px; font-family: tahoma,arial,sans-serif;}
 
 .process{margin-left:60px;margin-bottom:30px;text-align: center;font-size: 12px;} 
 .node{font-size: 26px;color: #0FA6BB;text-decoration: none;margin: 0;}
