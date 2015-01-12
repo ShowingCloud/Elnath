@@ -1,7 +1,12 @@
-	<% cart_item_count = 0 %>
-	<% if @order %>
-		<% cart_item_count = @order.item_count %>
-	<% end %>
+<% cart_item_count = 0 %>
+<%if current_spree_user %>
+	<% current_spree_user.orders.each do |order| %>
+		<% if !order.payment_state %>
+			<% cart_item_count=cart_item_count+1 %>
+		<% end %>
+	<% end %>	
+<% end %>
+	
 	<div id='shieldDiv'></div>
 	<div id="customerServiceDiv">
 		<p><img id='closeImg' src=<%= image_path('spree/frontend/close.png') %>></p>
