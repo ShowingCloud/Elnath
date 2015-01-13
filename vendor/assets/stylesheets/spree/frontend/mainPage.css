@@ -1,4 +1,7 @@
 body, div, li, input, button, p, a,input[type="button"]{font-family:'Microsoft YaHei'; }
+table tbody tr, table tfoot tr{
+	border-bottom:none;
+}
 #customerServiceDiv div{
 	float:left;
 	margin-left: 30px;

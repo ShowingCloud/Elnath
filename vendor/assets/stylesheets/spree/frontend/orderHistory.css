@@ -21,9 +21,9 @@ a.disable{color:#CFCFCF}
 .left p{color: #5D5D5D;}
 .right{width: 760px;float: left; margin-left:20px; font-family: tahoma,arial,sans-serif;}
 
-.process{margin-left:60px;margin-bottom:30px;text-align: center;font-size: 12px;} 
-.node{font-size: 26px;color: #0FA6BB;text-decoration: none;margin: 0;}
-.shortline{width:145px;height:3px;background-color:#0FA6BB;border-radius: 5px;}
+.node{font-size: 26px;color: #0FA6BB;text-decoration: none;margin: 0;text-align:center;}
+#orderStatusTab td{padding:1px;}
+.shortline{width:130px;height:3px;background-color:#0FA6BB;border-radius: 5px;}
 .listtb{width:95%;margin:0 auto;border-collapse:collapse;}
 .listtd1{border:solid 1px #D3D3D3;background:#DDDDDD;padding: 5px;}
 .listtd2{border:solid 1px #D3D3D3;padding: 5px;}
