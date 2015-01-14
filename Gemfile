@@ -55,7 +55,6 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-2-stable'
 gem 'spree_i18n', github: 'spree/spree_i18n', branch: '2-2-stable'
 gem 'spree_editor', github: 'ShowingCloud/spree_editor', branch: '2-2-stable'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '2-2-stable'
-gem 'spree_reviews', github: 'spree/spree_reviews', branch: '2-2-stable'
 gem 'spree_comments', github: 'spree/spree_comments', branch: '2-2-stable'
 gem 'spree_address_book', github: 'romul/spree_address_book', branch: '2-2-stable'
 

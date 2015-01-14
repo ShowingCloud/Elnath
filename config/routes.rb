@@ -1,10 +1,6 @@
 Elnath::Application.routes.draw do
   namespace :spree do
-	  resources :events 
-	end
-
-	resources :product_event do
-	resources :events
+	  resources :reviews
 	end
 	
 	resources :localities

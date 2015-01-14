@@ -1,0 +1,10 @@
+<ul>
+<% @reviews.each do |review| %>
+<li>
+<%= review.name %>
+<a id='review' href='/Show/reviews'></a>
+</li>
+<% end %>
+</ul>
+<a id='event' href='/Show/events'></a>
+
