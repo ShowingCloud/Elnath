@@ -1,3 +1,5 @@
+<!--{"id":70,"number":"R991621699","item_total":"264.0","total":"264.0","state":"address","adjustment_total":"0.0","user_id":1,"completed_at":null,"bill_address_id":null,"ship_address_id":null,"payment_total":"0.0","shipping_method_id":null,"shipment_state":null,"payment_state":null,"email":"409388911@qq.com","special_instructions":null,"created_at":"2015-01-09T06:08:26.000Z","updated_at":"2015-01-09T11:27:54.000Z","currency":"CNY","last_ip_address":"218.82.41.107","created_by_id":1,"shipment_total":"0.0","additional_tax_total":"0.0","promo_total":"0.0","channel":"spree","included_tax_total":"38.36","item_count":1,"approver_id":null,"approved_at":null,"confirmation_delivered":false,"considered_risky":false,"message":""}]
+<iframe name="kuaidi100" src="http://www.kuaidi100.com/frame/index.html" width="960" height="880" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>-->
 <div style='margin-bottom:20px;'>
 	<p style='margin:10px 0;'>
 		<a href='/'>首页</a>/<a href='#'>我的订单</a>
@@ -5,7 +7,6 @@
 	<img src=<%= image_path('spree/frontend/line_right.png') %>>
 </div>
 <div style="font-size:13px;width:960px;margin:0 auto;font-family: tahoma,arial,sans-serif;">
-
 <div id='addrLeftPartDiv'>
 	<ul>
 		<li class='headLi'>会员中心</li>
@@ -41,7 +42,6 @@
 		</li>
 	</ul>
 </div>
-
 <div class="right" style="border:1px solid #D3D3D3;">
 <span><select id='timeSelector' style="margin-top: 10px;margin-left: 580px;border-color: #D3D3D3;">
 <option value="1">最近一个月的订单</option>
@@ -51,37 +51,37 @@
 
 <% if current_spree_user %>
 	<% current_spree_user.orders.each do |order| %>
-		<% if order.payment_state %>
-			<div class="myorder" interval_time=<%= (Time.now - order.created_at).to_i %>>
-			<table>
-			<tr style="height:30px;text-align: center;">
-			<td style="text-align:center;width:90px;">订单编号</td>
-			<td style="text-align:center;width:90px;">订单商品</td>
-			<td style="text-align:center;width:60px;">会员名</td>
-			<td style="text-align:center;width:90px;">订单金额</td>
-			<td style="text-align:center;width:90px;">下单时间</td>
-			<td style="text-align:center;width:90px;">订单状态</td>
-			<td style="text-align:center;width:50px;">操作</td>
-			</tr>
-			<tr style="height:150px;text-align: center;">
-			<td style="text-align: left;padding-left: 20px;"><%=order.number%></td>
-			<td>
-				<%order.line_items.take(3).each do |line_item|%>
-					<%=line_item.name%><br>
-				<%end%>
-			</td>
-			<td><%=order.email%></td>
-			<td>¥<%=order.total%></td>
-			<td><%=order.created_at%></td>
-			<td><%=order.payment_state%></td>
-			<td><a href="">查看</a><br>
-			<a href="">付款</a><br>
-			<a href="" class="disable">确认收货</a><br>
-			<a href="" class="disable">退货</a></td>
-			<td></td>
-			</tr>
-			</table>
-			</div>
+	<% if order.payment_state %>
+		<div class="myorder" interval_time=<%= (Time.now - order.created_at).to_i %>>
+		<table class='orderRecordTab'>
+		<tr style="height:30px;text-align: center;">
+		<td style="text-align: left;padding-left: 20px;">订单编号</td>
+		<td>订单商品</td>
+		<td>会员名</td>
+		<td>订单金额</td>
+		<td>下单时间</td>
+		<td>订单状态</td>
+		<td>操作</td>
+		</tr>
+		<tr style="height:150px;text-align: center;">
+		<td style="text-align: left;padding-left: 20px;"><%=order.number%></td>
+		<td>
+			<%order.line_items.take(3).each do |line_item|%>
+				<%=line_item.name%><br>
+			<%end%>
+		</td>
+		<td><%=order.email%></td>
+		<td>¥<%=order.total%></td>
+		<td><%=order.created_at%></td>
+		<td><%=order.payment_state%></td>
+		<td><a href=<%= '/orderDetails?'+order.number %>>查看</a><br>
+		<a href="">付款</a><br>
+		<a href="" class="disable">确认收货</a><br>
+		<a href="" class="disable">退货</a></td>
+		<td></td>
+		</tr>
+		</table>
+		</div>
 		<% end %>
 	<% end %>
 <% end %>
