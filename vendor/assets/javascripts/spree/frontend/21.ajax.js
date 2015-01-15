@@ -36,7 +36,16 @@ jQuery(document).ready(function(){
 	$('#open').click(function(){
 		$('#datetimepicker4').datetimepicker('show');
 	});
-	
+	$('#showDelivery').click(function(){
+		alert('1231232');
+		$.ajax ({
+				url:	"http://api.kuaidi100.com/api?id=4e917d80be73018d&com=shunfeng&nu=207701076777&valicode=0&show=0&muti=0&order=desc",
+				type:	"GET",
+				dataType:	"jsonp"
+			}).done (function (resp) {
+				alert(resp);
+			});
+	});
 	$('div[data-hook="buttons"]>input[name="commit"]').click(function(e){
 		if($('#billing_district').val()==0&&$('#order_bill_address_id_0').is(':checked'))
 		{

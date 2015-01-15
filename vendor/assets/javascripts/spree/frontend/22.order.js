@@ -5,6 +5,12 @@ jQuery(document).ready(function() {
 	$("#order_ship_address_attributes_firstname").blur( function () { 
 		$("#order_ship_address_attributes_lastname").val('-');
 	});*/
+	
+	//检查是否登陆
+	if($('#loginFirst').length!=0)
+	{
+		window.location.href='/login';
+	}
 	$("#logoutSelector").change(function(){
 		if( $("#logoutSelector").val()==1)
 		{
