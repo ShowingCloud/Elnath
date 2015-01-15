@@ -1,10 +1,9 @@
-<ul>
-<% @reviews.each do |review| %>
-<li>
-<%= review.name %>
-<a id='review' href='/Show/reviews'></a>
-</li>
+<%= form_tag("/spree/reviews", method: "post") do %>
+<input name="spree_review[name]" value='eqwewe'>
+<input name="spree_review[title]" value='eqwewe'>
+<input name="spree_review[description]" value='eqwewe'>
+<input name="spree_review[product_id]" value='12'>
+<input name="spree_review[user_id]" value='21'>
+<input type='submit' value="保存">
 <% end %>
-</ul>
-<a id='event' href='/Show/events'></a>
 

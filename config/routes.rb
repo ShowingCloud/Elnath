@@ -1,8 +1,7 @@
 Elnath::Application.routes.draw do
-  namespace :spree do
-	  resources :reviews
-	end
-	
+   namespace :spree do
+	    resources :reviews
+	 end 
 	resources :localities
 
   get '/favorites', :to => 'spree/products#favorites'

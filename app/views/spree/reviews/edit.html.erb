@@ -1,9 +1,6 @@
-<%= form_for @review, :url => { :controller => 'reviews', :action => 'update', :id => @review } do |f| %>
-<%= f.label :name, "Name" %>
-<%= f.text_field :name %>
+<h1>Editing spree_review</h1>
 
-<%= f.label :description, "Description" %>
-<%= f.text_area :description %>
+<%= render 'form' %>
 
-<%= f.submit "Update" %>
-<% end %>
+<%= link_to 'Show', @spree_review %> |
+<%= link_to 'Back', spree_reviews_path %>

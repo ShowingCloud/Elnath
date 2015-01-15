@@ -1,3 +1,29 @@
-<%= @review.name %>
-<%= simple_format(@review.description) %>
+<p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Name:</strong>
+  <%= @spree_review.name %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @spree_review.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @spree_review.description %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @spree_review.product_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @spree_review.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_spree_review_path(@spree_review) %> |
+<%= link_to 'Back', spree_reviews_path %>
