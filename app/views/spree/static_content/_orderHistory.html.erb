@@ -74,7 +74,7 @@
 		<td>¥<%=order.total%></td>
 		<td><%=order.created_at%></td>
 		<td><%=order.payment_state%></td>
-		<td><a href=<%= '/orderDetails?'+order.number %>>查看</a><br>
+		<td><a href=<%= '/orderDetails?number='+order.number %>>查看</a><br>
 		<a href="">付款</a><br>
 		<a href="" class="disable">确认收货</a><br>
 		<a href="" class="disable">退货</a></td>

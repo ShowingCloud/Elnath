@@ -42,30 +42,41 @@
 </div>
 <div class="right">
 <div style="margin-bottom: 15px;border:1px solid #D3D3D3;">
-<p style="padding-left:20px;font-size:16px;">订单号：<label style=
-"padding-right:40px;">12348439804</label>订单状态：<label>已完成</label></p>
+<p style="padding-left:20px;font-size:16px;">
+	<label>订单号：</label>
+	<label style="padding-right:40px;"><%= params['number'] %></label>
+	<label>订单状态：</label>
+	<% orderSearch = nil%>
+	<% if current_spree_user %>
+		<% current_spree_user.orders.each do |order| %>
+			<% if order.number == params['number'] %>
+				<% orderSearch=order %>
+				<label><%= Spree.t("order_state.#{order.state.downcase}") %></label></p>
+			<% end %>
+		<% end %>
+	<% end %>
 <table id='orderStatusTab'>
 <tr>
 <td>
-<p class="node">●</p>
+<p class="node firstStep">●</p>
 </td>
 <td>
-<div class="shortline"></div>
+<div class="shortline secondStep"></div>
 </td>
 <td>
-<p class="node">●</p>
+<p class="node secondStep">●</p>
 </td>
 <td>
-<div class="shortline"></div>
+<div class="shortline thirdStep"></div>
 </td>
 <td>
-<p class="node">●</p>
+<p class="node thirdStep">●</p>
 </td>
 <td>
-<div class="shortline"></div>
+<div class="shortline fourthStep"></div>
 </td>
 <td>
-<p class="node">●</p>
+<p class="node fourthStep">●</p>
 </td>
 </tr>
 
