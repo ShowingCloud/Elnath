@@ -17,6 +17,23 @@ jQuery(document).ready(function() {
 			window.location='/logout';
 		}
 	});
+	
+	if($('#orderStatusLabel').length!=0)
+	{
+		var orderStatus=$('#orderStatusLabel').attr('status');//complete delivery
+		//alert(orderStatus);
+		switch(orderStatus)
+		{
+			case 'complete':
+				$('.fourthStep').css('color','#0FA6BB ! important ;');
+				break;
+			case 'delivery':
+				$('.thirdStep').css('color','#0FA6BB ! important ;');
+				break;
+		}
+		
+	}	
+	
 	$('.line_item_quantity').bind('input propertychange', function() {
 		//alert($(this).val()*$(this).parent().attr('unit_price'));
 		$(this).parent().parent().find('.cart_item_total').find('.linePriceSpan').html(($(this).val()*$(this).parent().attr('unit_price')).toFixed(1));

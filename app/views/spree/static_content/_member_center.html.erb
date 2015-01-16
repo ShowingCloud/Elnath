@@ -28,7 +28,11 @@
 			<a href='/personal_information'>修改个人资料</a>
 		</li>
 		<li class='childLi'>
-			<a href='#'>修改密码</a>
+			<% if current_spree_user %>
+				<a href=<%='users/'+current_spree_user.id.to_s+'/edit'%> >修改密码</a>
+			<% else %>
+				<a href='#'>修改密码</a>
+			<% end %>
 		</li>
 		<li class='childLi lastChildLi'>
 			<a href='/addressedit'>收货地址簿</a>

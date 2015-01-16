@@ -29,7 +29,11 @@
 			<a href='/personal_information'>修改个人资料</a>
 		</li>
 		<li class='childLi'>
-			<a href='#'>修改密码</a>
+			<% if current_spree_user %>
+				<a href=<%='users/'+current_spree_user.id.to_s+'/edit'%> >修改密码</a>
+			<% else %>
+				<a href='#'>修改密码</a>
+			<% end %>
 		</li>
 		<li class='childLi lastChildLi'>
 			<a href='/addressedit'>收货地址簿</a>
@@ -51,7 +55,7 @@
 		<% current_spree_user.orders.each do |order| %>
 			<% if order.number == params['number'] %>
 				<% orderSearch=order %>
-				<label><%= Spree.t("order_state.#{order.state.downcase}") %></label></p>
+				<label id='orderStatusLabel' status=<%=order.state.downcase%> ><%= Spree.t("order_state.#{order.state.downcase}") %></label></p>
 			<% end %>
 		<% end %>
 	<% end %>
@@ -61,16 +65,16 @@
 <p class="node firstStep">●</p>
 </td>
 <td>
-<div class="shortline secondStep"></div>
+<div class="shortline secondStep thirdStep fourthStep"></div>
 </td>
 <td>
-<p class="node secondStep">●</p>
+<p class="node secondStep thirdStep fourthStep">●</p>
 </td>
 <td>
-<div class="shortline thirdStep"></div>
+<div class="shortline thirdStep fourthStep"></div>
 </td>
 <td>
-<p class="node thirdStep">●</p>
+<p class="node thirdStep fourthStep">●</p>
 </td>
 <td>
 <div class="shortline fourthStep"></div>

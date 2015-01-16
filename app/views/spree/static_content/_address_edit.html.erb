@@ -7,18 +7,40 @@
 <div id='addrLeftPartDiv'>
 	<ul>
 		<li class='headLi'>会员中心</li>
-		<li class='childLi firstChildLi'><a href='#'>会员中心</a></li>
-		<li class='childLi lastChildLi'><a href='#'>积分商城</a></li>
+		<li class='childLi firstChildLi'>
+			<a href='#'>会员中心</a>
+		</li>
+		<li class='childLi lastChildLi'>
+			<a href='#'>积分商城</a>
+		</li>
 		<li class='headLi'>交易管理</li>
-		<li class='childLi firstChildLi'><a href='#'>我的订单</a></li>
-		<li class='childLi'><a href='#'>我的收藏</a></li>
-		<li class='childLi lastChildLi'><a href='#'>我的评价</a></li>
+		<li class='childLi firstChildLi'>
+			<a href='/orderHistory'>我的订单</a>
+		</li>
+		<li class='childLi'>
+			<a href='#'>我的收藏</a>
+		</li>
+		<li class='childLi lastChildLi'>
+			<a href='#'>我的评价</a>
+		</li>
 		<li class='headLi'>账户管理</li>
-		<li class='childLi firstChildLi'><a href='#'>修改个人资料</a></li>
-		<li class='childLi'><a href='#'>修改密码</a></li>
-		<li class='childLi lastChildLi'><a href='#'>收货地址簿</a></li>
+		<li class='childLi firstChildLi'>
+			<a href='/personal_information'>修改个人资料</a>
+		</li>
+		<li class='childLi'>
+			<% if current_spree_user %>
+				<a href=<%='users/'+current_spree_user.id.to_s+'/edit'%> >修改密码</a>
+			<% else %>
+				<a href='#'>修改密码</a>
+			<% end %>
+		</li>
+		<li class='childLi lastChildLi'>
+			<a href='/addressedit'>收货地址簿</a>
+		</li>
 		<li class='headLi'>服务中心</li>
-		<li class='childLi firstChildLi lastChildLi'><a href='#'>退换货政策</a></li>
+		<li class='childLi firstChildLi lastChildLi'>
+			<a href='#'>退换货政策</a>
+		</li>
 	</ul>
 </div>
 <div id='addrRightPartDiv'>
