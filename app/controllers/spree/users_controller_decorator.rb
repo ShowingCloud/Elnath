@@ -1,8 +1,18 @@
 module Spree
 	UsersController.class_eval do
+		#before_action : update_check
+		#def update_check
+		#end
+		
 		def update
-		#Rails.logger.info user_params.to_json
-			if @user.update_with_password(user_params)
+			ret = nil
+			if user_params.has_key?('password')
+				ret=@user.update_with_password(user_params)
+			else
+				ret=@user.update_attributes(user_params)
+			end
+			
+			if ret
 				if params[:user][:password].present?
 					# this logic needed b/c devise wants to log us out after password changes
 					user = Spree::User.reset_password_by_token(params[:user])
