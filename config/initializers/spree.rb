@@ -9,13 +9,15 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = "BIG ROOSTER -- BRITISH HERITAGE CASUAL"
-
   config.default_country_id = 119
   config.products_per_page = 24
   config.currency = "CNY"
   config.address_requires_state = false
+	
+	config.override_actionmailer_config = true
 end
+
 
 Spree.user_class = "Spree::LegacyUser"
 Spree::PermittedAttributes.checkout_attributes << :message
-Spree::PermittedAttributes.user_attributes.push :nickname, :gender, :birthday, :cellphone, :city, :passwd_hint_question, :passwd_hint_answer
+Spree::PermittedAttributes.user_attributes.push :nickname, :gender, :birthday, :cellphone, :city, :passwd_hint_question, :passwd_hint_answer, :current_password
