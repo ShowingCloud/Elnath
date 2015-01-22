@@ -36,6 +36,7 @@
 			<td align="center">价格</td>
 			<td align="center">操作</td>
 			</tr>
+		
 			<% Array(@favorites).uniq.each do |favorite| %>
 				<% url = product_path(favorite, :taxon_id => @taxon.try(:id)) %>
 				<tr class="favorite">
@@ -56,12 +57,46 @@
 			<label style="margin-left:5px;vertical-align:middle;">全选</label>
 			<input type="button" id='bacthDelete' value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
 		</div>
-		<div class="digg">
-			<span class="disabled"><</span> 
-			<span class="current">1</span> 
-			<a href="#?page=2">2</a> 
-			<a href="#?page=3">3</a>
-			<a class="next" href="#?page=2">></a></div>
+		
+		<% if Array(session[:favorite]).length > 5 %>
+			<% 	pageLength = Array(session[:favorite]).length/5 %>
+			<% if Array(session[:favorite]).length%5 !=0 %>
+				<% pageLength += 1 %>
+			<% end %>
+			
+			<% currentPage = 1 %>
+			<% if params.has_key?('page') %>
+				<% currentPage = params['page'].to_i %>
+			<% end %>
+			
+			<div class="pageListDiv">
+				<% prePage = 1 %>
+				<% if currentPage > 1 %>
+					<% prePage = currentPage-1 %>
+				<% end %>
+				<a class="prePage" href=<%= "/favorites?page="+prePage.to_s %> >
+					<img src=<%= image_path('spree/frontend/pageLeft.png') %>>
+				</a> 
+				
+				<% i = 1 %>
+				<% while i <= pageLength do %>
+					<% if i==currentPage %>
+						<a class='currentPage' href=<%= "/favorites?page="+i.to_s %> ><%= i %></a> 
+					<% else %>
+						<a href=<%= "/favorites?page="+i.to_s %> ><%= i %></a> 
+					<% end %>
+					<% i += 1 %>
+				<% end %>
+				
+				<% if currentPage < pageLength %>
+					<% nextPage=currentPage+1 %>
+				<% end %>
+				
+				<a class="nextPage" href=<%= "/favorites?page="+nextPage.to_s %> >
+					<img src=<%= image_path('spree/frontend/pageRight.png') %>>
+				</a>
+			</div>
+		<% end %>
 		</div>
 	</div>
 	</div>
