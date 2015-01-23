@@ -26,9 +26,11 @@ jQuery(document).ready(function() {
 		{
 			case 'complete':
 				$('.fourthStep').css('color','#0FA6BB ! important ;');
+				$('.fourthStepDiv').css('background-color','#0FA6BB ! important ;');
 				break;
 			case 'delivery':
-				$('.thirdStep').css('color','#0FA6BB ! important ;');
+				$('.thirdStep').css('color','#0FA6BB ! important ;');	
+				$('.thirdStepDiv').css('background-color','#0FA6BB ! important ;');				
 				break;
 		}
 		

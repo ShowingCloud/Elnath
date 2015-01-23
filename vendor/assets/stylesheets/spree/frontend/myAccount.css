@@ -74,3 +74,36 @@ input.addto{margin-top:20px;padding:4px 10px;border:0px #000000 none;cursor:poin
 	text-align:center;
 	font-size:15px
 }
+#pageListDiv{
+	padding-left:40%;
+}
+#pageListDiv >a{
+	float:left;
+	display:inline-block;
+	margin-right:0px;
+	margin-left:10px;
+}
+.pageTurnImg{
+	height:20px;
+	width:20px;
+}
+.pageItem{
+	border: 1px solid black;
+	height: 18px;
+	width: 18px;
+	margin: 0 5px;
+	font-size: 13px;
+	display: inline-block;
+	text-align: center;
+}
+.currentPage{
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	height: 18px;
+	width: 18px;
+	margin: 0 5px;
+	font-size: 13px;
+	display: inline-block;
+	text-align: center;
+}

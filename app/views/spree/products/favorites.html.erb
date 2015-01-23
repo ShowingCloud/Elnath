@@ -36,8 +36,38 @@
 			<td align="center">价格</td>
 			<td align="center">操作</td>
 			</tr>
-		
-			<% Array(@favorites).uniq.each do |favorite| %>
+			<% productsNum=Array(session[:favorite]).length %>
+			<% if productsNum > 5 %>
+				<% 	pageLength = productsNum/5 %>
+				
+				<% if productsNum%5 !=0 %>
+					<% pageLength += 1 %>
+				<% end %>
+				
+				<% if params['page'].to_i > pageLength || params['page'].to_i < 0 %>
+					<% params['page']=1 %>
+				<% end %>
+				
+				<% productsArr = [] %>
+				<% pageArr = [] %>
+				<% j=0 %>
+				<% Array(@favorites).uniq.each_with_index do |favorite , i| %>
+						<% productsArr[i%5]= favorite %>
+						
+						<% if (i+1)%5==0 || (i+1)==productsNum%>
+							<% pageArr[j] = productsArr %>
+							<% productsArr = [] %>
+							<% j+=1 %>
+						<% end %>
+						
+				<% end %>
+				<% productsShowArr = pageArr[params['page'].to_i-1] %>
+				
+			<% else %>
+				<% productsShowArr = Array(@favorites).uniq %>
+			<% end %>
+			
+			<% productsShowArr.each do |favorite| %>
 				<% url = product_path(favorite, :taxon_id => @taxon.try(:id)) %>
 				<tr class="favorite">
 				<td style="width:30px;padding-left:10px;"><input type="checkbox" productid=<%=favorite.id%> class='itemCheckbox'></td>
@@ -58,9 +88,9 @@
 			<input type="button" id='bacthDelete' value="批量删除" style="margin:8px 10px;padding:1px 10px;border:0px #000000 none;cursor:pointer;background:#0FA6BB;color:white;font-size: 12px;">
 		</div>
 		
-		<% if Array(session[:favorite]).length > 5 %>
-			<% 	pageLength = Array(session[:favorite]).length/5 %>
-			<% if Array(session[:favorite]).length%5 !=0 %>
+		<% if productsNum > 5 %>
+			<% 	pageLength = productsNum/5 %>
+			<% if productsNum%5 !=0 %>
 				<% pageLength += 1 %>
 			<% end %>
 			
@@ -69,13 +99,13 @@
 				<% currentPage = params['page'].to_i %>
 			<% end %>
 			
-			<div class="pageListDiv">
+			<div id="pageListDiv">
 				<% prePage = 1 %>
 				<% if currentPage > 1 %>
 					<% prePage = currentPage-1 %>
 				<% end %>
 				<a class="prePage" href=<%= "/favorites?page="+prePage.to_s %> >
-					<img src=<%= image_path('spree/frontend/pageLeft.png') %>>
+					<img class='pageTurnImg' src=<%= image_path('spree/frontend/pageLeft.png') %>>
 				</a> 
 				
 				<% i = 1 %>
@@ -83,17 +113,19 @@
 					<% if i==currentPage %>
 						<a class='currentPage' href=<%= "/favorites?page="+i.to_s %> ><%= i %></a> 
 					<% else %>
-						<a href=<%= "/favorites?page="+i.to_s %> ><%= i %></a> 
+						<a class='pageItem' href=<%= "/favorites?page="+i.to_s %> ><%= i %></a> 
 					<% end %>
 					<% i += 1 %>
 				<% end %>
 				
 				<% if currentPage < pageLength %>
 					<% nextPage=currentPage+1 %>
+				<% else %>
+					<% nextPage=currentPage %>
 				<% end %>
 				
 				<a class="nextPage" href=<%= "/favorites?page="+nextPage.to_s %> >
-					<img src=<%= image_path('spree/frontend/pageRight.png') %>>
+					<img class='pageTurnImg' src=<%= image_path('spree/frontend/pageRight.png') %>>
 				</a>
 			</div>
 		<% end %>
