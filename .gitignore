@@ -4,6 +4,7 @@ db/*.sqlite3
 db/*.sqlite3-journal
 *.log
 log/production.log.*
+log/std*
 tmp
 tmp/**/*
 
@@ -15,11 +16,11 @@ doc/app
 coverage
 
 # Public Uploads
-#public/system/*
-#public/themes/*
+public/system/*
+public/themes/*
 
 # Don't upload precompiled assets
-pubic/assets/*
+public/assets/*
 
 # Don't upload precompiled deface
 app/compiled_views/*
@@ -92,6 +93,7 @@ config/initializers/app_init.rb
 config/initializers/devise.rb
 config/initializers/secret_token.rb
 db/data.yml
+config/newrelic.yml
 
 # needed for migration
 db/schema.rb
