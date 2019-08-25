@@ -122,8 +122,5 @@ db/datadump/spree_users.yml
 .ruby-gemset
 .ruby-version
 
-# bundle cache
-Gemfile.lock
-
 # jQuery map file
 jquery*.map
