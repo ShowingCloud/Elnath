@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'activesupport', :path => File.join(File.dirname(__FILE__), '/vendor/gems/activesupport-4.0.13')
-gem 'activerecord', :path => File.join(File.dirname(__FILE__), '/vendor/gems/activerecord-4.0.13')
 gem 'devise', :path => File.join(File.dirname(__FILE__), '/vendor/gems/devise-3.2.4')
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
