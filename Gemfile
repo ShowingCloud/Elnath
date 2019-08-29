@@ -65,8 +65,9 @@ gem 'spree_alipay', github: 'RuanShan/spree_alipay', branch: '2-2-stable'
 gem 'activemerchant_patch_for_china', github: 'ShowingCloud/activemerchant_patch_for_china'
 gem 'httparty'
 
-gem 'activerecord-session_store'
+# gem 'activerecord-session_store'
 gem 'yaml_db', github: 'jetthoughts/yaml_db'
+gem 'redis-rails'
+gem 'redis-rack-cache'
 
 gem 'newrelic_rpm'
-

@@ -5,4 +5,8 @@
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate active_record:session_migration")
-Elnath::Application.config.session_store :active_record_store, key: '_bigrooster_session'
+Elnath::Application.config.session_store :redis_store,
+	servers: ["#{Rails.configuration.database_configuration[Rails.env]["redis"]}/session"],
+	expire_after: 7.days,
+	key: "_Elnath_session",
+	threadsafe: false

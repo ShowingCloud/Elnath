@@ -13,6 +13,60 @@ GIT
     activemerchant_patch_for_china (0.2.1)
 
 GIT
+  remote: git://github.com/ShowingCloud/devise.git
+  revision: 6cb49a29d8a3222f0094ab101e7ebe5691f96ca1
+  tag: v3.2.4
+  specs:
+    devise (3.2.4)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+
+GIT
+  remote: git://github.com/ShowingCloud/rails.git
+  revision: 5d1a728fbe91cf8915510e745e232560a5cc4731
+  tag: v4.0.13
+  specs:
+    actionmailer (4.0.13)
+      actionpack (= 4.0.13)
+      mail (~> 2.5, >= 2.5.4)
+    actionpack (4.0.13)
+      activesupport (= 4.0.13)
+      builder (~> 3.1.0)
+      erubis (~> 2.7.0)
+      rack (~> 1.5.2)
+      rack-test (~> 0.6.2)
+    activemodel (4.0.13)
+      activesupport (= 4.0.13)
+      builder (~> 3.1.0)
+    activerecord (4.0.13)
+      activemodel (= 4.0.13)
+      activerecord-deprecated_finders (~> 1.0.2)
+      activesupport (= 4.0.13)
+      arel (~> 4.0.0)
+    activesupport (4.0.13)
+      i18n (~> 0.6, >= 0.6.9)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    rails (4.0.13)
+      actionmailer (= 4.0.13)
+      actionpack (= 4.0.13)
+      activerecord (= 4.0.13)
+      activesupport (= 4.0.13)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.0.13)
+      sprockets-rails (~> 2.0)
+    railties (4.0.13)
+      actionpack (= 4.0.13)
+      activesupport (= 4.0.13)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+
+GIT
   remote: git://github.com/jetthoughts/yaml_db.git
   revision: 5f73cbd14adee939adf08574ec3bf6e05ee55889
   specs:
@@ -152,38 +206,9 @@ GIT
     spree_static_content (2.2.0)
       spree_core (~> 2.2.0)
 
-PATH
-  remote: vendor/gems/activesupport-4.0.13
-  specs:
-    activesupport (4.0.13)
-      i18n (~> 0.6, >= 0.6.9)
-      minitest (~> 4.2)
-      multi_json (~> 1.3)
-      thread_safe (~> 0.1)
-      tzinfo (~> 0.3.37)
-
-PATH
-  remote: vendor/gems/devise-3.2.4
-  specs:
-    devise (3.2.4)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 3.2.6, < 5)
-      thread_safe (~> 0.1)
-      warden (~> 1.2.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.0.13)
-      actionpack (= 4.0.13)
-      mail (~> 2.5, >= 2.5.4)
-    actionpack (4.0.13)
-      activesupport (= 4.0.13)
-      builder (~> 3.1.0)
-      erubis (~> 2.7.0)
-      rack (~> 1.5.2)
-      rack-test (~> 0.6.2)
     active_utils (2.2.3)
       activesupport (>= 2.3.11)
       i18n
@@ -195,14 +220,6 @@ GEM
       json (~> 1.7)
       money (< 7.0.0)
       nokogiri (~> 1.4)
-    activemodel (4.0.13)
-      activesupport (= 4.0.13)
-      builder (~> 3.1.0)
-    activerecord (4.0.13)
-      activemodel (= 4.0.13)
-      activerecord-deprecated_finders (~> 1.0.2)
-      activesupport (= 4.0.13)
-      arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.4)
     activerecord-session_store (1.1.3)
       actionpack (>= 4.0)
@@ -314,30 +331,39 @@ GEM
     rabl (0.9.3)
       activesupport (>= 2.3.14)
     rack (1.5.5)
+    rack-cache (1.9.0)
+      rack (>= 0.4)
     rack-test (0.6.3)
       rack (>= 1.0)
-    rails (4.0.13)
-      actionmailer (= 4.0.13)
-      actionpack (= 4.0.13)
-      activerecord (= 4.0.13)
-      activesupport (= 4.0.13)
-      bundler (>= 1.3.0, < 2.0)
-      railties (= 4.0.13)
-      sprockets-rails (~> 2.0)
     rails-i18n (4.0.5)
       i18n (~> 0.6)
       railties (~> 4.0)
-    railties (4.0.13)
-      actionpack (= 4.0.13)
-      activesupport (= 4.0.13)
-      rake (>= 0.8.7)
-      thor (>= 0.18.1, < 2.0)
     rake (12.3.3)
     ransack (1.1.0)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
       polyamorous (~> 0.6.0)
     rdoc (6.1.1)
+    redis (4.1.2)
+    redis-actionpack (5.1.0)
+      actionpack (>= 4.0, < 7)
+      redis-rack (>= 1, < 3)
+      redis-store (>= 1.1.0, < 2)
+    redis-activesupport (5.2.0)
+      activesupport (>= 3, < 7)
+      redis-store (>= 1.3, < 2)
+    redis-rack (2.0.5)
+      rack (>= 1.5, < 3)
+      redis-store (>= 1.2, < 2)
+    redis-rack-cache (2.1.0)
+      rack-cache (>= 1.6, < 2)
+      redis-store (>= 1.6, < 2)
+    redis-rails (5.0.2)
+      redis-actionpack (>= 5.0, < 6)
+      redis-activesupport (>= 5.0, < 6)
+      redis-store (>= 1.2, < 2)
+    redis-store (1.6.0)
+      redis (>= 2.2, < 5)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.1.0)
@@ -399,6 +425,8 @@ DEPENDENCIES
   newrelic_rpm
   puma
   rails
+  redis-rack-cache
+  redis-rails
   sass-rails
   sdoc
   spree!
