@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'activesupport', :path => File.join(File.dirname(__FILE__), '/vendor/gems/activesupport-4.0.13')
-gem 'devise', :path => File.join(File.dirname(__FILE__), '/vendor/gems/devise-3.2.4')
+gem 'activesupport', :github => 'ShowingCloud/rails', :tag => 'v4.0.13'
+gem 'devise', :github => 'ShowingCloud/devise', :tag => 'v3.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'#, '~> 4.0.6'
@@ -69,3 +69,4 @@ gem 'activerecord-session_store'
 gem 'yaml_db', github: 'jetthoughts/yaml_db'
 
 gem 'newrelic_rpm'
+
