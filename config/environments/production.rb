@@ -18,6 +18,7 @@ Elnath::Application.configure do
   # Add `rack-cache` to your Gemfile before enabling this.
   # For large-scale production use, consider using a caching reverse proxy like nginx, varnish or squid.
   config.action_dispatch.rack_cache = {
+	  verbose: false,
 	  metastore: "#{Rails.configuration.database_configuration[Rails.env]["redis"]}/metastore",
 	  entitystore: "#{Rails.configuration.database_configuration[Rails.env]["redis"]}/entitystore"
   }
