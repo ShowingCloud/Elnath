@@ -221,12 +221,6 @@ GEM
       money (< 7.0.0)
       nokogiri (~> 1.4)
     activerecord-deprecated_finders (1.0.4)
-    activerecord-session_store (1.1.3)
-      actionpack (>= 4.0)
-      activerecord (>= 4.0)
-      multi_json (~> 1.11, >= 1.11.2)
-      rack (>= 1.5.2, < 3)
-      railties (>= 4.0)
     acts_as_commentable (4.0.1)
     acts_as_list (0.3.0)
       activerecord (>= 3.0)
@@ -311,7 +305,7 @@ GEM
     multi_xml (0.6.0)
     mysql2 (0.3.21)
     newrelic_rpm (6.5.0.357)
-    nio4r (2.4.0)
+    nio4r (2.5.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     orm_adapter (0.5.0)
@@ -343,7 +337,7 @@ GEM
       actionpack (>= 3.0)
       activerecord (>= 3.0)
       polyamorous (~> 0.6.0)
-    rdoc (6.1.1)
+    rdoc (6.2.0)
     redis (4.1.2)
     redis-actionpack (5.1.0)
       actionpack (>= 4.0, < 7)
@@ -366,7 +360,7 @@ GEM
       redis (>= 2.2, < 5)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
-    sassc (2.1.0)
+    sassc (2.2.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
@@ -414,7 +408,6 @@ PLATFORMS
 
 DEPENDENCIES
   activemerchant_patch_for_china!
-  activerecord-session_store
   activesupport!
   coffee-rails
   devise!
@@ -440,7 +433,7 @@ DEPENDENCIES
   spree_reviews!
   spree_static_content!
   turbolinks
-  uglifier (>= 1.3.0)
+  uglifier
   yaml_db!
 
 BUNDLED WITH
