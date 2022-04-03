@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/RuanShan/spree_alipay.git
+  remote: https://github.com/RuanShan/spree_alipay.git
   revision: 7d901bffa01ae35869ca362b6853cb257940c28f
   branch: 2-2-stable
   specs:
@@ -7,13 +7,13 @@ GIT
       spree_core (~> 2.2.0)
 
 GIT
-  remote: git://github.com/ShowingCloud/activemerchant_patch_for_china.git
+  remote: https://github.com/ShowingCloud/activemerchant_patch_for_china.git
   revision: 6810e32564978154c9c8681ffbcad98657df6d23
   specs:
     activemerchant_patch_for_china (0.2.1)
 
 GIT
-  remote: git://github.com/ShowingCloud/devise.git
+  remote: https://github.com/ShowingCloud/devise.git
   revision: 6cb49a29d8a3222f0094ab101e7ebe5691f96ca1
   tag: v3.2.4
   specs:
@@ -25,7 +25,7 @@ GIT
       warden (~> 1.2.3)
 
 GIT
-  remote: git://github.com/ShowingCloud/rails.git
+  remote: https://github.com/ShowingCloud/rails.git
   revision: 5d1a728fbe91cf8915510e745e232560a5cc4731
   tag: v4.0.13
   specs:
@@ -67,13 +67,13 @@ GIT
       thor (>= 0.18.1, < 2.0)
 
 GIT
-  remote: git://github.com/jetthoughts/yaml_db.git
+  remote: https://github.com/jetthoughts/yaml_db.git
   revision: 5f73cbd14adee939adf08574ec3bf6e05ee55889
   specs:
     yaml_db (0.2.3)
 
 GIT
-  remote: git://github.com/romul/spree_address_book.git
+  remote: https://github.com/romul/spree_address_book.git
   revision: 1205c4c30f5013c829966dbdd022b0a0c0473705
   branch: 2-2-stable
   specs:
@@ -82,8 +82,8 @@ GIT
       spree_core (~> 2.1)
 
 GIT
-  remote: git://github.com/spree/spree.git
-  revision: bd679af842409161651359f6745e2b2fec9cc7dc
+  remote: https://github.com/spree/spree.git
+  revision: 241f1c69d629a86dd72b6df17f805eda0bae8444
   branch: 2-2-stable
   specs:
     spree (2.2.15.beta)
@@ -137,7 +137,7 @@ GIT
       spree_core (= 2.2.15.beta)
 
 GIT
-  remote: git://github.com/spree/spree_auth_devise.git
+  remote: https://github.com/spree/spree_auth_devise.git
   revision: 8f0a64715f3fc9a0ef05615144a2931bee7860b5
   branch: 2-2-stable
   specs:
@@ -150,7 +150,7 @@ GIT
       spree_core (~> 2.2.0)
 
 GIT
-  remote: git://github.com/spree/spree_comments.git
+  remote: https://github.com/spree/spree_comments.git
   revision: 20e7e4e98845fd03b63032ba4131317bc6852e03
   branch: 2-2-stable
   specs:
@@ -161,7 +161,7 @@ GIT
       spree_core (~> 2.2.0)
 
 GIT
-  remote: git://github.com/spree/spree_editor.git
+  remote: https://github.com/spree/spree_editor.git
   revision: 378f2811a356a0daed6e3df041e4de65f6276001
   branch: 2-2-stable
   specs:
@@ -171,7 +171,7 @@ GIT
       tinymce-rails (~> 3.5.8.3)
 
 GIT
-  remote: git://github.com/spree/spree_gateway.git
+  remote: https://github.com/spree/spree_gateway.git
   revision: 731347fc03ddebeedd4c7fac2d36d3241c23e878
   branch: 2-2-stable
   specs:
@@ -179,7 +179,7 @@ GIT
       spree_core (~> 2.2.0)
 
 GIT
-  remote: git://github.com/spree/spree_i18n.git
+  remote: https://github.com/spree/spree_i18n.git
   revision: 66b8165443417ba9d770377f5ae79d86490a7a51
   branch: 2-2-stable
   specs:
@@ -191,7 +191,7 @@ GIT
       spree_core (~> 2.2.14)
 
 GIT
-  remote: git://github.com/spree/spree_reviews.git
+  remote: https://github.com/spree/spree_reviews.git
   revision: e51cae9627f9e5bed01d157dd3fa540966aa9d56
   branch: 2-2-stable
   specs:
@@ -199,7 +199,7 @@ GIT
       spree_core (~> 2.2.0)
 
 GIT
-  remote: git://github.com/spree/spree_static_content.git
+  remote: https://github.com/spree/spree_static_content.git
   revision: 95000e2aee63c550f8a1f5722dbf142081d5b002
   branch: 2-2-stable
   specs:
@@ -231,7 +231,7 @@ GEM
       json (~> 1.4)
       nokogiri (>= 1.4.4)
       uuidtools (~> 2.1)
-    bcrypt (3.1.13)
+    bcrypt (3.1.17)
     builder (3.1.4)
     cancan (1.6.10)
     canonical-rails (0.0.11)
@@ -262,8 +262,8 @@ GEM
     execjs (2.7.0)
     ffaker (1.32.1)
     ffi (1.11.1)
-    font-awesome-rails (4.7.0.5)
-      railties (>= 3.2, < 6.1)
+    font-awesome-rails (4.7.0.8)
+      railties (>= 3.2, < 8.0)
     friendly_id (5.0.5)
       activerecord (>= 4.0.0)
     friendly_id-globalize (1.0.0.alpha1)
@@ -294,12 +294,12 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0331)
-    mini_mime (1.0.2)
+    mini_mime (1.1.2)
     mini_portile2 (2.1.0)
     minitest (4.7.5)
-    monetize (1.9.2)
+    monetize (1.12.0)
       money (~> 6.12)
-    money (6.13.4)
+    money (6.16.0)
       i18n (>= 0.6.4, <= 2)
     multi_json (1.13.1)
     multi_xml (0.6.0)
@@ -315,14 +315,14 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
-    paranoia (2.4.2)
-      activerecord (>= 4.0, < 6.1)
+    paranoia (2.4.3)
+      activerecord (>= 4.0, < 6.2)
     polyamorous (0.6.4)
       activerecord (>= 3.0)
     polyglot (0.3.5)
     psych (4.0.3)
       stringio
-    puma (5.6.2)
+    puma (5.6.4)
       nio4r (~> 2.0)
     rabl (0.9.3)
       activesupport (>= 2.3.14)
@@ -334,7 +334,7 @@ GEM
     rails-i18n (4.0.5)
       i18n (~> 0.6)
       railties (~> 4.0)
-    rake (12.3.3)
+    rake (13.0.6)
     ransack (1.1.0)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
@@ -395,10 +395,10 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (0.3.55)
+    tzinfo (0.3.60)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
-    uuidtools (2.1.5)
+    uuidtools (2.2.0)
     versioncake (1.2.0)
       actionpack (>= 3.2)
       activesupport (>= 3.2)
